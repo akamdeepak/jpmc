@@ -193,7 +193,7 @@ formatter.match({
   "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 588474101,
+  "duration": 547717546,
   "status": "passed"
 });
 formatter.match({
@@ -214,7 +214,7 @@ formatter.match({
   "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
 });
 formatter.result({
-  "duration": 1462471292,
+  "duration": 1435980682,
   "status": "passed"
 });
 formatter.match({
@@ -227,7 +227,7 @@ formatter.match({
   "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
 });
 formatter.result({
-  "duration": 51407261,
+  "duration": 45054503,
   "status": "passed"
 });
 formatter.scenario({
@@ -265,7 +265,7 @@ formatter.match({
   "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 1420361,
+  "duration": 1271325,
   "status": "passed"
 });
 formatter.match({
@@ -286,7 +286,7 @@ formatter.match({
   "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
 });
 formatter.result({
-  "duration": 510436283,
+  "duration": 512073571,
   "status": "passed"
 });
 formatter.match({
@@ -299,7 +299,7 @@ formatter.match({
   "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
 });
 formatter.result({
-  "duration": 10593926,
+  "duration": 7309816,
   "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
   "status": "failed"
 });
@@ -338,7 +338,7 @@ formatter.match({
   "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 1321965,
+  "duration": 596795,
   "status": "passed"
 });
 formatter.match({
@@ -359,7 +359,7 @@ formatter.match({
   "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
 });
 formatter.result({
-  "duration": 518766276,
+  "duration": 520533648,
   "status": "passed"
 });
 formatter.match({
@@ -372,7 +372,7 @@ formatter.match({
   "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
 });
 formatter.result({
-  "duration": 233993,
+  "duration": 245843,
   "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
   "status": "failed"
 });
@@ -411,7 +411,7 @@ formatter.match({
   "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 1222793,
+  "duration": 1059567,
   "status": "passed"
 });
 formatter.match({
@@ -432,7 +432,7 @@ formatter.match({
   "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
 });
 formatter.result({
-  "duration": 607963498,
+  "duration": 495823355,
   "status": "passed"
 });
 formatter.match({
@@ -445,7 +445,7 @@ formatter.match({
   "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
 });
 formatter.result({
-  "duration": 273987,
+  "duration": 246818,
   "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
   "status": "failed"
 });
@@ -484,7 +484,7 @@ formatter.match({
   "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 716678,
+  "duration": 766810,
   "status": "passed"
 });
 formatter.match({
@@ -505,7 +505,7 @@ formatter.match({
   "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
 });
 formatter.result({
-  "duration": 514760401,
+  "duration": 522790131,
   "status": "passed"
 });
 formatter.match({
@@ -518,7 +518,7 @@ formatter.match({
   "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
 });
 formatter.result({
-  "duration": 280220,
+  "duration": 262306,
   "error_message": "java.lang.AssertionError: expected [200] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 200 and ResponseData for each attribute(CreatePosts.feature:6)\n",
   "status": "failed"
 });
@@ -557,7 +557,7 @@ formatter.match({
   "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 2294883,
+  "duration": 1126446,
   "status": "passed"
 });
 formatter.match({
@@ -578,7 +578,7 @@ formatter.match({
   "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
 });
 formatter.result({
-  "duration": 591083243,
+  "duration": 491004401,
   "status": "passed"
 });
 formatter.match({
@@ -591,7 +591,7 @@ formatter.match({
   "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
 });
 formatter.result({
-  "duration": 225278,
+  "duration": 265288,
   "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
   "status": "failed"
 });
@@ -630,7 +630,7 @@ formatter.match({
   "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 674606,
+  "duration": 765355,
   "status": "passed"
 });
 formatter.match({
@@ -651,7 +651,7 @@ formatter.match({
   "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
 });
 formatter.result({
-  "duration": 510400132,
+  "duration": 516897645,
   "status": "passed"
 });
 formatter.match({
@@ -664,7 +664,7 @@ formatter.match({
   "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
 });
 formatter.result({
-  "duration": 265178,
+  "duration": 284720,
   "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
   "status": "failed"
 });
@@ -703,7 +703,7 @@ formatter.match({
   "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 730000,
+  "duration": 712531,
   "status": "passed"
 });
 formatter.match({
@@ -724,7 +724,7 @@ formatter.match({
   "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
 });
 formatter.result({
-  "duration": 506442137,
+  "duration": 514670101,
   "status": "passed"
 });
 formatter.match({
@@ -737,7 +737,7 @@ formatter.match({
   "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
 });
 formatter.result({
-  "duration": 261854,
+  "duration": 258551,
   "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
   "status": "failed"
 });
@@ -776,7 +776,7 @@ formatter.match({
   "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 764201,
+  "duration": 758452,
   "status": "passed"
 });
 formatter.match({
@@ -797,7 +797,7 @@ formatter.match({
   "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
 });
 formatter.result({
-  "duration": 525327409,
+  "duration": 491327185,
   "status": "passed"
 });
 formatter.match({
@@ -810,7 +810,7 @@ formatter.match({
   "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
 });
 formatter.result({
-  "duration": 282369,
+  "duration": 285372,
   "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
   "status": "failed"
 });
@@ -849,7 +849,7 @@ formatter.match({
   "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 790806,
+  "duration": 767124,
   "status": "passed"
 });
 formatter.match({
@@ -870,7 +870,7 @@ formatter.match({
   "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
 });
 formatter.result({
-  "duration": 520361124,
+  "duration": 495238739,
   "status": "passed"
 });
 formatter.match({
@@ -883,7 +883,7 @@ formatter.match({
   "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
 });
 formatter.result({
-  "duration": 335390,
+  "duration": 308835,
   "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
   "status": "failed"
 });
@@ -922,7 +922,7 @@ formatter.match({
   "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 753363,
+  "duration": 743091,
   "status": "passed"
 });
 formatter.match({
@@ -943,7 +943,7 @@ formatter.match({
   "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
 });
 formatter.result({
-  "duration": 577662015,
+  "duration": 530079797,
   "status": "passed"
 });
 formatter.match({
@@ -956,7 +956,7 @@ formatter.match({
   "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
 });
 formatter.result({
-  "duration": 4404629,
+  "duration": 4118922,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1070,7 +1070,7 @@ formatter.match({
   "location": "CreatePosts.set_request_specification_for_create_posts_on_social_Network_site(String)"
 });
 formatter.result({
-  "duration": 766740,
+  "duration": 634974,
   "status": "passed"
 });
 formatter.match({
@@ -1083,7 +1083,7 @@ formatter.match({
   "location": "CreatePosts.hit_the_web_services_endpoint_for_Posts(String)"
 });
 formatter.result({
-  "duration": 501135951,
+  "duration": 484263962,
   "status": "passed"
 });
 formatter.match({
@@ -1096,7 +1096,7 @@ formatter.match({
   "location": "CreatePosts.validate_response_codes_and_response_data(int)"
 });
 formatter.result({
-  "duration": 76663,
+  "duration": 99464,
   "status": "passed"
 });
 formatter.scenario({
@@ -1138,7 +1138,7 @@ formatter.match({
   "location": "CreatePosts.set_request_specification_for_create_posts_on_social_Network_site(String)"
 });
 formatter.result({
-  "duration": 644091,
+  "duration": 745327,
   "status": "passed"
 });
 formatter.match({
@@ -1151,7 +1151,7 @@ formatter.match({
   "location": "CreatePosts.hit_the_web_services_endpoint_for_Posts(String)"
 });
 formatter.result({
-  "duration": 510701752,
+  "duration": 500835457,
   "status": "passed"
 });
 formatter.match({
@@ -1164,7 +1164,7 @@ formatter.match({
   "location": "CreatePosts.validate_response_codes_and_response_data(int)"
 });
 formatter.result({
-  "duration": 322856,
+  "duration": 294226,
   "error_message": "java.lang.AssertionError: expected [406] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_response_codes_and_response_data(CreatePosts.java:76)\n\tat ✽.Then Validate response codes 406 and response data(CreatePosts.feature:26)\n",
   "status": "failed"
 });
@@ -1207,7 +1207,7 @@ formatter.match({
   "location": "CreatePosts.set_request_specification_for_create_posts_on_social_Network_site(String)"
 });
 formatter.result({
-  "duration": 1035098,
+  "duration": 1008443,
   "status": "passed"
 });
 formatter.match({
@@ -1220,7 +1220,7 @@ formatter.match({
   "location": "CreatePosts.hit_the_web_services_endpoint_for_Posts(String)"
 });
 formatter.result({
-  "duration": 503811543,
+  "duration": 501837700,
   "status": "passed"
 });
 formatter.match({
@@ -1233,7 +1233,7 @@ formatter.match({
   "location": "CreatePosts.validate_response_codes_and_response_data(int)"
 });
 formatter.result({
-  "duration": 286740,
+  "duration": 269091,
   "error_message": "java.lang.AssertionError: expected [406] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_response_codes_and_response_data(CreatePosts.java:76)\n\tat ✽.Then Validate response codes 406 and response data(CreatePosts.feature:26)\n",
   "status": "failed"
 });
@@ -1276,7 +1276,7 @@ formatter.match({
   "location": "CreatePosts.set_request_specification_for_create_posts_on_social_Network_site(String)"
 });
 formatter.result({
-  "duration": 809126,
+  "duration": 950171,
   "status": "passed"
 });
 formatter.match({
@@ -1289,7 +1289,7 @@ formatter.match({
   "location": "CreatePosts.hit_the_web_services_endpoint_for_Posts(String)"
 });
 formatter.result({
-  "duration": 491508242,
+  "duration": 539952865,
   "status": "passed"
 });
 formatter.match({
@@ -1302,7 +1302,7 @@ formatter.match({
   "location": "CreatePosts.validate_response_codes_and_response_data(int)"
 });
 formatter.result({
-  "duration": 326324,
+  "duration": 286606,
   "error_message": "java.lang.AssertionError: expected [406] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_response_codes_and_response_data(CreatePosts.java:76)\n\tat ✽.Then Validate response codes 406 and response data(CreatePosts.feature:26)\n",
   "status": "failed"
 });
@@ -1427,7 +1427,7 @@ formatter.match({
   "location": "DeletePosts.delete_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 3566968,
+  "duration": 3433634,
   "status": "passed"
 });
 formatter.match({
@@ -1440,7 +1440,7 @@ formatter.match({
   "location": "DeletePosts.user_perform_a_delete_api_call_to_delete_post_from_social_network_site_with_different_test_data(String)"
 });
 formatter.result({
-  "duration": 612771245,
+  "duration": 602000755,
   "status": "passed"
 });
 formatter.match({
@@ -1453,7 +1453,7 @@ formatter.match({
   "location": "DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(int)"
 });
 formatter.result({
-  "duration": 97777,
+  "duration": 95409,
   "status": "passed"
 });
 formatter.scenario({
@@ -1489,7 +1489,7 @@ formatter.match({
   "location": "DeletePosts.delete_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 818737,
+  "duration": 775006,
   "status": "passed"
 });
 formatter.match({
@@ -1502,7 +1502,7 @@ formatter.match({
   "location": "DeletePosts.user_perform_a_delete_api_call_to_delete_post_from_social_network_site_with_different_test_data(String)"
 });
 formatter.result({
-  "duration": 500992524,
+  "duration": 506212788,
   "status": "passed"
 });
 formatter.match({
@@ -1515,7 +1515,7 @@ formatter.match({
   "location": "DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(int)"
 });
 formatter.result({
-  "duration": 226060,
+  "duration": 198697,
   "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)\n\tat ✽.Then Validate ResponseCode 404 and response data for Delete posts(DeletePosts.feature:6)\n",
   "status": "failed"
 });
@@ -1552,7 +1552,7 @@ formatter.match({
   "location": "DeletePosts.delete_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 688795,
+  "duration": 717373,
   "status": "passed"
 });
 formatter.match({
@@ -1565,7 +1565,7 @@ formatter.match({
   "location": "DeletePosts.user_perform_a_delete_api_call_to_delete_post_from_social_network_site_with_different_test_data(String)"
 });
 formatter.result({
-  "duration": 487637793,
+  "duration": 568495574,
   "status": "passed"
 });
 formatter.match({
@@ -1578,7 +1578,7 @@ formatter.match({
   "location": "DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(int)"
 });
 formatter.result({
-  "duration": 189031,
+  "duration": 226608,
   "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)\n\tat ✽.Then Validate ResponseCode 404 and response data for Delete posts(DeletePosts.feature:6)\n",
   "status": "failed"
 });
@@ -1615,7 +1615,7 @@ formatter.match({
   "location": "DeletePosts.delete_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 488096,
+  "duration": 690055,
   "status": "passed"
 });
 formatter.match({
@@ -1628,7 +1628,7 @@ formatter.match({
   "location": "DeletePosts.user_perform_a_delete_api_call_to_delete_post_from_social_network_site_with_different_test_data(String)"
 });
 formatter.result({
-  "duration": 486276786,
+  "duration": 552546543,
   "status": "passed"
 });
 formatter.match({
@@ -1641,7 +1641,7 @@ formatter.match({
   "location": "DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(int)"
 });
 formatter.result({
-  "duration": 317606,
+  "duration": 286290,
   "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)\n\tat ✽.Then Validate ResponseCode 400 and response data for Delete posts(DeletePosts.feature:6)\n",
   "status": "failed"
 });
@@ -1678,7 +1678,7 @@ formatter.match({
   "location": "DeletePosts.delete_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 703972,
+  "duration": 716937,
   "status": "passed"
 });
 formatter.match({
@@ -1691,7 +1691,7 @@ formatter.match({
   "location": "DeletePosts.user_perform_a_delete_api_call_to_delete_post_from_social_network_site_with_different_test_data(String)"
 });
 formatter.result({
-  "duration": 548185758,
+  "duration": 610114137,
   "status": "passed"
 });
 formatter.match({
@@ -1704,7 +1704,7 @@ formatter.match({
   "location": "DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(int)"
 });
 formatter.result({
-  "duration": 288644,
+  "duration": 257331,
   "error_message": "java.lang.AssertionError: expected [400] but found [404]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)\n\tat ✽.Then Validate ResponseCode 400 and response data for Delete posts(DeletePosts.feature:6)\n",
   "status": "failed"
 });
@@ -1863,7 +1863,7 @@ formatter.match({
   "location": "EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 1287641,
+  "duration": 612942,
   "status": "passed"
 });
 formatter.match({
@@ -1884,7 +1884,7 @@ formatter.match({
   "location": "EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)"
 });
 formatter.result({
-  "duration": 1222857796,
+  "duration": 999122131,
   "status": "passed"
 });
 formatter.match({
@@ -1897,7 +1897,7 @@ formatter.match({
   "location": "EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)"
 });
 formatter.result({
-  "duration": 4102135,
+  "duration": 3397585,
   "status": "passed"
 });
 formatter.scenario({
@@ -1935,7 +1935,7 @@ formatter.match({
   "location": "EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 605653,
+  "duration": 486087,
   "status": "passed"
 });
 formatter.match({
@@ -1956,7 +1956,7 @@ formatter.match({
   "location": "EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)"
 });
 formatter.result({
-  "duration": 1219540853,
+  "duration": 1109571321,
   "status": "passed"
 });
 formatter.match({
@@ -1969,7 +1969,7 @@ formatter.match({
   "location": "EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)"
 });
 formatter.result({
-  "duration": 178043,
+  "duration": 237872,
   "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)\n\tat ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)\n",
   "status": "failed"
 });
@@ -2008,7 +2008,7 @@ formatter.match({
   "location": "EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 366445,
+  "duration": 547670,
   "status": "passed"
 });
 formatter.match({
@@ -2029,7 +2029,7 @@ formatter.match({
   "location": "EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)"
 });
 formatter.result({
-  "duration": 1431952638,
+  "duration": 1054252214,
   "status": "passed"
 });
 formatter.match({
@@ -2042,7 +2042,7 @@ formatter.match({
   "location": "EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)"
 });
 formatter.result({
-  "duration": 222348,
+  "duration": 193076,
   "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)\n\tat ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)\n",
   "status": "failed"
 });
@@ -2081,7 +2081,7 @@ formatter.match({
   "location": "EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 545353,
+  "duration": 459487,
   "status": "passed"
 });
 formatter.match({
@@ -2102,7 +2102,7 @@ formatter.match({
   "location": "EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)"
 });
 formatter.result({
-  "duration": 1021073391,
+  "duration": 1137791287,
   "status": "passed"
 });
 formatter.match({
@@ -2115,7 +2115,7 @@ formatter.match({
   "location": "EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)"
 });
 formatter.result({
-  "duration": 2628891,
+  "duration": 3212783,
   "status": "passed"
 });
 formatter.scenario({
@@ -2153,7 +2153,7 @@ formatter.match({
   "location": "EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 463095,
+  "duration": 572989,
   "status": "passed"
 });
 formatter.match({
@@ -2174,7 +2174,7 @@ formatter.match({
   "location": "EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)"
 });
 formatter.result({
-  "duration": 1023835332,
+  "duration": 981402732,
   "status": "passed"
 });
 formatter.match({
@@ -2187,7 +2187,7 @@ formatter.match({
   "location": "EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)"
 });
 formatter.result({
-  "duration": 200284,
+  "duration": 292731,
   "error_message": "java.lang.AssertionError: expected [400] but found [500]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)\n\tat ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)\n",
   "status": "failed"
 });
@@ -2226,7 +2226,7 @@ formatter.match({
   "location": "EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 458009,
+  "duration": 496799,
   "status": "passed"
 });
 formatter.match({
@@ -2247,7 +2247,7 @@ formatter.match({
   "location": "EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)"
 });
 formatter.result({
-  "duration": 1020141347,
+  "duration": 991251121,
   "status": "passed"
 });
 formatter.match({
@@ -2260,7 +2260,7 @@ formatter.match({
   "location": "EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)"
 });
 formatter.result({
-  "duration": 198587,
+  "duration": 263035,
   "error_message": "java.lang.AssertionError: expected [400] but found [500]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)\n\tat ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)\n",
   "status": "failed"
 });
@@ -2299,7 +2299,7 @@ formatter.match({
   "location": "EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 576410,
+  "duration": 606433,
   "status": "passed"
 });
 formatter.match({
@@ -2320,7 +2320,7 @@ formatter.match({
   "location": "EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)"
 });
 formatter.result({
-  "duration": 998433529,
+  "duration": 1069060065,
   "status": "passed"
 });
 formatter.match({
@@ -2333,11 +2333,413 @@ formatter.match({
   "location": "EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)"
 });
 formatter.result({
-  "duration": 260617,
+  "duration": 262038,
   "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)\n\tat ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)\n",
   "status": "failed"
 });
-formatter.uri("GetCommentsBasedonUserId.feature");
+formatter.uri("GetCommentsBasedOnPostId.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Get List of comments based on postsId on social networking site",
+  "description": "",
+  "id": "get-list-of-comments-based-on-postsid-on-social-networking-site",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "line": 2,
+  "name": "Get List of comments based on posts id on social networking site with different test data",
+  "description": "",
+  "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 3,
+  "name": "Get Comments API is up and Running on the server",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 4,
+  "name": "hit the web services endpoint comments basedon postId \u003cpostId\u003e",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 5,
+  "name": "Validate responseCode \u003cResponseCode\u003e and response body of comments api",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 6,
+  "name": "",
+  "description": "",
+  "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;",
+  "rows": [
+    {
+      "cells": [
+        "postId",
+        "ResponseCode"
+      ],
+      "line": 7,
+      "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;1"
+    },
+    {
+      "cells": [
+        "\"1\"",
+        "200"
+      ],
+      "line": 8,
+      "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;2"
+    },
+    {
+      "cells": [
+        "\"xxxxxxxxxxxx\"",
+        "400"
+      ],
+      "line": 9,
+      "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;3"
+    },
+    {
+      "cells": [
+        "\"1234567890987654398765\"",
+        "404"
+      ],
+      "line": 10,
+      "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;4"
+    },
+    {
+      "cells": [
+        "\"0\"",
+        "404"
+      ],
+      "line": 11,
+      "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;5"
+    },
+    {
+      "cells": [
+        "\"-1\"",
+        "400"
+      ],
+      "line": 12,
+      "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;6"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 8,
+  "name": "Get List of comments based on posts id on social networking site with different test data",
+  "description": "",
+  "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 3,
+  "name": "Get Comments API is up and Running on the server",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 4,
+  "name": "hit the web services endpoint comments basedon postId \"1\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 5,
+  "name": "Validate responseCode 200 and response body of comments api",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()"
+});
+formatter.result({
+  "duration": 579503,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1",
+      "offset": 55
+    }
+  ],
+  "location": "GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)"
+});
+formatter.result({
+  "duration": 52521966,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "200",
+      "offset": 22
+    }
+  ],
+  "location": "GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)"
+});
+formatter.result({
+  "duration": 4645774,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 9,
+  "name": "Get List of comments based on posts id on social networking site with different test data",
+  "description": "",
+  "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 3,
+  "name": "Get Comments API is up and Running on the server",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 4,
+  "name": "hit the web services endpoint comments basedon postId \"xxxxxxxxxxxx\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 5,
+  "name": "Validate responseCode 400 and response body of comments api",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()"
+});
+formatter.result({
+  "duration": 418510,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "xxxxxxxxxxxx",
+      "offset": 55
+    }
+  ],
+  "location": "GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)"
+});
+formatter.result({
+  "duration": 37697590,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "400",
+      "offset": 22
+    }
+  ],
+  "location": "GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)"
+});
+formatter.result({
+  "duration": 209024,
+  "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsBasedOnPostId.feature:5)\n",
+  "status": "failed"
+});
+formatter.scenario({
+  "line": 10,
+  "name": "Get List of comments based on posts id on social networking site with different test data",
+  "description": "",
+  "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 3,
+  "name": "Get Comments API is up and Running on the server",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 4,
+  "name": "hit the web services endpoint comments basedon postId \"1234567890987654398765\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 5,
+  "name": "Validate responseCode 404 and response body of comments api",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()"
+});
+formatter.result({
+  "duration": 498379,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1234567890987654398765",
+      "offset": 55
+    }
+  ],
+  "location": "GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)"
+});
+formatter.result({
+  "duration": 41959941,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "404",
+      "offset": 22
+    }
+  ],
+  "location": "GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)"
+});
+formatter.result({
+  "duration": 158778,
+  "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 404 and response body of comments api(GetCommentsBasedOnPostId.feature:5)\n",
+  "status": "failed"
+});
+formatter.scenario({
+  "line": 11,
+  "name": "Get List of comments based on posts id on social networking site with different test data",
+  "description": "",
+  "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;5",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 3,
+  "name": "Get Comments API is up and Running on the server",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 4,
+  "name": "hit the web services endpoint comments basedon postId \"0\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 5,
+  "name": "Validate responseCode 404 and response body of comments api",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()"
+});
+formatter.result({
+  "duration": 434757,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "0",
+      "offset": 55
+    }
+  ],
+  "location": "GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)"
+});
+formatter.result({
+  "duration": 36601443,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "404",
+      "offset": 22
+    }
+  ],
+  "location": "GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)"
+});
+formatter.result({
+  "duration": 268104,
+  "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 404 and response body of comments api(GetCommentsBasedOnPostId.feature:5)\n",
+  "status": "failed"
+});
+formatter.scenario({
+  "line": 12,
+  "name": "Get List of comments based on posts id on social networking site with different test data",
+  "description": "",
+  "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;6",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 3,
+  "name": "Get Comments API is up and Running on the server",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 4,
+  "name": "hit the web services endpoint comments basedon postId \"-1\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 5,
+  "name": "Validate responseCode 400 and response body of comments api",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()"
+});
+formatter.result({
+  "duration": 525865,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "-1",
+      "offset": 55
+    }
+  ],
+  "location": "GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)"
+});
+formatter.result({
+  "duration": 40150990,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "400",
+      "offset": 22
+    }
+  ],
+  "location": "GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)"
+});
+formatter.result({
+  "duration": 258638,
+  "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsBasedOnPostId.feature:5)\n",
+  "status": "failed"
+});
+formatter.uri("GetCommentsBasedOnUserId.feature");
 formatter.feature({
   "line": 1,
   "name": "Get List of comments based on userId on social networking site with different test data",
@@ -2466,7 +2868,7 @@ formatter.match({
   "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 560885,
+  "duration": 703638,
   "status": "passed"
 });
 formatter.match({
@@ -2479,7 +2881,7 @@ formatter.match({
   "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
 });
 formatter.result({
-  "duration": 38797789,
+  "duration": 37451537,
   "status": "passed"
 });
 formatter.match({
@@ -2492,7 +2894,7 @@ formatter.match({
   "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
 });
 formatter.result({
-  "duration": 6085623,
+  "duration": 2825837,
   "status": "passed"
 });
 formatter.scenario({
@@ -2528,7 +2930,7 @@ formatter.match({
   "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 657422,
+  "duration": 432987,
   "status": "passed"
 });
 formatter.match({
@@ -2541,7 +2943,7 @@ formatter.match({
   "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
 });
 formatter.result({
-  "duration": 38487399,
+  "duration": 42214516,
   "status": "passed"
 });
 formatter.match({
@@ -2554,8 +2956,8 @@ formatter.match({
   "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
 });
 formatter.result({
-  "duration": 183370,
-  "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedonUserId.feature:5)\n",
+  "duration": 170052,
+  "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedOnUserId.feature:5)\n",
   "status": "failed"
 });
 formatter.scenario({
@@ -2591,7 +2993,7 @@ formatter.match({
   "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 511016,
+  "duration": 420886,
   "status": "passed"
 });
 formatter.match({
@@ -2604,7 +3006,7 @@ formatter.match({
   "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
 });
 formatter.result({
-  "duration": 44856926,
+  "duration": 36549942,
   "status": "passed"
 });
 formatter.match({
@@ -2617,8 +3019,8 @@ formatter.match({
   "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
 });
 formatter.result({
-  "duration": 270857,
-  "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 404 and response body of comments api.(GetCommentsBasedonUserId.feature:5)\n",
+  "duration": 172314,
+  "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 404 and response body of comments api.(GetCommentsBasedOnUserId.feature:5)\n",
   "status": "failed"
 });
 formatter.scenario({
@@ -2654,7 +3056,7 @@ formatter.match({
   "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 557658,
+  "duration": 395278,
   "status": "passed"
 });
 formatter.match({
@@ -2667,7 +3069,7 @@ formatter.match({
   "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
 });
 formatter.result({
-  "duration": 35073274,
+  "duration": 40674158,
   "status": "passed"
 });
 formatter.match({
@@ -2680,8 +3082,8 @@ formatter.match({
   "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
 });
 formatter.result({
-  "duration": 179853,
-  "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 404 and response body of comments api.(GetCommentsBasedonUserId.feature:5)\n",
+  "duration": 160410,
+  "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 404 and response body of comments api.(GetCommentsBasedOnUserId.feature:5)\n",
   "status": "failed"
 });
 formatter.scenario({
@@ -2717,7 +3119,7 @@ formatter.match({
   "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 428187,
+  "duration": 385839,
   "status": "passed"
 });
 formatter.match({
@@ -2730,7 +3132,7 @@ formatter.match({
   "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
 });
 formatter.result({
-  "duration": 34279624,
+  "duration": 35052382,
   "status": "passed"
 });
 formatter.match({
@@ -2743,8 +3145,8 @@ formatter.match({
   "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
 });
 formatter.result({
-  "duration": 188583,
-  "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedonUserId.feature:5)\n",
+  "duration": 178579,
+  "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedOnUserId.feature:5)\n",
   "status": "failed"
 });
 formatter.scenario({
@@ -2780,7 +3182,7 @@ formatter.match({
   "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 537492,
+  "duration": 377390,
   "status": "passed"
 });
 formatter.match({
@@ -2793,7 +3195,7 @@ formatter.match({
   "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
 });
 formatter.result({
-  "duration": 35245138,
+  "duration": 45881568,
   "status": "passed"
 });
 formatter.match({
@@ -2806,410 +3208,8 @@ formatter.match({
   "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
 });
 formatter.result({
-  "duration": 182399,
-  "error_message": "java.lang.AssertionError: expected [400] but found [404]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedonUserId.feature:5)\n",
-  "status": "failed"
-});
-formatter.uri("GetCommentsbasedonPostId.feature");
-formatter.feature({
-  "line": 1,
-  "name": "Get List of comments based on postsId on social networking site",
-  "description": "",
-  "id": "get-list-of-comments-based-on-postsid-on-social-networking-site",
-  "keyword": "Feature"
-});
-formatter.scenarioOutline({
-  "line": 2,
-  "name": "Get List of comments based on posts id on social networking site with different test data",
-  "description": "",
-  "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 3,
-  "name": "Get Comments API is up and Running on the server",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 4,
-  "name": "hit the web services endpoint comments basedon postId \u003cpostId\u003e",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 5,
-  "name": "Validate responseCode \u003cResponseCode\u003e and response body of comments api",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 6,
-  "name": "",
-  "description": "",
-  "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;",
-  "rows": [
-    {
-      "cells": [
-        "postId",
-        "ResponseCode"
-      ],
-      "line": 7,
-      "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;1"
-    },
-    {
-      "cells": [
-        "\"1\"",
-        "200"
-      ],
-      "line": 8,
-      "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;2"
-    },
-    {
-      "cells": [
-        "\"xxxxxxxxxxxx\"",
-        "400"
-      ],
-      "line": 9,
-      "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;3"
-    },
-    {
-      "cells": [
-        "\"1234567890987654398765\"",
-        "404"
-      ],
-      "line": 10,
-      "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;4"
-    },
-    {
-      "cells": [
-        "\"0\"",
-        "404"
-      ],
-      "line": 11,
-      "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;5"
-    },
-    {
-      "cells": [
-        "\"-1\"",
-        "400"
-      ],
-      "line": 12,
-      "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;6"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.scenario({
-  "line": 8,
-  "name": "Get List of comments based on posts id on social networking site with different test data",
-  "description": "",
-  "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 3,
-  "name": "Get Comments API is up and Running on the server",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 4,
-  "name": "hit the web services endpoint comments basedon postId \"1\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 5,
-  "name": "Validate responseCode 200 and response body of comments api",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()"
-});
-formatter.result({
-  "duration": 532136,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "1",
-      "offset": 55
-    }
-  ],
-  "location": "GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)"
-});
-formatter.result({
-  "duration": 39667739,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "200",
-      "offset": 22
-    }
-  ],
-  "location": "GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)"
-});
-formatter.result({
-  "duration": 2967656,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 9,
-  "name": "Get List of comments based on posts id on social networking site with different test data",
-  "description": "",
-  "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 3,
-  "name": "Get Comments API is up and Running on the server",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 4,
-  "name": "hit the web services endpoint comments basedon postId \"xxxxxxxxxxxx\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 5,
-  "name": "Validate responseCode 400 and response body of comments api",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()"
-});
-formatter.result({
-  "duration": 645041,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "xxxxxxxxxxxx",
-      "offset": 55
-    }
-  ],
-  "location": "GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)"
-});
-formatter.result({
-  "duration": 39078489,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "400",
-      "offset": 22
-    }
-  ],
-  "location": "GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)"
-});
-formatter.result({
-  "duration": 191571,
-  "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsbasedonPostId.feature:5)\n",
-  "status": "failed"
-});
-formatter.scenario({
-  "line": 10,
-  "name": "Get List of comments based on posts id on social networking site with different test data",
-  "description": "",
-  "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;4",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 3,
-  "name": "Get Comments API is up and Running on the server",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 4,
-  "name": "hit the web services endpoint comments basedon postId \"1234567890987654398765\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 5,
-  "name": "Validate responseCode 404 and response body of comments api",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()"
-});
-formatter.result({
-  "duration": 420322,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "1234567890987654398765",
-      "offset": 55
-    }
-  ],
-  "location": "GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)"
-});
-formatter.result({
-  "duration": 33579813,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "404",
-      "offset": 22
-    }
-  ],
-  "location": "GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)"
-});
-formatter.result({
-  "duration": 189287,
-  "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 404 and response body of comments api(GetCommentsbasedonPostId.feature:5)\n",
-  "status": "failed"
-});
-formatter.scenario({
-  "line": 11,
-  "name": "Get List of comments based on posts id on social networking site with different test data",
-  "description": "",
-  "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;5",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 3,
-  "name": "Get Comments API is up and Running on the server",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 4,
-  "name": "hit the web services endpoint comments basedon postId \"0\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 5,
-  "name": "Validate responseCode 404 and response body of comments api",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()"
-});
-formatter.result({
-  "duration": 414181,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "0",
-      "offset": 55
-    }
-  ],
-  "location": "GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)"
-});
-formatter.result({
-  "duration": 32547956,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "404",
-      "offset": 22
-    }
-  ],
-  "location": "GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)"
-});
-formatter.result({
-  "duration": 195313,
-  "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 404 and response body of comments api(GetCommentsbasedonPostId.feature:5)\n",
-  "status": "failed"
-});
-formatter.scenario({
-  "line": 12,
-  "name": "Get List of comments based on posts id on social networking site with different test data",
-  "description": "",
-  "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;6",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 3,
-  "name": "Get Comments API is up and Running on the server",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 4,
-  "name": "hit the web services endpoint comments basedon postId \"-1\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 5,
-  "name": "Validate responseCode 400 and response body of comments api",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()"
-});
-formatter.result({
-  "duration": 485094,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "-1",
-      "offset": 55
-    }
-  ],
-  "location": "GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)"
-});
-formatter.result({
-  "duration": 40012363,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "400",
-      "offset": 22
-    }
-  ],
-  "location": "GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)"
-});
-formatter.result({
-  "duration": 192388,
-  "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsbasedonPostId.feature:5)\n",
+  "duration": 169961,
+  "error_message": "java.lang.AssertionError: expected [400] but found [404]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedOnUserId.feature:5)\n",
   "status": "failed"
 });
 formatter.uri("GetPosts.feature");
@@ -3252,28 +3252,28 @@ formatter.match({
   "location": "GetAllPosts.get_Posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 531490,
+  "duration": 498000,
   "status": "passed"
 });
 formatter.match({
   "location": "GetAllPosts.user_perform_a_Get_api_call_to_list_down_all_the_posts_on_social_networking_site()"
 });
 formatter.result({
-  "duration": 44172718,
+  "duration": 36462928,
   "status": "passed"
 });
 formatter.match({
   "location": "GetAllPosts.validate_response_code()"
 });
 formatter.result({
-  "duration": 41338,
+  "duration": 32979,
   "status": "passed"
 });
 formatter.match({
   "location": "GetAllPosts.validate_response_data_for_each_enttity()"
 });
 formatter.result({
-  "duration": 11275375,
+  "duration": 10182869,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -3379,7 +3379,7 @@ formatter.match({
   "location": "GetAllPosts.set_request_specification_for_get_posts_call(String)"
 });
 formatter.result({
-  "duration": 587962,
+  "duration": 514461,
   "status": "passed"
 });
 formatter.match({
@@ -3392,7 +3392,7 @@ formatter.match({
   "location": "GetAllPosts.hit_the_api_through_endpoint(String)"
 });
 formatter.result({
-  "duration": 41189264,
+  "duration": 36336273,
   "status": "passed"
 });
 formatter.match({
@@ -3405,7 +3405,7 @@ formatter.match({
   "location": "GetAllPosts.validate_the_response_code(int)"
 });
 formatter.result({
-  "duration": 70680,
+  "duration": 60608,
   "status": "passed"
 });
 formatter.scenario({
@@ -3447,7 +3447,7 @@ formatter.match({
   "location": "GetAllPosts.set_request_specification_for_get_posts_call(String)"
 });
 formatter.result({
-  "duration": 466923,
+  "duration": 515500,
   "status": "passed"
 });
 formatter.match({
@@ -3460,7 +3460,7 @@ formatter.match({
   "location": "GetAllPosts.hit_the_api_through_endpoint(String)"
 });
 formatter.result({
-  "duration": 38621169,
+  "duration": 41073355,
   "status": "passed"
 });
 formatter.match({
@@ -3473,7 +3473,7 @@ formatter.match({
   "location": "GetAllPosts.validate_the_response_code(int)"
 });
 formatter.result({
-  "duration": 172616,
+  "duration": 236285,
   "error_message": "java.lang.AssertionError: expected [406] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetAllPosts.validate_the_response_code(GetAllPosts.java:75)\n\tat ✽.Then Validate the response code 406(GetPosts.feature:12)\n",
   "status": "failed"
 });
@@ -3516,7 +3516,7 @@ formatter.match({
   "location": "GetAllPosts.set_request_specification_for_get_posts_call(String)"
 });
 formatter.result({
-  "duration": 591691,
+  "duration": 564728,
   "status": "passed"
 });
 formatter.match({
@@ -3529,7 +3529,7 @@ formatter.match({
   "location": "GetAllPosts.hit_the_api_through_endpoint(String)"
 });
 formatter.result({
-  "duration": 130125349,
+  "duration": 39962066,
   "status": "passed"
 });
 formatter.match({
@@ -3542,7 +3542,7 @@ formatter.match({
   "location": "GetAllPosts.validate_the_response_code(int)"
 });
 formatter.result({
-  "duration": 164394,
+  "duration": 195612,
   "error_message": "java.lang.AssertionError: expected [406] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetAllPosts.validate_the_response_code(GetAllPosts.java:75)\n\tat ✽.Then Validate the response code 406(GetPosts.feature:12)\n",
   "status": "failed"
 });
@@ -3651,7 +3651,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.get_posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 446595,
+  "duration": 540457,
   "status": "passed"
 });
 formatter.match({
@@ -3668,7 +3668,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.hit_the_api_through_endpoint_with_variable(String,String)"
 });
 formatter.result({
-  "duration": 35451730,
+  "duration": 37043944,
   "status": "passed"
 });
 formatter.match({
@@ -3681,7 +3681,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.validate_the_response_code_and_response_data(int)"
 });
 formatter.result({
-  "duration": 4104168,
+  "duration": 4363758,
   "status": "passed"
 });
 formatter.scenario({
@@ -3717,7 +3717,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.get_posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 399220,
+  "duration": 451872,
   "status": "passed"
 });
 formatter.match({
@@ -3734,7 +3734,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.hit_the_api_through_endpoint_with_variable(String,String)"
 });
 formatter.result({
-  "duration": 36975563,
+  "duration": 35296503,
   "status": "passed"
 });
 formatter.match({
@@ -3747,7 +3747,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.validate_the_response_code_and_response_data(int)"
 });
 formatter.result({
-  "duration": 207980,
+  "duration": 172690,
   "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_code_and_response_data(GetPostsBasedonUserId.java:37)\n\tat ✽.Then Validate the response code 404 and response data(GetPostsBasedonUserId.feature:5)\n",
   "status": "failed"
 });
@@ -3784,7 +3784,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.get_posts_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 416358,
+  "duration": 380937,
   "status": "passed"
 });
 formatter.match({
@@ -3801,7 +3801,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.hit_the_api_through_endpoint_with_variable(String,String)"
 });
 formatter.result({
-  "duration": 37071750,
+  "duration": 35584331,
   "status": "passed"
 });
 formatter.match({
@@ -3814,7 +3814,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.validate_the_response_code_and_response_data(int)"
 });
 formatter.result({
-  "duration": 161386,
+  "duration": 169255,
   "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_code_and_response_data(GetPostsBasedonUserId.java:37)\n\tat ✽.Then Validate the response code 404 and response data(GetPostsBasedonUserId.feature:5)\n",
   "status": "failed"
 });
@@ -3929,7 +3929,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.set_request_specification_for_get_methods_call(String)"
 });
 formatter.result({
-  "duration": 392528,
+  "duration": 419388,
   "status": "passed"
 });
 formatter.match({
@@ -3942,7 +3942,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.hit_the_api_through_endpoints(String)"
 });
 formatter.result({
-  "duration": 34934609,
+  "duration": 43997236,
   "status": "passed"
 });
 formatter.match({
@@ -3955,7 +3955,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.validate_the_response_codes(int)"
 });
 formatter.result({
-  "duration": 88015,
+  "duration": 75302,
   "status": "passed"
 });
 formatter.scenario({
@@ -3997,7 +3997,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.set_request_specification_for_get_methods_call(String)"
 });
 formatter.result({
-  "duration": 451850,
+  "duration": 537070,
   "status": "passed"
 });
 formatter.match({
@@ -4010,7 +4010,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.hit_the_api_through_endpoints(String)"
 });
 formatter.result({
-  "duration": 36214114,
+  "duration": 49291081,
   "status": "passed"
 });
 formatter.match({
@@ -4023,7 +4023,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.validate_the_response_codes(int)"
 });
 formatter.result({
-  "duration": 182523,
+  "duration": 206111,
   "error_message": "java.lang.AssertionError: expected [406] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_codes(GetPostsBasedonUserId.java:75)\n\tat ✽.Then Validate the response codes 406(GetPostsBasedonUserId.feature:16)\n",
   "status": "failed"
 });
@@ -4066,7 +4066,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.set_request_specification_for_get_methods_call(String)"
 });
 formatter.result({
-  "duration": 412839,
+  "duration": 414932,
   "status": "passed"
 });
 formatter.match({
@@ -4079,7 +4079,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.hit_the_api_through_endpoints(String)"
 });
 formatter.result({
-  "duration": 35701661,
+  "duration": 44652808,
   "status": "passed"
 });
 formatter.match({
@@ -4092,7 +4092,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.validate_the_response_codes(int)"
 });
 formatter.result({
-  "duration": 163653,
+  "duration": 196745,
   "error_message": "java.lang.AssertionError: expected [406] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_codes(GetPostsBasedonUserId.java:75)\n\tat ✽.Then Validate the response codes 406(GetPostsBasedonUserId.feature:16)\n",
   "status": "failed"
 });
@@ -4135,7 +4135,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.set_request_specification_for_get_methods_call(String)"
 });
 formatter.result({
-  "duration": 601808,
+  "duration": 426340,
   "status": "passed"
 });
 formatter.match({
@@ -4148,7 +4148,7 @@ formatter.match({
   "location": "GetPostsBasedonUserId.hit_the_api_through_endpoints(String)"
 });
 formatter.result({
-  "duration": 31981348,
+  "duration": 38432786,
   "status": "passed"
 });
 formatter.match({
@@ -4161,11 +4161,11 @@ formatter.match({
   "location": "GetPostsBasedonUserId.validate_the_response_codes(int)"
 });
 formatter.result({
-  "duration": 170208,
+  "duration": 223848,
   "error_message": "java.lang.AssertionError: expected [406] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_codes(GetPostsBasedonUserId.java:75)\n\tat ✽.Then Validate the response codes 406(GetPostsBasedonUserId.feature:16)\n",
   "status": "failed"
 });
-formatter.uri("GetUserbasedonId.feature");
+formatter.uri("GetUserBasedOnId.feature");
 formatter.feature({
   "line": 1,
   "name": "Get Users based on Id",
@@ -4270,7 +4270,7 @@ formatter.match({
   "location": "GetUserDetailsBasedonId.get_users_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 440119,
+  "duration": 625268,
   "status": "passed"
 });
 formatter.match({
@@ -4283,7 +4283,7 @@ formatter.match({
   "location": "GetUserDetailsBasedonId.perform_get_users_api_call_on_social_networking_site_based_on(String)"
 });
 formatter.result({
-  "duration": 35447442,
+  "duration": 47621028,
   "status": "passed"
 });
 formatter.match({
@@ -4296,7 +4296,7 @@ formatter.match({
   "location": "GetUserDetailsBasedonId.validate_response_code_and_response_data_each_attribute(int)"
 });
 formatter.result({
-  "duration": 7877875,
+  "duration": 10717263,
   "status": "passed"
 });
 formatter.scenario({
@@ -4332,7 +4332,7 @@ formatter.match({
   "location": "GetUserDetailsBasedonId.get_users_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 464507,
+  "duration": 528734,
   "status": "passed"
 });
 formatter.match({
@@ -4345,7 +4345,7 @@ formatter.match({
   "location": "GetUserDetailsBasedonId.perform_get_users_api_call_on_social_networking_site_based_on(String)"
 });
 formatter.result({
-  "duration": 33594036,
+  "duration": 46667028,
   "status": "passed"
 });
 formatter.match({
@@ -4358,7 +4358,7 @@ formatter.match({
   "location": "GetUserDetailsBasedonId.validate_response_code_and_response_data_each_attribute(int)"
 });
 formatter.result({
-  "duration": 3732524,
+  "duration": 5857405,
   "status": "passed"
 });
 formatter.scenario({
@@ -4394,7 +4394,7 @@ formatter.match({
   "location": "GetUserDetailsBasedonId.get_users_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 505619,
+  "duration": 389801,
   "status": "passed"
 });
 formatter.match({
@@ -4407,7 +4407,7 @@ formatter.match({
   "location": "GetUserDetailsBasedonId.perform_get_users_api_call_on_social_networking_site_based_on(String)"
 });
 formatter.result({
-  "duration": 33835148,
+  "duration": 36868684,
   "status": "passed"
 });
 formatter.match({
@@ -4420,7 +4420,7 @@ formatter.match({
   "location": "GetUserDetailsBasedonId.validate_response_code_and_response_data_each_attribute(int)"
 });
 formatter.result({
-  "duration": 3561230,
+  "duration": 4591536,
   "status": "passed"
 });
 formatter.uri("GetUsers.feature");
@@ -4458,21 +4458,21 @@ formatter.match({
   "location": "GetUsers.get_users_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 415504,
+  "duration": 465845,
   "status": "passed"
 });
 formatter.match({
   "location": "GetUsers.perform_get_users_api_call_on_social_network_site()"
 });
 formatter.result({
-  "duration": 34858751,
+  "duration": 47928518,
   "status": "passed"
 });
 formatter.match({
   "location": "GetUsers.validate_the_response_code_and_response_data_for_all_users()"
 });
 formatter.result({
-  "duration": 5985893,
+  "duration": 6149953,
   "status": "passed"
 });
 formatter.uri("PatchPosts.feature");
@@ -4594,7 +4594,7 @@ formatter.match({
   "location": "PatchPosts.patch_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 473639,
+  "duration": 473672,
   "status": "passed"
 });
 formatter.match({
@@ -4611,7 +4611,7 @@ formatter.match({
   "location": "PatchPosts.user_perform_a_Patch_api_call_on_the_social_networking_site_using_different_test_data(String,String)"
 });
 formatter.result({
-  "duration": 984928189,
+  "duration": 1064224038,
   "status": "passed"
 });
 formatter.match({
@@ -4624,7 +4624,7 @@ formatter.match({
   "location": "PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(int)"
 });
 formatter.result({
-  "duration": 3408109,
+  "duration": 3741107,
   "status": "passed"
 });
 formatter.scenario({
@@ -4661,7 +4661,7 @@ formatter.match({
   "location": "PatchPosts.patch_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 463029,
+  "duration": 430866,
   "status": "passed"
 });
 formatter.match({
@@ -4678,7 +4678,7 @@ formatter.match({
   "location": "PatchPosts.user_perform_a_Patch_api_call_on_the_social_networking_site_using_different_test_data(String,String)"
 });
 formatter.result({
-  "duration": 1021962262,
+  "duration": 990780847,
   "status": "passed"
 });
 formatter.match({
@@ -4691,7 +4691,7 @@ formatter.match({
   "location": "PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(int)"
 });
 formatter.result({
-  "duration": 296357,
+  "duration": 298968,
   "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)\n\tat ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)\n",
   "status": "failed"
 });
@@ -4729,7 +4729,7 @@ formatter.match({
   "location": "PatchPosts.patch_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 434101,
+  "duration": 474463,
   "status": "passed"
 });
 formatter.match({
@@ -4746,7 +4746,7 @@ formatter.match({
   "location": "PatchPosts.user_perform_a_Patch_api_call_on_the_social_networking_site_using_different_test_data(String,String)"
 });
 formatter.result({
-  "duration": 1134974724,
+  "duration": 965646623,
   "status": "passed"
 });
 formatter.match({
@@ -4759,7 +4759,7 @@ formatter.match({
   "location": "PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(int)"
 });
 formatter.result({
-  "duration": 269000,
+  "duration": 275940,
   "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)\n\tat ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)\n",
   "status": "failed"
 });
@@ -4797,7 +4797,7 @@ formatter.match({
   "location": "PatchPosts.patch_API_is_up_and_Running_on_the_server()"
 });
 formatter.result({
-  "duration": 457786,
+  "duration": 463916,
   "status": "passed"
 });
 formatter.match({
@@ -4814,7 +4814,7 @@ formatter.match({
   "location": "PatchPosts.user_perform_a_Patch_api_call_on_the_social_networking_site_using_different_test_data(String,String)"
 });
 formatter.result({
-  "duration": 1119230165,
+  "duration": 1205236851,
   "status": "passed"
 });
 formatter.match({
@@ -4827,7 +4827,7 @@ formatter.match({
   "location": "PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(int)"
 });
 formatter.result({
-  "duration": 234842,
+  "duration": 277419,
   "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)\n\tat ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)\n",
   "status": "failed"
 });

@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 588474101,
+              "duration": 547717546,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1462471292,
+              "duration": 1435980682,
               "status": "passed"
             },
             "line": 5,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 51407261,
+              "duration": 45054503,
               "status": "passed"
             },
             "line": 6,
@@ -86,7 +86,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1420361,
+              "duration": 1271325,
               "status": "passed"
             },
             "line": 4,
@@ -98,7 +98,7 @@
           },
           {
             "result": {
-              "duration": 510436283,
+              "duration": 512073571,
               "status": "passed"
             },
             "line": 5,
@@ -129,7 +129,7 @@
           },
           {
             "result": {
-              "duration": 10593926,
+              "duration": 7309816,
               "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
               "status": "failed"
             },
@@ -161,7 +161,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1321965,
+              "duration": 596795,
               "status": "passed"
             },
             "line": 4,
@@ -173,7 +173,7 @@
           },
           {
             "result": {
-              "duration": 518766276,
+              "duration": 520533648,
               "status": "passed"
             },
             "line": 5,
@@ -204,7 +204,7 @@
           },
           {
             "result": {
-              "duration": 233993,
+              "duration": 245843,
               "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
               "status": "failed"
             },
@@ -236,7 +236,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1222793,
+              "duration": 1059567,
               "status": "passed"
             },
             "line": 4,
@@ -248,7 +248,7 @@
           },
           {
             "result": {
-              "duration": 607963498,
+              "duration": 495823355,
               "status": "passed"
             },
             "line": 5,
@@ -279,7 +279,7 @@
           },
           {
             "result": {
-              "duration": 273987,
+              "duration": 246818,
               "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
               "status": "failed"
             },
@@ -311,7 +311,7 @@
         "steps": [
           {
             "result": {
-              "duration": 716678,
+              "duration": 766810,
               "status": "passed"
             },
             "line": 4,
@@ -323,7 +323,7 @@
           },
           {
             "result": {
-              "duration": 514760401,
+              "duration": 522790131,
               "status": "passed"
             },
             "line": 5,
@@ -354,7 +354,7 @@
           },
           {
             "result": {
-              "duration": 280220,
+              "duration": 262306,
               "error_message": "java.lang.AssertionError: expected [200] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 200 and ResponseData for each attribute(CreatePosts.feature:6)\n",
               "status": "failed"
             },
@@ -386,7 +386,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2294883,
+              "duration": 1126446,
               "status": "passed"
             },
             "line": 4,
@@ -398,7 +398,7 @@
           },
           {
             "result": {
-              "duration": 591083243,
+              "duration": 491004401,
               "status": "passed"
             },
             "line": 5,
@@ -429,7 +429,7 @@
           },
           {
             "result": {
-              "duration": 225278,
+              "duration": 265288,
               "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
               "status": "failed"
             },
@@ -461,7 +461,7 @@
         "steps": [
           {
             "result": {
-              "duration": 674606,
+              "duration": 765355,
               "status": "passed"
             },
             "line": 4,
@@ -473,7 +473,7 @@
           },
           {
             "result": {
-              "duration": 510400132,
+              "duration": 516897645,
               "status": "passed"
             },
             "line": 5,
@@ -504,7 +504,7 @@
           },
           {
             "result": {
-              "duration": 265178,
+              "duration": 284720,
               "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
               "status": "failed"
             },
@@ -536,7 +536,7 @@
         "steps": [
           {
             "result": {
-              "duration": 730000,
+              "duration": 712531,
               "status": "passed"
             },
             "line": 4,
@@ -548,7 +548,7 @@
           },
           {
             "result": {
-              "duration": 506442137,
+              "duration": 514670101,
               "status": "passed"
             },
             "line": 5,
@@ -579,7 +579,7 @@
           },
           {
             "result": {
-              "duration": 261854,
+              "duration": 258551,
               "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
               "status": "failed"
             },
@@ -611,7 +611,7 @@
         "steps": [
           {
             "result": {
-              "duration": 764201,
+              "duration": 758452,
               "status": "passed"
             },
             "line": 4,
@@ -623,7 +623,7 @@
           },
           {
             "result": {
-              "duration": 525327409,
+              "duration": 491327185,
               "status": "passed"
             },
             "line": 5,
@@ -654,7 +654,7 @@
           },
           {
             "result": {
-              "duration": 282369,
+              "duration": 285372,
               "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
               "status": "failed"
             },
@@ -686,7 +686,7 @@
         "steps": [
           {
             "result": {
-              "duration": 790806,
+              "duration": 767124,
               "status": "passed"
             },
             "line": 4,
@@ -698,7 +698,7 @@
           },
           {
             "result": {
-              "duration": 520361124,
+              "duration": 495238739,
               "status": "passed"
             },
             "line": 5,
@@ -729,7 +729,7 @@
           },
           {
             "result": {
-              "duration": 335390,
+              "duration": 308835,
               "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
               "status": "failed"
             },
@@ -761,7 +761,7 @@
         "steps": [
           {
             "result": {
-              "duration": 753363,
+              "duration": 743091,
               "status": "passed"
             },
             "line": 4,
@@ -773,7 +773,7 @@
           },
           {
             "result": {
-              "duration": 577662015,
+              "duration": 530079797,
               "status": "passed"
             },
             "line": 5,
@@ -804,7 +804,7 @@
           },
           {
             "result": {
-              "duration": 4404629,
+              "duration": 4118922,
               "status": "passed"
             },
             "line": 6,
@@ -835,7 +835,7 @@
         "steps": [
           {
             "result": {
-              "duration": 766740,
+              "duration": 634974,
               "status": "passed"
             },
             "line": 24,
@@ -856,7 +856,7 @@
           },
           {
             "result": {
-              "duration": 501135951,
+              "duration": 484263962,
               "status": "passed"
             },
             "line": 25,
@@ -874,7 +874,7 @@
           },
           {
             "result": {
-              "duration": 76663,
+              "duration": 99464,
               "status": "passed"
             },
             "line": 26,
@@ -905,7 +905,7 @@
         "steps": [
           {
             "result": {
-              "duration": 644091,
+              "duration": 745327,
               "status": "passed"
             },
             "line": 24,
@@ -926,7 +926,7 @@
           },
           {
             "result": {
-              "duration": 510701752,
+              "duration": 500835457,
               "status": "passed"
             },
             "line": 25,
@@ -944,7 +944,7 @@
           },
           {
             "result": {
-              "duration": 322856,
+              "duration": 294226,
               "error_message": "java.lang.AssertionError: expected [406] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_response_codes_and_response_data(CreatePosts.java:76)\n\tat ✽.Then Validate response codes 406 and response data(CreatePosts.feature:26)\n",
               "status": "failed"
             },
@@ -976,7 +976,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1035098,
+              "duration": 1008443,
               "status": "passed"
             },
             "line": 24,
@@ -997,7 +997,7 @@
           },
           {
             "result": {
-              "duration": 503811543,
+              "duration": 501837700,
               "status": "passed"
             },
             "line": 25,
@@ -1015,7 +1015,7 @@
           },
           {
             "result": {
-              "duration": 286740,
+              "duration": 269091,
               "error_message": "java.lang.AssertionError: expected [406] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_response_codes_and_response_data(CreatePosts.java:76)\n\tat ✽.Then Validate response codes 406 and response data(CreatePosts.feature:26)\n",
               "status": "failed"
             },
@@ -1047,7 +1047,7 @@
         "steps": [
           {
             "result": {
-              "duration": 809126,
+              "duration": 950171,
               "status": "passed"
             },
             "line": 24,
@@ -1068,7 +1068,7 @@
           },
           {
             "result": {
-              "duration": 491508242,
+              "duration": 539952865,
               "status": "passed"
             },
             "line": 25,
@@ -1086,7 +1086,7 @@
           },
           {
             "result": {
-              "duration": 326324,
+              "duration": 286606,
               "error_message": "java.lang.AssertionError: expected [406] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_response_codes_and_response_data(CreatePosts.java:76)\n\tat ✽.Then Validate response codes 406 and response data(CreatePosts.feature:26)\n",
               "status": "failed"
             },
@@ -1128,7 +1128,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3566968,
+              "duration": 3433634,
               "status": "passed"
             },
             "line": 4,
@@ -1140,7 +1140,7 @@
           },
           {
             "result": {
-              "duration": 612771245,
+              "duration": 602000755,
               "status": "passed"
             },
             "line": 5,
@@ -1161,7 +1161,7 @@
           },
           {
             "result": {
-              "duration": 97777,
+              "duration": 95409,
               "status": "passed"
             },
             "line": 6,
@@ -1192,7 +1192,7 @@
         "steps": [
           {
             "result": {
-              "duration": 818737,
+              "duration": 775006,
               "status": "passed"
             },
             "line": 4,
@@ -1204,7 +1204,7 @@
           },
           {
             "result": {
-              "duration": 500992524,
+              "duration": 506212788,
               "status": "passed"
             },
             "line": 5,
@@ -1225,7 +1225,7 @@
           },
           {
             "result": {
-              "duration": 226060,
+              "duration": 198697,
               "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)\n\tat ✽.Then Validate ResponseCode 404 and response data for Delete posts(DeletePosts.feature:6)\n",
               "status": "failed"
             },
@@ -1257,7 +1257,7 @@
         "steps": [
           {
             "result": {
-              "duration": 688795,
+              "duration": 717373,
               "status": "passed"
             },
             "line": 4,
@@ -1269,7 +1269,7 @@
           },
           {
             "result": {
-              "duration": 487637793,
+              "duration": 568495574,
               "status": "passed"
             },
             "line": 5,
@@ -1290,7 +1290,7 @@
           },
           {
             "result": {
-              "duration": 189031,
+              "duration": 226608,
               "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)\n\tat ✽.Then Validate ResponseCode 404 and response data for Delete posts(DeletePosts.feature:6)\n",
               "status": "failed"
             },
@@ -1322,7 +1322,7 @@
         "steps": [
           {
             "result": {
-              "duration": 488096,
+              "duration": 690055,
               "status": "passed"
             },
             "line": 4,
@@ -1334,7 +1334,7 @@
           },
           {
             "result": {
-              "duration": 486276786,
+              "duration": 552546543,
               "status": "passed"
             },
             "line": 5,
@@ -1355,7 +1355,7 @@
           },
           {
             "result": {
-              "duration": 317606,
+              "duration": 286290,
               "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)\n\tat ✽.Then Validate ResponseCode 400 and response data for Delete posts(DeletePosts.feature:6)\n",
               "status": "failed"
             },
@@ -1387,7 +1387,7 @@
         "steps": [
           {
             "result": {
-              "duration": 703972,
+              "duration": 716937,
               "status": "passed"
             },
             "line": 4,
@@ -1399,7 +1399,7 @@
           },
           {
             "result": {
-              "duration": 548185758,
+              "duration": 610114137,
               "status": "passed"
             },
             "line": 5,
@@ -1420,7 +1420,7 @@
           },
           {
             "result": {
-              "duration": 288644,
+              "duration": 257331,
               "error_message": "java.lang.AssertionError: expected [400] but found [404]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)\n\tat ✽.Then Validate ResponseCode 400 and response data for Delete posts(DeletePosts.feature:6)\n",
               "status": "failed"
             },
@@ -1462,7 +1462,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1287641,
+              "duration": 612942,
               "status": "passed"
             },
             "line": 4,
@@ -1474,7 +1474,7 @@
           },
           {
             "result": {
-              "duration": 1222857796,
+              "duration": 999122131,
               "status": "passed"
             },
             "line": 5,
@@ -1505,7 +1505,7 @@
           },
           {
             "result": {
-              "duration": 4102135,
+              "duration": 3397585,
               "status": "passed"
             },
             "line": 6,
@@ -1536,7 +1536,7 @@
         "steps": [
           {
             "result": {
-              "duration": 605653,
+              "duration": 486087,
               "status": "passed"
             },
             "line": 4,
@@ -1548,7 +1548,7 @@
           },
           {
             "result": {
-              "duration": 1219540853,
+              "duration": 1109571321,
               "status": "passed"
             },
             "line": 5,
@@ -1579,7 +1579,7 @@
           },
           {
             "result": {
-              "duration": 178043,
+              "duration": 237872,
               "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)\n\tat ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)\n",
               "status": "failed"
             },
@@ -1611,7 +1611,7 @@
         "steps": [
           {
             "result": {
-              "duration": 366445,
+              "duration": 547670,
               "status": "passed"
             },
             "line": 4,
@@ -1623,7 +1623,7 @@
           },
           {
             "result": {
-              "duration": 1431952638,
+              "duration": 1054252214,
               "status": "passed"
             },
             "line": 5,
@@ -1654,7 +1654,7 @@
           },
           {
             "result": {
-              "duration": 222348,
+              "duration": 193076,
               "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)\n\tat ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)\n",
               "status": "failed"
             },
@@ -1686,7 +1686,7 @@
         "steps": [
           {
             "result": {
-              "duration": 545353,
+              "duration": 459487,
               "status": "passed"
             },
             "line": 4,
@@ -1698,7 +1698,7 @@
           },
           {
             "result": {
-              "duration": 1021073391,
+              "duration": 1137791287,
               "status": "passed"
             },
             "line": 5,
@@ -1729,7 +1729,7 @@
           },
           {
             "result": {
-              "duration": 2628891,
+              "duration": 3212783,
               "status": "passed"
             },
             "line": 6,
@@ -1760,7 +1760,7 @@
         "steps": [
           {
             "result": {
-              "duration": 463095,
+              "duration": 572989,
               "status": "passed"
             },
             "line": 4,
@@ -1772,7 +1772,7 @@
           },
           {
             "result": {
-              "duration": 1023835332,
+              "duration": 981402732,
               "status": "passed"
             },
             "line": 5,
@@ -1803,7 +1803,7 @@
           },
           {
             "result": {
-              "duration": 200284,
+              "duration": 292731,
               "error_message": "java.lang.AssertionError: expected [400] but found [500]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)\n\tat ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)\n",
               "status": "failed"
             },
@@ -1835,7 +1835,7 @@
         "steps": [
           {
             "result": {
-              "duration": 458009,
+              "duration": 496799,
               "status": "passed"
             },
             "line": 4,
@@ -1847,7 +1847,7 @@
           },
           {
             "result": {
-              "duration": 1020141347,
+              "duration": 991251121,
               "status": "passed"
             },
             "line": 5,
@@ -1878,7 +1878,7 @@
           },
           {
             "result": {
-              "duration": 198587,
+              "duration": 263035,
               "error_message": "java.lang.AssertionError: expected [400] but found [500]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)\n\tat ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)\n",
               "status": "failed"
             },
@@ -1910,7 +1910,7 @@
         "steps": [
           {
             "result": {
-              "duration": 576410,
+              "duration": 606433,
               "status": "passed"
             },
             "line": 4,
@@ -1922,7 +1922,7 @@
           },
           {
             "result": {
-              "duration": 998433529,
+              "duration": 1069060065,
               "status": "passed"
             },
             "line": 5,
@@ -1953,7 +1953,7 @@
           },
           {
             "result": {
-              "duration": 260617,
+              "duration": 262038,
               "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)\n\tat ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)\n",
               "status": "failed"
             },
@@ -1987,405 +1987,6 @@
     "elements": [
       {
         "line": 8,
-        "name": "Get List of comments based on userId on social networking site with different test data",
-        "description": "",
-        "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 560885,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "Get Comment API is up and Running on the server",
-            "match": {
-              "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 38797789,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "hit web services endpoint /posts/\u003cuserId\u003e/comments basedon \"1\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 60
-                }
-              ],
-              "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6085623,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Validate response code 200 and response body of comments api.",
-            "match": {
-              "arguments": [
-                {
-                  "val": "200",
-                  "offset": 23
-                }
-              ],
-              "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 9,
-        "name": "Get List of comments based on userId on social networking site with different test data",
-        "description": "",
-        "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 657422,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "Get Comment API is up and Running on the server",
-            "match": {
-              "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 38487399,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "hit web services endpoint /posts/\u003cuserId\u003e/comments basedon \"xxxxxxxxxxxx\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "xxxxxxxxxxxx",
-                  "offset": 60
-                }
-              ],
-              "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 183370,
-              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedonUserId.feature:5)\n",
-              "status": "failed"
-            },
-            "line": 5,
-            "name": "Validate response code 400 and response body of comments api.",
-            "match": {
-              "arguments": [
-                {
-                  "val": "400",
-                  "offset": 23
-                }
-              ],
-              "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 10,
-        "name": "Get List of comments based on userId on social networking site with different test data",
-        "description": "",
-        "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 511016,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "Get Comment API is up and Running on the server",
-            "match": {
-              "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 44856926,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "hit web services endpoint /posts/\u003cuserId\u003e/comments basedon \"1234567890987654398765\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1234567890987654398765",
-                  "offset": 60
-                }
-              ],
-              "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 270857,
-              "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 404 and response body of comments api.(GetCommentsBasedonUserId.feature:5)\n",
-              "status": "failed"
-            },
-            "line": 5,
-            "name": "Validate response code 404 and response body of comments api.",
-            "match": {
-              "arguments": [
-                {
-                  "val": "404",
-                  "offset": 23
-                }
-              ],
-              "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 11,
-        "name": "Get List of comments based on userId on social networking site with different test data",
-        "description": "",
-        "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;;5",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 557658,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "Get Comment API is up and Running on the server",
-            "match": {
-              "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 35073274,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "hit web services endpoint /posts/\u003cuserId\u003e/comments basedon \"0\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "0",
-                  "offset": 60
-                }
-              ],
-              "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 179853,
-              "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 404 and response body of comments api.(GetCommentsBasedonUserId.feature:5)\n",
-              "status": "failed"
-            },
-            "line": 5,
-            "name": "Validate response code 404 and response body of comments api.",
-            "match": {
-              "arguments": [
-                {
-                  "val": "404",
-                  "offset": 23
-                }
-              ],
-              "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 12,
-        "name": "Get List of comments based on userId on social networking site with different test data",
-        "description": "",
-        "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;;6",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 428187,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "Get Comment API is up and Running on the server",
-            "match": {
-              "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 34279624,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "hit web services endpoint /posts/\u003cuserId\u003e/comments basedon \"-1\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "-1",
-                  "offset": 60
-                }
-              ],
-              "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 188583,
-              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedonUserId.feature:5)\n",
-              "status": "failed"
-            },
-            "line": 5,
-            "name": "Validate response code 400 and response body of comments api.",
-            "match": {
-              "arguments": [
-                {
-                  "val": "400",
-                  "offset": 23
-                }
-              ],
-              "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 13,
-        "name": "Get List of comments based on userId on social networking site with different test data",
-        "description": "",
-        "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;;7",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 537492,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "Get Comment API is up and Running on the server",
-            "match": {
-              "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 35245138,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "hit web services endpoint /posts/\u003cuserId\u003e/comments basedon \"\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 60
-                }
-              ],
-              "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 182399,
-              "error_message": "java.lang.AssertionError: expected [400] but found [404]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedonUserId.feature:5)\n",
-              "status": "failed"
-            },
-            "line": 5,
-            "name": "Validate response code 400 and response body of comments api.",
-            "match": {
-              "arguments": [
-                {
-                  "val": "400",
-                  "offset": 23
-                }
-              ],
-              "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Get List of comments based on userId on social networking site with different test data",
-    "description": "",
-    "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data",
-    "keyword": "Feature",
-    "uri": "GetCommentsBasedonUserId.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 8,
         "name": "Get List of comments based on posts id on social networking site with different test data",
         "description": "",
         "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;2",
@@ -2394,7 +1995,7 @@
         "steps": [
           {
             "result": {
-              "duration": 532136,
+              "duration": 579503,
               "status": "passed"
             },
             "line": 3,
@@ -2406,7 +2007,7 @@
           },
           {
             "result": {
-              "duration": 39667739,
+              "duration": 52521966,
               "status": "passed"
             },
             "line": 4,
@@ -2427,7 +2028,7 @@
           },
           {
             "result": {
-              "duration": 2967656,
+              "duration": 4645774,
               "status": "passed"
             },
             "line": 5,
@@ -2458,7 +2059,7 @@
         "steps": [
           {
             "result": {
-              "duration": 645041,
+              "duration": 418510,
               "status": "passed"
             },
             "line": 3,
@@ -2470,7 +2071,7 @@
           },
           {
             "result": {
-              "duration": 39078489,
+              "duration": 37697590,
               "status": "passed"
             },
             "line": 4,
@@ -2491,8 +2092,8 @@
           },
           {
             "result": {
-              "duration": 191571,
-              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsbasedonPostId.feature:5)\n",
+              "duration": 209024,
+              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsBasedOnPostId.feature:5)\n",
               "status": "failed"
             },
             "line": 5,
@@ -2523,7 +2124,7 @@
         "steps": [
           {
             "result": {
-              "duration": 420322,
+              "duration": 498379,
               "status": "passed"
             },
             "line": 3,
@@ -2535,7 +2136,7 @@
           },
           {
             "result": {
-              "duration": 33579813,
+              "duration": 41959941,
               "status": "passed"
             },
             "line": 4,
@@ -2556,8 +2157,8 @@
           },
           {
             "result": {
-              "duration": 189287,
-              "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 404 and response body of comments api(GetCommentsbasedonPostId.feature:5)\n",
+              "duration": 158778,
+              "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 404 and response body of comments api(GetCommentsBasedOnPostId.feature:5)\n",
               "status": "failed"
             },
             "line": 5,
@@ -2588,7 +2189,7 @@
         "steps": [
           {
             "result": {
-              "duration": 414181,
+              "duration": 434757,
               "status": "passed"
             },
             "line": 3,
@@ -2600,7 +2201,7 @@
           },
           {
             "result": {
-              "duration": 32547956,
+              "duration": 36601443,
               "status": "passed"
             },
             "line": 4,
@@ -2621,8 +2222,8 @@
           },
           {
             "result": {
-              "duration": 195313,
-              "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 404 and response body of comments api(GetCommentsbasedonPostId.feature:5)\n",
+              "duration": 268104,
+              "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 404 and response body of comments api(GetCommentsBasedOnPostId.feature:5)\n",
               "status": "failed"
             },
             "line": 5,
@@ -2653,7 +2254,7 @@
         "steps": [
           {
             "result": {
-              "duration": 485094,
+              "duration": 525865,
               "status": "passed"
             },
             "line": 3,
@@ -2665,7 +2266,7 @@
           },
           {
             "result": {
-              "duration": 40012363,
+              "duration": 40150990,
               "status": "passed"
             },
             "line": 4,
@@ -2686,8 +2287,8 @@
           },
           {
             "result": {
-              "duration": 192388,
-              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsbasedonPostId.feature:5)\n",
+              "duration": 258638,
+              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsBasedOnPostId.feature:5)\n",
               "status": "failed"
             },
             "line": 5,
@@ -2713,7 +2314,406 @@
     "description": "",
     "id": "get-list-of-comments-based-on-postsid-on-social-networking-site",
     "keyword": "Feature",
-    "uri": "GetCommentsbasedonPostId.feature"
+    "uri": "GetCommentsBasedOnPostId.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Get List of comments based on userId on social networking site with different test data",
+        "description": "",
+        "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 703638,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get Comment API is up and Running on the server",
+            "match": {
+              "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37451537,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit web services endpoint /posts/\u003cuserId\u003e/comments basedon \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 60
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2825837,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate response code 200 and response body of comments api.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 23
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Get List of comments based on userId on social networking site with different test data",
+        "description": "",
+        "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 432987,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get Comment API is up and Running on the server",
+            "match": {
+              "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42214516,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit web services endpoint /posts/\u003cuserId\u003e/comments basedon \"xxxxxxxxxxxx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xxxxxxxxxxxx",
+                  "offset": 60
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170052,
+              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedOnUserId.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Validate response code 400 and response body of comments api.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 23
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Get List of comments based on userId on social networking site with different test data",
+        "description": "",
+        "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 420886,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get Comment API is up and Running on the server",
+            "match": {
+              "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36549942,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit web services endpoint /posts/\u003cuserId\u003e/comments basedon \"1234567890987654398765\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567890987654398765",
+                  "offset": 60
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 172314,
+              "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 404 and response body of comments api.(GetCommentsBasedOnUserId.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Validate response code 404 and response body of comments api.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 23
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Get List of comments based on userId on social networking site with different test data",
+        "description": "",
+        "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 395278,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get Comment API is up and Running on the server",
+            "match": {
+              "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40674158,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit web services endpoint /posts/\u003cuserId\u003e/comments basedon \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 60
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160410,
+              "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 404 and response body of comments api.(GetCommentsBasedOnUserId.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Validate response code 404 and response body of comments api.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 23
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Get List of comments based on userId on social networking site with different test data",
+        "description": "",
+        "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 385839,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get Comment API is up and Running on the server",
+            "match": {
+              "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35052382,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit web services endpoint /posts/\u003cuserId\u003e/comments basedon \"-1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-1",
+                  "offset": 60
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 178579,
+              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedOnUserId.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Validate response code 400 and response body of comments api.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 23
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Get List of comments based on userId on social networking site with different test data",
+        "description": "",
+        "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 377390,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get Comment API is up and Running on the server",
+            "match": {
+              "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45881568,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit web services endpoint /posts/\u003cuserId\u003e/comments basedon \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 60
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 169961,
+              "error_message": "java.lang.AssertionError: expected [400] but found [404]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedOnUserId.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Validate response code 400 and response body of comments api.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 23
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Get List of comments based on userId on social networking site with different test data",
+    "description": "",
+    "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data",
+    "keyword": "Feature",
+    "uri": "GetCommentsBasedOnUserId.feature"
   },
   {
     "line": 1,
@@ -2728,7 +2728,7 @@
         "steps": [
           {
             "result": {
-              "duration": 531490,
+              "duration": 498000,
               "status": "passed"
             },
             "line": 3,
@@ -2740,7 +2740,7 @@
           },
           {
             "result": {
-              "duration": 44172718,
+              "duration": 36462928,
               "status": "passed"
             },
             "line": 4,
@@ -2752,7 +2752,7 @@
           },
           {
             "result": {
-              "duration": 41338,
+              "duration": 32979,
               "status": "passed"
             },
             "line": 5,
@@ -2764,7 +2764,7 @@
           },
           {
             "result": {
-              "duration": 11275375,
+              "duration": 10182869,
               "status": "passed"
             },
             "line": 6,
@@ -2786,7 +2786,7 @@
         "steps": [
           {
             "result": {
-              "duration": 587962,
+              "duration": 514461,
               "status": "passed"
             },
             "line": 10,
@@ -2807,7 +2807,7 @@
           },
           {
             "result": {
-              "duration": 41189264,
+              "duration": 36336273,
               "status": "passed"
             },
             "line": 11,
@@ -2825,7 +2825,7 @@
           },
           {
             "result": {
-              "duration": 70680,
+              "duration": 60608,
               "status": "passed"
             },
             "line": 12,
@@ -2856,7 +2856,7 @@
         "steps": [
           {
             "result": {
-              "duration": 466923,
+              "duration": 515500,
               "status": "passed"
             },
             "line": 10,
@@ -2877,7 +2877,7 @@
           },
           {
             "result": {
-              "duration": 38621169,
+              "duration": 41073355,
               "status": "passed"
             },
             "line": 11,
@@ -2895,7 +2895,7 @@
           },
           {
             "result": {
-              "duration": 172616,
+              "duration": 236285,
               "error_message": "java.lang.AssertionError: expected [406] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetAllPosts.validate_the_response_code(GetAllPosts.java:75)\n\tat ✽.Then Validate the response code 406(GetPosts.feature:12)\n",
               "status": "failed"
             },
@@ -2927,7 +2927,7 @@
         "steps": [
           {
             "result": {
-              "duration": 591691,
+              "duration": 564728,
               "status": "passed"
             },
             "line": 10,
@@ -2948,7 +2948,7 @@
           },
           {
             "result": {
-              "duration": 130125349,
+              "duration": 39962066,
               "status": "passed"
             },
             "line": 11,
@@ -2966,7 +2966,7 @@
           },
           {
             "result": {
-              "duration": 164394,
+              "duration": 195612,
               "error_message": "java.lang.AssertionError: expected [406] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetAllPosts.validate_the_response_code(GetAllPosts.java:75)\n\tat ✽.Then Validate the response code 406(GetPosts.feature:12)\n",
               "status": "failed"
             },
@@ -3008,7 +3008,7 @@
         "steps": [
           {
             "result": {
-              "duration": 446595,
+              "duration": 540457,
               "status": "passed"
             },
             "line": 3,
@@ -3020,7 +3020,7 @@
           },
           {
             "result": {
-              "duration": 35451730,
+              "duration": 37043944,
               "status": "passed"
             },
             "line": 4,
@@ -3045,7 +3045,7 @@
           },
           {
             "result": {
-              "duration": 4104168,
+              "duration": 4363758,
               "status": "passed"
             },
             "line": 5,
@@ -3076,7 +3076,7 @@
         "steps": [
           {
             "result": {
-              "duration": 399220,
+              "duration": 451872,
               "status": "passed"
             },
             "line": 3,
@@ -3088,7 +3088,7 @@
           },
           {
             "result": {
-              "duration": 36975563,
+              "duration": 35296503,
               "status": "passed"
             },
             "line": 4,
@@ -3113,7 +3113,7 @@
           },
           {
             "result": {
-              "duration": 207980,
+              "duration": 172690,
               "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_code_and_response_data(GetPostsBasedonUserId.java:37)\n\tat ✽.Then Validate the response code 404 and response data(GetPostsBasedonUserId.feature:5)\n",
               "status": "failed"
             },
@@ -3145,7 +3145,7 @@
         "steps": [
           {
             "result": {
-              "duration": 416358,
+              "duration": 380937,
               "status": "passed"
             },
             "line": 3,
@@ -3157,7 +3157,7 @@
           },
           {
             "result": {
-              "duration": 37071750,
+              "duration": 35584331,
               "status": "passed"
             },
             "line": 4,
@@ -3182,7 +3182,7 @@
           },
           {
             "result": {
-              "duration": 161386,
+              "duration": 169255,
               "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_code_and_response_data(GetPostsBasedonUserId.java:37)\n\tat ✽.Then Validate the response code 404 and response data(GetPostsBasedonUserId.feature:5)\n",
               "status": "failed"
             },
@@ -3214,7 +3214,7 @@
         "steps": [
           {
             "result": {
-              "duration": 392528,
+              "duration": 419388,
               "status": "passed"
             },
             "line": 14,
@@ -3235,7 +3235,7 @@
           },
           {
             "result": {
-              "duration": 34934609,
+              "duration": 43997236,
               "status": "passed"
             },
             "line": 15,
@@ -3253,7 +3253,7 @@
           },
           {
             "result": {
-              "duration": 88015,
+              "duration": 75302,
               "status": "passed"
             },
             "line": 16,
@@ -3284,7 +3284,7 @@
         "steps": [
           {
             "result": {
-              "duration": 451850,
+              "duration": 537070,
               "status": "passed"
             },
             "line": 14,
@@ -3305,7 +3305,7 @@
           },
           {
             "result": {
-              "duration": 36214114,
+              "duration": 49291081,
               "status": "passed"
             },
             "line": 15,
@@ -3323,7 +3323,7 @@
           },
           {
             "result": {
-              "duration": 182523,
+              "duration": 206111,
               "error_message": "java.lang.AssertionError: expected [406] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_codes(GetPostsBasedonUserId.java:75)\n\tat ✽.Then Validate the response codes 406(GetPostsBasedonUserId.feature:16)\n",
               "status": "failed"
             },
@@ -3355,7 +3355,7 @@
         "steps": [
           {
             "result": {
-              "duration": 412839,
+              "duration": 414932,
               "status": "passed"
             },
             "line": 14,
@@ -3376,7 +3376,7 @@
           },
           {
             "result": {
-              "duration": 35701661,
+              "duration": 44652808,
               "status": "passed"
             },
             "line": 15,
@@ -3394,7 +3394,7 @@
           },
           {
             "result": {
-              "duration": 163653,
+              "duration": 196745,
               "error_message": "java.lang.AssertionError: expected [406] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_codes(GetPostsBasedonUserId.java:75)\n\tat ✽.Then Validate the response codes 406(GetPostsBasedonUserId.feature:16)\n",
               "status": "failed"
             },
@@ -3426,7 +3426,7 @@
         "steps": [
           {
             "result": {
-              "duration": 601808,
+              "duration": 426340,
               "status": "passed"
             },
             "line": 14,
@@ -3447,7 +3447,7 @@
           },
           {
             "result": {
-              "duration": 31981348,
+              "duration": 38432786,
               "status": "passed"
             },
             "line": 15,
@@ -3465,7 +3465,7 @@
           },
           {
             "result": {
-              "duration": 170208,
+              "duration": 223848,
               "error_message": "java.lang.AssertionError: expected [406] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_codes(GetPostsBasedonUserId.java:75)\n\tat ✽.Then Validate the response codes 406(GetPostsBasedonUserId.feature:16)\n",
               "status": "failed"
             },
@@ -3507,7 +3507,7 @@
         "steps": [
           {
             "result": {
-              "duration": 440119,
+              "duration": 625268,
               "status": "passed"
             },
             "line": 3,
@@ -3519,7 +3519,7 @@
           },
           {
             "result": {
-              "duration": 35447442,
+              "duration": 47621028,
               "status": "passed"
             },
             "line": 4,
@@ -3540,7 +3540,7 @@
           },
           {
             "result": {
-              "duration": 7877875,
+              "duration": 10717263,
               "status": "passed"
             },
             "line": 5,
@@ -3571,7 +3571,7 @@
         "steps": [
           {
             "result": {
-              "duration": 464507,
+              "duration": 528734,
               "status": "passed"
             },
             "line": 3,
@@ -3583,7 +3583,7 @@
           },
           {
             "result": {
-              "duration": 33594036,
+              "duration": 46667028,
               "status": "passed"
             },
             "line": 4,
@@ -3604,7 +3604,7 @@
           },
           {
             "result": {
-              "duration": 3732524,
+              "duration": 5857405,
               "status": "passed"
             },
             "line": 5,
@@ -3635,7 +3635,7 @@
         "steps": [
           {
             "result": {
-              "duration": 505619,
+              "duration": 389801,
               "status": "passed"
             },
             "line": 3,
@@ -3647,7 +3647,7 @@
           },
           {
             "result": {
-              "duration": 33835148,
+              "duration": 36868684,
               "status": "passed"
             },
             "line": 4,
@@ -3668,7 +3668,7 @@
           },
           {
             "result": {
-              "duration": 3561230,
+              "duration": 4591536,
               "status": "passed"
             },
             "line": 5,
@@ -3694,7 +3694,7 @@
     "description": "",
     "id": "get-users-based-on-id",
     "keyword": "Feature",
-    "uri": "GetUserbasedonId.feature"
+    "uri": "GetUserBasedOnId.feature"
   },
   {
     "line": 1,
@@ -3709,7 +3709,7 @@
         "steps": [
           {
             "result": {
-              "duration": 415504,
+              "duration": 465845,
               "status": "passed"
             },
             "line": 3,
@@ -3721,7 +3721,7 @@
           },
           {
             "result": {
-              "duration": 34858751,
+              "duration": 47928518,
               "status": "passed"
             },
             "line": 4,
@@ -3733,7 +3733,7 @@
           },
           {
             "result": {
-              "duration": 5985893,
+              "duration": 6149953,
               "status": "passed"
             },
             "line": 5,
@@ -3765,7 +3765,7 @@
         "steps": [
           {
             "result": {
-              "duration": 473639,
+              "duration": 473672,
               "status": "passed"
             },
             "line": 4,
@@ -3777,7 +3777,7 @@
           },
           {
             "result": {
-              "duration": 984928189,
+              "duration": 1064224038,
               "status": "passed"
             },
             "line": 5,
@@ -3803,7 +3803,7 @@
           },
           {
             "result": {
-              "duration": 3408109,
+              "duration": 3741107,
               "status": "passed"
             },
             "line": 6,
@@ -3834,7 +3834,7 @@
         "steps": [
           {
             "result": {
-              "duration": 463029,
+              "duration": 430866,
               "status": "passed"
             },
             "line": 4,
@@ -3846,7 +3846,7 @@
           },
           {
             "result": {
-              "duration": 1021962262,
+              "duration": 990780847,
               "status": "passed"
             },
             "line": 5,
@@ -3872,7 +3872,7 @@
           },
           {
             "result": {
-              "duration": 296357,
+              "duration": 298968,
               "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)\n\tat ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)\n",
               "status": "failed"
             },
@@ -3904,7 +3904,7 @@
         "steps": [
           {
             "result": {
-              "duration": 434101,
+              "duration": 474463,
               "status": "passed"
             },
             "line": 4,
@@ -3916,7 +3916,7 @@
           },
           {
             "result": {
-              "duration": 1134974724,
+              "duration": 965646623,
               "status": "passed"
             },
             "line": 5,
@@ -3942,7 +3942,7 @@
           },
           {
             "result": {
-              "duration": 269000,
+              "duration": 275940,
               "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)\n\tat ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)\n",
               "status": "failed"
             },
@@ -3974,7 +3974,7 @@
         "steps": [
           {
             "result": {
-              "duration": 457786,
+              "duration": 463916,
               "status": "passed"
             },
             "line": 4,
@@ -3986,7 +3986,7 @@
           },
           {
             "result": {
-              "duration": 1119230165,
+              "duration": 1205236851,
               "status": "passed"
             },
             "line": 5,
@@ -4012,7 +4012,7 @@
           },
           {
             "result": {
-              "duration": 234842,
+              "duration": 277419,
               "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)\n\tat ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)\n",
               "status": "failed"
             },

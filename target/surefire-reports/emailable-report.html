@@ -9,35 +9,11 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">BDD Test Suite</th></tr>
-<tr><td><a href="#t0">FREE CRM Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">8</td><td class="num">25,962</td><td></td><td></td></tr>
+<tr><td><a href="#t0">JPMC Assesment Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">8</td><td class="num">25,165</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">BDD Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">FREE CRM Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="8">com.jpmc.digital.automation.myRunner.TestRunner</td><td><a href="#m0">feature</a></td><td rowspan="8">1654509116699</td><td rowspan="8">4279</td></tr><tr class="failedeven"><td><a href="#m1">feature</a></td></tr><tr class="failedeven"><td><a href="#m2">feature</a></td></tr><tr class="failedeven"><td><a href="#m3">feature</a></td></tr><tr class="failedeven"><td><a href="#m4">feature</a></td></tr><tr class="failedeven"><td><a href="#m5">feature</a></td></tr><tr class="failedeven"><td><a href="#m6">feature</a></td></tr><tr class="failedeven"><td><a href="#m7">feature</a></td></tr><tr><th colspan="4">FREE CRM Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.jpmc.digital.automation.myRunner.TestRunner</td><td><a href="#m8">feature</a></td><td rowspan="2">1654509116655</td><td rowspan="2">43</td></tr><tr class="passedeven"><td><a href="#m9">feature</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">BDD Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">JPMC Assesment Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="8">com.jpmc.digital.automation.myRunner.TestRunner</td><td><a href="#m0">feature</a></td><td rowspan="8">1654514522268</td><td rowspan="8">306</td></tr><tr class="failedeven"><td><a href="#m1">feature</a></td></tr><tr class="failedeven"><td><a href="#m2">feature</a></td></tr><tr class="failedeven"><td><a href="#m3">feature</a></td></tr><tr class="failedeven"><td><a href="#m4">feature</a></td></tr><tr class="failedeven"><td><a href="#m5">feature</a></td></tr><tr class="failedeven"><td><a href="#m6">feature</a></td></tr><tr class="failedeven"><td><a href="#m7">feature</a></td></tr><tr><th colspan="4">JPMC Assesment Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.jpmc.digital.automation.myRunner.TestRunner</td><td><a href="#m8">feature</a></td><td rowspan="2">1654514522736</td><td rowspan="2">56</td></tr><tr class="passedeven"><td><a href="#m9">feature</a></td></tr></tbody>
 </table>
-<h2>FREE CRM Test</h2><h3 id="m0">com.jpmc.digital.automation.myRunner.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Perform Patch operation on social networking site</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-Caused by: java.lang.AssertionError: expected [400] but found [200]
-	at com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)
-	at ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)
-... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.jpmc.digital.automation.myRunner.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Delete post from social network site</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [404] but found [200]
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-Caused by: java.lang.AssertionError: expected [404] but found [200]
-	at com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)
-	at ✽.Then Validate ResponseCode 404 and response data for Delete posts(DeletePosts.feature:6)
-... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.jpmc.digital.automation.myRunner.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Get Post details based on UserId</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [404] but found [200]
+<h2>JPMC Assesment Test</h2><h3 id="m0">com.jpmc.digital.automation.myRunner.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Get Post details based on UserId</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [404] but found [200]
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -49,7 +25,7 @@ Caused by: java.lang.AssertionError: expected [404] but found [200]
 	at com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_code_and_response_data(GetPostsBasedonUserId.java:37)
 	at ✽.Then Validate the response code 404 and response data(GetPostsBasedonUserId.feature:5)
 ... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.jpmc.digital.automation.myRunner.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Edit posts on social networking site</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
+<h3 id="m1">com.jpmc.digital.automation.myRunner.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Create posts with different type of combination</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [201]
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -57,11 +33,11 @@ Caused by: java.lang.AssertionError: expected [404] but found [200]
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-Caused by: java.lang.AssertionError: expected [400] but found [200]
-	at com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)
-	at ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)
+Caused by: java.lang.AssertionError: expected [400] but found [201]
+	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)
+	at ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)
 ... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.jpmc.digital.automation.myRunner.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Get List of comments based on postsId on social networking site</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
+<h3 id="m2">com.jpmc.digital.automation.myRunner.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Get List of comments based on userId on social networking site with different test data</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -70,8 +46,32 @@ Caused by: java.lang.AssertionError: expected [400] but found [200]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 Caused by: java.lang.AssertionError: expected [400] but found [200]
-	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)
-	at ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsbasedonPostId.feature:5)
+	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)
+	at ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedOnUserId.feature:5)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.jpmc.digital.automation.myRunner.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Perform Patch operation on social networking site</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.AssertionError: expected [400] but found [200]
+	at com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)
+	at ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.jpmc.digital.automation.myRunner.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Delete post from social network site</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [404] but found [200]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.AssertionError: expected [404] but found [200]
+	at com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)
+	at ✽.Then Validate ResponseCode 404 and response data for Delete posts(DeletePosts.feature:6)
 ... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m5">com.jpmc.digital.automation.myRunner.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Get all posts on social network site</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [406] but found [200]
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
@@ -85,19 +85,7 @@ Caused by: java.lang.AssertionError: expected [406] but found [200]
 	at com.jpmc.digital.automation.stepDefinitions.GetAllPosts.validate_the_response_code(GetAllPosts.java:75)
 	at ✽.Then Validate the response code 406(GetPosts.feature:12)
 ... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.jpmc.digital.automation.myRunner.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Create posts with different type of combination</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [201]
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-Caused by: java.lang.AssertionError: expected [400] but found [201]
-	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)
-	at ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)
-... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.jpmc.digital.automation.myRunner.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Get List of comments based on userId on social networking site with different test data</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
+<h3 id="m6">com.jpmc.digital.automation.myRunner.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Get List of comments based on postsId on social networking site</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -106,8 +94,20 @@ Caused by: java.lang.AssertionError: expected [400] but found [201]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 Caused by: java.lang.AssertionError: expected [400] but found [200]
-	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)
-	at ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedonUserId.feature:5)
+	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)
+	at ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsBasedOnPostId.feature:5)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.jpmc.digital.automation.myRunner.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Edit posts on social networking site</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.AssertionError: expected [400] but found [200]
+	at com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)
+	at ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)
 ... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m8">com.jpmc.digital.automation.myRunner.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Get Users</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m9">com.jpmc.digital.automation.myRunner.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Get Users based on Id</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>

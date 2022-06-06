@@ -21,12 +21,10 @@ public class TestBase  {
     public FileInputStream fis = null;
     public static String destFolderPath2 = null;
 
-
-
     public TestBase()
     {
       try{
-        String path=System.getProperty("user.dir")+"/src/main/java/com/jpmc/digital/automation/configuration/settings.properties";
+        String path=System.getProperty("user.dir")+"/src/main/resources/settings.properties";
         fis = new FileInputStream(path);
         prop = new Properties();
         prop.load(fis);
@@ -64,41 +62,4 @@ public class TestBase  {
 
         System.out.println("i am getting called-1");
     }
-
-
-/*
-    public void logintoApplication() throws AuthenticationException {
-
-        RestAssured.reset();
-        Session<?, RequestSpecification> session = null;
-
-        session = new RestAssuredAuthClient(getBaseUri()).authenticateViaPulsar(CREDENTIAL.getUsernameOrEmail(),
-            CREDENTIAL.getPassword());
-
-        final RequestSpecification requestWithSignature = session.sign(new RequestSpecBuilder().build());
-
-        RestAssured.requestSpecification =
-            new RequestSpecBuilder().addRequestSpecification(requestWithSignature).setBaseUri(getBaseUri())
-                .setRelaxedHTTPSValidation().build().accept(ContentType.JSON).contentType(ContentType.JSON);
-
-    }
-
-    public void logintoApplication(String s) throws AuthenticationException {
-
-        RestAssured.reset();
-        Session<?, RequestSpecification> session = null;
-
-        session = new RestAssuredAuthClient(getBaseUri(s)).authenticateViaPulsar(CREDENTIAL.getUsernameOrEmail(),
-            CREDENTIAL.getPassword());
-
-        final RequestSpecification requestWithSignature = session.sign(new RequestSpecBuilder().build());
-
-        RestAssured.requestSpecification =
-            new RequestSpecBuilder().addRequestSpecification(requestWithSignature).setBaseUri(getBaseUri(s))
-                .setRelaxedHTTPSValidation().build().accept(ContentType.JSON).contentType(ContentType.JSON);
-
-    }
-
-*/
-
 }

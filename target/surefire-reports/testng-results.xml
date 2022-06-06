@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="10" passed="2" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-06T15:21:35 IST" name="BDD Test Suite" finished-at="2022-06-06T15:22:01 IST" duration-ms="25962">
+  <suite started-at="2022-06-06T16:51:41 IST" name="BDD Test Suite" finished-at="2022-06-06T16:52:07 IST" duration-ms="25165">
     <groups>
       <group name="cucumber">
         <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" name="feature" class="com.jpmc.digital.automation.myRunner.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-06-06T15:21:35 IST" name="FREE CRM Test" finished-at="2022-06-06T15:22:01 IST" duration-ms="25962">
+    <test started-at="2022-06-06T16:51:41 IST" name="JPMC Assesment Test" finished-at="2022-06-06T16:52:07 IST" duration-ms="25165">
       <class name="com.jpmc.digital.automation.myRunner.TestRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T15:21:35 IST" name="setUpClass" finished-at="2022-06-06T15:21:35 IST" duration-ms="137" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:51:41 IST" name="setUpClass" finished-at="2022-06-06T16:51:42 IST" duration-ms="131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T15:21:35 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T15:21:44 IST" duration-ms="9635" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:51:42 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:51:51 IST" duration-ms="9247" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@ at ✽.Then Validate return api response code 400 and ResponseData for each attr
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T15:21:44 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T15:21:47 IST" duration-ms="2658" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:51:51 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:51:54 IST" duration-ms="2861" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@ at ✽.Then Validate ResponseCode 404 and response data for Delete posts(DeleteP
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T15:21:47 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T15:21:55 IST" duration-ms="7968" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:51:54 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:52:01 IST" duration-ms="7372" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -173,60 +173,7 @@ at ✽.Then Validate api response code 400 and ResponseData different attributes
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T15:21:55 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T15:21:55 IST" duration-ms="251" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Get List of comments based on userId on social networking site with different test data]]>
-              </value>
-            </param>
-          </params>
-          <exception class="cucumber.runtime.CucumberException">
-            <message>
-              <![CDATA[java.lang.AssertionError: expected [400] but found [200]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
-at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:829)
-Caused by: java.lang.AssertionError: expected [400] but found [200]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:1240)
-at org.testng.Assert.assertEquals(Assert.java:1274)
-at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)
-at ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedonUserId.feature:5)
-]]>
-            </full-stacktrace>
-          </exception> <!-- cucumber.runtime.CucumberException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T15:21:55 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T15:21:55 IST" duration-ms="200" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:52:01 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:52:01 IST" duration-ms="229" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -272,14 +219,67 @@ at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:1240)
 at org.testng.Assert.assertEquals(Assert.java:1274)
 at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)
-at ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsbasedonPostId.feature:5)
+at ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsBasedOnPostId.feature:5)
 ]]>
             </full-stacktrace>
           </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T15:21:55 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T15:21:56 IST" duration-ms="275" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:52:01 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:52:02 IST" duration-ms="255" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Get List of comments based on userId on social networking site with different test data]]>
+              </value>
+            </param>
+          </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[java.lang.AssertionError: expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
+at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.AssertionError: expected [400] but found [200]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1240)
+at org.testng.Assert.assertEquals(Assert.java:1274)
+at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)
+at ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedOnUserId.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:52:02 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:52:02 IST" duration-ms="175" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -332,7 +332,7 @@ at ✽.Then Validate the response code 406(GetPosts.feature:12)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T15:21:56 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T15:21:56 IST" duration-ms="267" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:52:02 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:52:02 IST" duration-ms="306" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -385,7 +385,7 @@ at ✽.Then Validate the response code 404 and response data(GetPostsBasedonUser
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T15:21:56 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T15:21:56 IST" duration-ms="124" status="PASS">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:52:02 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:52:02 IST" duration-ms="160" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -396,7 +396,7 @@ at ✽.Then Validate the response code 404 and response data(GetPostsBasedonUser
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T15:21:56 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T15:21:56 IST" duration-ms="43" status="PASS">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:52:02 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:52:02 IST" duration-ms="56" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -407,7 +407,7 @@ at ✽.Then Validate the response code 404 and response data(GetPostsBasedonUser
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T15:21:56 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T15:22:00 IST" duration-ms="4279" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:52:02 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:52:07 IST" duration-ms="4242" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -460,11 +460,11 @@ at ✽.Then Validate response code 400 and Response Data for each attribute(Patc
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T15:22:00 IST" name="tearDownClass" finished-at="2022-06-06T15:22:01 IST" duration-ms="25" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:52:07 IST" name="tearDownClass" finished-at="2022-06-06T16:52:07 IST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.jpmc.digital.automation.myRunner.TestRunner -->
-    </test> <!-- FREE CRM Test -->
+    </test> <!-- JPMC Assesment Test -->
   </suite> <!-- BDD Test Suite -->
 </testng-results>

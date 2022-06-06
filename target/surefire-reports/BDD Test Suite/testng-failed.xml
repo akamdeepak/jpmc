@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite configfailurepolicy="continue" thread-count="1" parallel="tests" name="Failed suite [BDD Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="1" parallel="tests" name="FREE CRM Test(failed)" verbose="0">
+  <test thread-count="1" parallel="tests" name="JPMC Assesment Test(failed)" verbose="0">
     <classes>
       <class name="com.jpmc.digital.automation.myRunner.TestRunner">
         <methods>
@@ -11,5 +11,5 @@
         </methods>
       </class> <!-- com.jpmc.digital.automation.myRunner.TestRunner -->
     </classes>
-  </test> <!-- FREE CRM Test(failed) -->
+  </test> <!-- JPMC Assesment Test(failed) -->
 </suite> <!-- Failed suite [BDD Test Suite] -->
