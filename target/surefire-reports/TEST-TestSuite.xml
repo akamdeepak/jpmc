@@ -1,0 +1,2162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="26.42" tests="10" errors="0" skipped="0" failures="8">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/deekumar/Documents/stash/jpmc/target/test-classes:/Users/deekumar/Documents/stash/jpmc/target/classes:/Users/deekumar/.m2/repository/org/testng/testng/7.6.0/testng-7.6.0.jar:/Users/deekumar/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/deekumar/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/deekumar/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/deekumar/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/deekumar/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/deekumar/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/deekumar/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/deekumar/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/deekumar/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/deekumar/.m2/repository/io/cucumber/cucumber-jvm-deps/1.0.6/cucumber-jvm-deps-1.0.6.jar:/Users/deekumar/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/Users/deekumar/.m2/repository/net/masterthought/cucumber-reporting/5.7.1/cucumber-reporting-5.7.1.jar:/Users/deekumar/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar:/Users/deekumar/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/deekumar/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/deekumar/.m2/repository/joda-time/joda-time/2.10.14/joda-time-2.10.14.jar:/Users/deekumar/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/deekumar/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/deekumar/.m2/repository/org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.jar:/Users/deekumar/.m2/repository/org/jsoup/jsoup/1.15.1/jsoup-1.15.1.jar:/Users/deekumar/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/deekumar/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/deekumar/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/deekumar/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/deekumar/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/deekumar/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/deekumar/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2.jar:/Users/deekumar/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/deekumar/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/deekumar/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/deekumar/.m2/repository/io/rest-assured/rest-assured/5.1.0/rest-assured-5.1.0.jar:/Users/deekumar/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/deekumar/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/deekumar/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/deekumar/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/deekumar/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/deekumar/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/deekumar/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/deekumar/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/deekumar/.m2/repository/io/rest-assured/json-path/5.1.0/json-path-5.1.0.jar:/Users/deekumar/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/deekumar/.m2/repository/io/rest-assured/rest-assured-common/5.1.0/rest-assured-common-5.1.0.jar:/Users/deekumar/.m2/repository/io/rest-assured/xml-path/5.1.0/xml-path-5.1.0.jar:/Users/deekumar/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/deekumar/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.3/jackson-datatype-jdk8-2.13.3.jar:/Users/deekumar/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/deekumar/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.13.3/jackson-jaxrs-json-provider-2.13.3.jar:/Users/deekumar/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.13.3/jackson-jaxrs-base-2.13.3.jar:/Users/deekumar/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.13.3/jackson-module-jaxb-annotations-2.13.3.jar:/Users/deekumar/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/deekumar/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/deekumar/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/Users/deekumar/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/deekumar/.m2/repository/org/json/json/20220320/json-20220320.jar:"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/deekumar/Documents/stash/jpmc/target/surefire/surefirebooter14088752306140548793.jar /Users/deekumar/Documents/stash/jpmc/target/surefire 2022-06-06T15-21-34_203-jvmRun1 surefire15149316664120090233tmp surefire_02608339105405365153tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/deekumar/Documents/stash/jpmc/target/test-classes:/Users/deekumar/Documents/stash/jpmc/target/classes:/Users/deekumar/.m2/repository/org/testng/testng/7.6.0/testng-7.6.0.jar:/Users/deekumar/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/deekumar/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/deekumar/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/deekumar/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/deekumar/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/deekumar/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/deekumar/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/deekumar/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/deekumar/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/deekumar/.m2/repository/io/cucumber/cucumber-jvm-deps/1.0.6/cucumber-jvm-deps-1.0.6.jar:/Users/deekumar/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/Users/deekumar/.m2/repository/net/masterthought/cucumber-reporting/5.7.1/cucumber-reporting-5.7.1.jar:/Users/deekumar/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar:/Users/deekumar/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/deekumar/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/deekumar/.m2/repository/joda-time/joda-time/2.10.14/joda-time-2.10.14.jar:/Users/deekumar/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/deekumar/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/deekumar/.m2/repository/org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.jar:/Users/deekumar/.m2/repository/org/jsoup/jsoup/1.15.1/jsoup-1.15.1.jar:/Users/deekumar/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/deekumar/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/deekumar/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/deekumar/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/deekumar/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/deekumar/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/deekumar/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2.jar:/Users/deekumar/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/deekumar/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/deekumar/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/deekumar/.m2/repository/io/rest-assured/rest-assured/5.1.0/rest-assured-5.1.0.jar:/Users/deekumar/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/deekumar/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/deekumar/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/deekumar/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/deekumar/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/deekumar/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/deekumar/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/deekumar/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/deekumar/.m2/repository/io/rest-assured/json-path/5.1.0/json-path-5.1.0.jar:/Users/deekumar/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/deekumar/.m2/repository/io/rest-assured/rest-assured-common/5.1.0/rest-assured-common-5.1.0.jar:/Users/deekumar/.m2/repository/io/rest-assured/xml-path/5.1.0/xml-path-5.1.0.jar:/Users/deekumar/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/deekumar/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.3/jackson-datatype-jdk8-2.13.3.jar:/Users/deekumar/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/deekumar/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.13.3/jackson-jaxrs-json-provider-2.13.3.jar:/Users/deekumar/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.13.3/jackson-jaxrs-base-2.13.3.jar:/Users/deekumar/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.13.3/jackson-module-jaxb-annotations-2.13.3.jar:/Users/deekumar/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/deekumar/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/deekumar/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/Users/deekumar/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/deekumar/.m2/repository/org/json/json/20220320/json-20220320.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/deekumar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/deekumar/Documents/stash/jpmc"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/deekumar/Documents/stash/jpmc/target/surefire/surefirebooter14088752306140548793.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.11+9"/>
+    <property name="user.name" value="deekumar"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK-11.0.11+9"/>
+    <property name="localRepository" value="/Users/deekumar/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/gm/r_rpt1h96wz3sv702zwdvppc0000gq/T/"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="/Users/deekumar/Documents/stash/jpmc"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/deekumar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="11.0.11+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="feature[Create posts with different type of combination](1)" classname="com.jpmc.digital.automation.myRunner.TestRunner" time="9.641">
+    <failure message="java.lang.AssertionError: expected [400] but found [201]" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [201]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.AssertionError: expected [400] but found [201]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)
+	at ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)
+]]></failure>
+    <system-out><![CDATA[Feature: Create posts with different type of combination
+
+  Scenario Outline: Create posts on social network site with different test data                                          &amp#27;[90m# CreatePosts.feature:3&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mCreate Posts API is up and Running on the server&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser perform a post api call to create a new post on the social network site using <title>, <body>,<UserId> data&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mValidate return api response code <ResponseCode> and ResponseData for each attribute&amp#27;[0m
+
+    Examples: 
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is world war",
+    "body": "quo et expedita modi cum officia vel magni\ndoloribus qui",
+    "userId": "1"
+}
+
+  Scenario Outline: Create posts on social network site with different test data                                                                                                     &amp#27;[90m# CreatePosts.feature:9&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCreate Posts API is up and Running on the server&amp#27;[0m                                                                                                                           &amp#27;[90m# CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a post api call to create a new post on the social network site using "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is world war&amp#27;[0m&amp#27;[32m", "&amp#27;[0m&amp#27;[32m&amp#27;[1mquo et expedita modi cum officia vel magni
+doloribus qui&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m" data&amp#27;[0m &amp#27;[90m# CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate return api response code &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m&amp#27;[32m and ResponseData for each attribute&amp#27;[0m                                                                                                   &amp#27;[90m# CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)&amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is world war",
+    "body": "quo et expedita modi cum officia vel magni\ndoloribus qui",
+    "userId": "0"
+}
+
+  Scenario Outline: Create posts on social network site with different test data                                                                                                     &amp#27;[90m# CreatePosts.feature:10&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCreate Posts API is up and Running on the server&amp#27;[0m                                                                                                                           &amp#27;[90m# CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a post api call to create a new post on the social network site using "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is world war&amp#27;[0m&amp#27;[32m", "&amp#27;[0m&amp#27;[32m&amp#27;[1mquo et expedita modi cum officia vel magni
+doloribus qui&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m" data&amp#27;[0m &amp#27;[90m# CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate return api response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and ResponseData for each attribute&amp#27;[0m                                                                                                   &amp#27;[90m# CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [201]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)
+      	at ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)
+      &amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is world war",
+    "body": "quo et expedita modi cum officia vel magni\ndoloribus qui",
+    "userId": "123456876545678"
+}
+
+  Scenario Outline: Create posts on social network site with different test data                                                                                                                   &amp#27;[90m# CreatePosts.feature:11&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCreate Posts API is up and Running on the server&amp#27;[0m                                                                                                                                         &amp#27;[90m# CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a post api call to create a new post on the social network site using "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is world war&amp#27;[0m&amp#27;[32m", "&amp#27;[0m&amp#27;[32m&amp#27;[1mquo et expedita modi cum officia vel magni
+doloribus qui&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m123456876545678&amp#27;[0m&amp#27;[32m" data&amp#27;[0m &amp#27;[90m# CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate return api response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and ResponseData for each attribute&amp#27;[0m                                                                                                                 &amp#27;[90m# CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [201]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)
+      	at ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)
+      &amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "",
+    "body": "quo et expedita modi cum officia vel magni\ndoloribus qui",
+    "userId": "1"
+}
+
+  Scenario Outline: Create posts on social network site with different test data                                                                                    &amp#27;[90m# CreatePosts.feature:12&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCreate Posts API is up and Running on the server&amp#27;[0m                                                                                                          &amp#27;[90m# CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a post api call to create a new post on the social network site using "&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m", "&amp#27;[0m&amp#27;[32m&amp#27;[1mquo et expedita modi cum officia vel magni
+doloribus qui&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m" data&amp#27;[0m &amp#27;[90m# CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate return api response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and ResponseData for each attribute&amp#27;[0m                                                                                  &amp#27;[90m# CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [201]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)
+      	at ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)
+      &amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is world war",
+    "body": "",
+    "userId": "1"
+}
+
+  Scenario Outline: Create posts on social network site with different test data                                             &amp#27;[90m# CreatePosts.feature:13&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCreate Posts API is up and Running on the server&amp#27;[0m                                                                   &amp#27;[90m# CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a post api call to create a new post on the social network site using "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is world war&amp#27;[0m&amp#27;[32m", "&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m" data&amp#27;[0m &amp#27;[90m# CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate return api response code &amp#27;[0m&amp#27;[31m&amp#27;[1m200&amp#27;[0m&amp#27;[31m and ResponseData for each attribute&amp#27;[0m                                           &amp#27;[90m# CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [200] but found [201]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)
+      	at ✽.Then Validate return api response code 200 and ResponseData for each attribute(CreatePosts.feature:6)
+      &amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is world war",
+    "body": "quo et expedita modi cum officia vel magni\ndoloribus qui",
+    "userId": ""
+}
+
+  Scenario Outline: Create posts on social network site with different test data                                                                                                    &amp#27;[90m# CreatePosts.feature:14&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCreate Posts API is up and Running on the server&amp#27;[0m                                                                                                                          &amp#27;[90m# CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a post api call to create a new post on the social network site using "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is world war&amp#27;[0m&amp#27;[32m", "&amp#27;[0m&amp#27;[32m&amp#27;[1mquo et expedita modi cum officia vel magni
+doloribus qui&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m" data&amp#27;[0m &amp#27;[90m# CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate return api response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and ResponseData for each attribute&amp#27;[0m                                                                                                  &amp#27;[90m# CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [201]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)
+      	at ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)
+      &amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "",
+    "body": "quo et expedita modi cum officia vel magni\ndoloribus qui",
+    "userId": ""
+}
+
+  Scenario Outline: Create posts on social network site with different test data                                                                                   &amp#27;[90m# CreatePosts.feature:15&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCreate Posts API is up and Running on the server&amp#27;[0m                                                                                                         &amp#27;[90m# CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a post api call to create a new post on the social network site using "&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m", "&amp#27;[0m&amp#27;[32m&amp#27;[1mquo et expedita modi cum officia vel magni
+doloribus qui&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m" data&amp#27;[0m &amp#27;[90m# CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate return api response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and ResponseData for each attribute&amp#27;[0m                                                                                 &amp#27;[90m# CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [201]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)
+      	at ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)
+      &amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "",
+    "body": "",
+    "userId": ""
+}
+
+  Scenario Outline: Create posts on social network site with different test data                           &amp#27;[90m# CreatePosts.feature:16&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCreate Posts API is up and Running on the server&amp#27;[0m                                                 &amp#27;[90m# CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a post api call to create a new post on the social network site using "&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m", "&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m" data&amp#27;[0m &amp#27;[90m# CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate return api response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and ResponseData for each attribute&amp#27;[0m                         &amp#27;[90m# CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [201]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)
+      	at ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)
+      &amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is world war",
+    "body": "quo et expedita modi cum officia vel magni\ndoloribus qui",
+    "userId": "1123456789876543287652345678"
+}
+
+  Scenario Outline: Create posts on social network site with different test data                                                                                                                                &amp#27;[90m# CreatePosts.feature:17&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCreate Posts API is up and Running on the server&amp#27;[0m                                                                                                                                                      &amp#27;[90m# CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a post api call to create a new post on the social network site using "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is world war&amp#27;[0m&amp#27;[32m", "&amp#27;[0m&amp#27;[32m&amp#27;[1mquo et expedita modi cum officia vel magni
+doloribus qui&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m1123456789876543287652345678&amp#27;[0m&amp#27;[32m" data&amp#27;[0m &amp#27;[90m# CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate return api response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and ResponseData for each attribute&amp#27;[0m                                                                                                                              &amp#27;[90m# CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [201]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)
+      	at ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)
+      &amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "AAAAAAAAAAAAAAAAAAA",
+    "body": "quo et expedita modi cum officia vel magni\ndoloribus qui",
+    "userId": "1"
+}
+
+  Scenario Outline: Create posts on social network site with different test data                                                                                                       &amp#27;[90m# CreatePosts.feature:18&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCreate Posts API is up and Running on the server&amp#27;[0m                                                                                                                             &amp#27;[90m# CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a post api call to create a new post on the social network site using "&amp#27;[0m&amp#27;[32m&amp#27;[1mAAAAAAAAAAAAAAAAAAA&amp#27;[0m&amp#27;[32m", "&amp#27;[0m&amp#27;[32m&amp#27;[1mquo et expedita modi cum officia vel magni
+doloribus qui&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m" data&amp#27;[0m &amp#27;[90m# CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate return api response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and ResponseData for each attribute&amp#27;[0m                                                                                                     &amp#27;[90m# CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [201]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)
+      	at ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)
+      &amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is world war",
+    "body": "AAAAAAAAAAAAAAAAAAAAAAAAWQERTYUIOUYTRERTYUIOUYTREWRTYUIOUYTREWRTYUIOIUYTRERTYUIOPIUYTRERTYUIOIUYTRERTYUIOIUYTRERTYUIOUYTRESDFGHJKHGFDSADFGHJKHGFDSADFGHJKHGFDSADFGHJKHGFDSADFGHJKHGFDSADFGHJKHGFDS",
+    "userId": "1"
+}
+
+  Scenario Outline: Create posts on social network site with different test data                                                                                                                                                                                                                                               &amp#27;[90m# CreatePosts.feature:19&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCreate Posts API is up and Running on the server&amp#27;[0m                                                                                                                                                                                                                                                                     &amp#27;[90m# CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a post api call to create a new post on the social network site using "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is world war&amp#27;[0m&amp#27;[32m", "&amp#27;[0m&amp#27;[32m&amp#27;[1mAAAAAAAAAAAAAAAAAAAAAAAAWQERTYUIOUYTRERTYUIOUYTREWRTYUIOUYTREWRTYUIOIUYTRERTYUIOPIUYTRERTYUIOIUYTRERTYUIOIUYTRERTYUIOUYTRESDFGHJKHGFDSADFGHJKHGFDSADFGHJKHGFDSADFGHJKHGFDSADFGHJKHGFDSADFGHJKHGFDS&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m" data&amp#27;[0m &amp#27;[90m# CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate return api response code &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m&amp#27;[32m and ResponseData for each attribute&amp#27;[0m                                                                                                                                                                                                                                             &amp#27;[90m# CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)&amp#27;[0m
+
+  Scenario Outline: Create posts on social network site with different acceptType    &amp#27;[90m# CreatePosts.feature:23&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mSet request specification <accept> for create posts on social Network site&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mhit the web services endpoint "posts" for Posts&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mValidate response codes <ResponseCode> and response data&amp#27;[0m
+
+    Examples: 
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is title",
+    "body": "this is body",
+    "userId": "1"
+}
+
+  Scenario Outline: Create posts on social network site with different acceptType              &amp#27;[90m# CreatePosts.feature:29&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mSet request specification "&amp#27;[0m&amp#27;[32m&amp#27;[1mapplication/json&amp#27;[0m&amp#27;[32m" for create posts on social Network site&amp#27;[0m &amp#27;[90m# CreatePosts.set_request_specification_for_create_posts_on_social_Network_site(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the web services endpoint "&amp#27;[0m&amp#27;[32m&amp#27;[1mposts&amp#27;[0m&amp#27;[32m" for Posts&amp#27;[0m                                       &amp#27;[90m# CreatePosts.hit_the_web_services_endpoint_for_Posts(String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate response codes &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m&amp#27;[32m and response data&amp#27;[0m                                         &amp#27;[90m# CreatePosts.validate_response_codes_and_response_data(int)&amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/xml
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is title",
+    "body": "this is body",
+    "userId": "1"
+}
+
+  Scenario Outline: Create posts on social network site with different acceptType             &amp#27;[90m# CreatePosts.feature:30&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mSet request specification "&amp#27;[0m&amp#27;[32m&amp#27;[1mapplication/xml&amp#27;[0m&amp#27;[32m" for create posts on social Network site&amp#27;[0m &amp#27;[90m# CreatePosts.set_request_specification_for_create_posts_on_social_Network_site(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the web services endpoint "&amp#27;[0m&amp#27;[32m&amp#27;[1mposts&amp#27;[0m&amp#27;[32m" for Posts&amp#27;[0m                                      &amp#27;[90m# CreatePosts.hit_the_web_services_endpoint_for_Posts(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate response codes &amp#27;[0m&amp#27;[31m&amp#27;[1m406&amp#27;[0m&amp#27;[31m and response data&amp#27;[0m                                        &amp#27;[90m# CreatePosts.validate_response_codes_and_response_data(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [406] but found [201]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_response_codes_and_response_data(CreatePosts.java:76)
+      	at ✽.Then Validate response codes 406 and response data(CreatePosts.feature:26)
+      &amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=xxxxxxxxxxxx
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is title",
+    "body": "this is body",
+    "userId": "1"
+}
+
+  Scenario Outline: Create posts on social network site with different acceptType          &amp#27;[90m# CreatePosts.feature:31&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mSet request specification "&amp#27;[0m&amp#27;[32m&amp#27;[1mxxxxxxxxxxxx&amp#27;[0m&amp#27;[32m" for create posts on social Network site&amp#27;[0m &amp#27;[90m# CreatePosts.set_request_specification_for_create_posts_on_social_Network_site(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the web services endpoint "&amp#27;[0m&amp#27;[32m&amp#27;[1mposts&amp#27;[0m&amp#27;[32m" for Posts&amp#27;[0m                                   &amp#27;[90m# CreatePosts.hit_the_web_services_endpoint_for_Posts(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate response codes &amp#27;[0m&amp#27;[31m&amp#27;[1m406&amp#27;[0m&amp#27;[31m and response data&amp#27;[0m                                     &amp#27;[90m# CreatePosts.validate_response_codes_and_response_data(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [406] but found [201]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_response_codes_and_response_data(CreatePosts.java:76)
+      	at ✽.Then Validate response codes 406 and response data(CreatePosts.feature:26)
+      &amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is title",
+    "body": "this is body",
+    "userId": "1"
+}
+
+  Scenario Outline: Create posts on social network site with different acceptType &amp#27;[90m# CreatePosts.feature:32&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mSet request specification "&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m" for create posts on social Network site&amp#27;[0m    &amp#27;[90m# CreatePosts.set_request_specification_for_create_posts_on_social_Network_site(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the web services endpoint "&amp#27;[0m&amp#27;[32m&amp#27;[1mposts&amp#27;[0m&amp#27;[32m" for Posts&amp#27;[0m                          &amp#27;[90m# CreatePosts.hit_the_web_services_endpoint_for_Posts(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate response codes &amp#27;[0m&amp#27;[31m&amp#27;[1m406&amp#27;[0m&amp#27;[31m and response data&amp#27;[0m                            &amp#27;[90m# CreatePosts.validate_response_codes_and_response_data(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [406] but found [201]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_response_codes_and_response_data(CreatePosts.java:76)
+      	at ✽.Then Validate response codes 406 and response data(CreatePosts.feature:26)
+      &amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.BasicClientConnectionManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+  </testcase>
+  <testcase name="feature[Delete post from social network site](2)" classname="com.jpmc.digital.automation.myRunner.TestRunner" time="2.708">
+    <failure message="java.lang.AssertionError: expected [404] but found [200]" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [404] but found [200]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.AssertionError: expected [404] but found [200]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)
+	at ✽.Then Validate ResponseCode 404 and response data for Delete posts(DeletePosts.feature:6)
+]]></failure>
+    <system-out><![CDATA[Feature: Delete post from social network site
+
+  Scenario Outline: Delete post from social network site using different test data                                &amp#27;[90m# DeletePosts.feature:3&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mDelete Posts API is up and Running on the server&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser perform a delete api call to delete post from social network site with different test data <UserId>&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mValidate ResponseCode <ResponseCode> and response data for Delete posts&amp#27;[0m
+
+    Examples: 
+Request method:	DELETE
+Request URI:	https://jsonplaceholder.typicode.com/posts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Delete post from social network site using different test data                           &amp#27;[90m# DeletePosts.feature:9&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mDelete Posts API is up and Running on the server&amp#27;[0m                                                   &amp#27;[90m# DeletePosts.delete_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a delete api call to delete post from social network site with different test data "&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# DeletePosts.user_perform_a_delete_api_call_to_delete_post_from_social_network_site_with_different_test_data(String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate ResponseCode &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m and response data for Delete posts&amp#27;[0m                                        &amp#27;[90m# DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(int)&amp#27;[0m
+Request method:	DELETE
+Request URI:	https://jsonplaceholder.typicode.com/posts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Delete post from social network site using different test data                           &amp#27;[90m# DeletePosts.feature:10&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mDelete Posts API is up and Running on the server&amp#27;[0m                                                   &amp#27;[90m# DeletePosts.delete_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a delete api call to delete post from social network site with different test data "&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# DeletePosts.user_perform_a_delete_api_call_to_delete_post_from_social_network_site_with_different_test_data(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate ResponseCode &amp#27;[0m&amp#27;[31m&amp#27;[1m404&amp#27;[0m&amp#27;[31m and response data for Delete posts&amp#27;[0m                                        &amp#27;[90m# DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [404] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)
+      	at ✽.Then Validate ResponseCode 404 and response data for Delete posts(DeletePosts.feature:6)
+      &amp#27;[0m
+Request method:	DELETE
+Request URI:	https://jsonplaceholder.typicode.com/posts/100000000000
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Delete post from social network site using different test data                                      &amp#27;[90m# DeletePosts.feature:11&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mDelete Posts API is up and Running on the server&amp#27;[0m                                                              &amp#27;[90m# DeletePosts.delete_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a delete api call to delete post from social network site with different test data "&amp#27;[0m&amp#27;[32m&amp#27;[1m100000000000&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# DeletePosts.user_perform_a_delete_api_call_to_delete_post_from_social_network_site_with_different_test_data(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate ResponseCode &amp#27;[0m&amp#27;[31m&amp#27;[1m404&amp#27;[0m&amp#27;[31m and response data for Delete posts&amp#27;[0m                                                   &amp#27;[90m# DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [404] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)
+      	at ✽.Then Validate ResponseCode 404 and response data for Delete posts(DeletePosts.feature:6)
+      &amp#27;[0m
+Request method:	DELETE
+Request URI:	https://jsonplaceholder.typicode.com/posts/xxxxxxx
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Delete post from social network site using different test data                                 &amp#27;[90m# DeletePosts.feature:12&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mDelete Posts API is up and Running on the server&amp#27;[0m                                                         &amp#27;[90m# DeletePosts.delete_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a delete api call to delete post from social network site with different test data "&amp#27;[0m&amp#27;[32m&amp#27;[1mxxxxxxx&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# DeletePosts.user_perform_a_delete_api_call_to_delete_post_from_social_network_site_with_different_test_data(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate ResponseCode &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and response data for Delete posts&amp#27;[0m                                              &amp#27;[90m# DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)
+      	at ✽.Then Validate ResponseCode 400 and response data for Delete posts(DeletePosts.feature:6)
+      &amp#27;[0m
+Request method:	DELETE
+Request URI:	https://jsonplaceholder.typicode.com/posts/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Delete post from social network site using different test data                          &amp#27;[90m# DeletePosts.feature:13&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mDelete Posts API is up and Running on the server&amp#27;[0m                                                  &amp#27;[90m# DeletePosts.delete_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a delete api call to delete post from social network site with different test data "&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# DeletePosts.user_perform_a_delete_api_call_to_delete_post_from_social_network_site_with_different_test_data(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate ResponseCode &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and response data for Delete posts&amp#27;[0m                                       &amp#27;[90m# DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [404]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)
+      	at ✽.Then Validate ResponseCode 400 and response data for Delete posts(DeletePosts.feature:6)
+      &amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature[Edit posts on social networking site](3)" classname="com.jpmc.digital.automation.myRunner.TestRunner" time="7.918">
+    <failure message="java.lang.AssertionError: expected [400] but found [200]" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.AssertionError: expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)
+	at ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)
+]]></failure>
+    <system-out><![CDATA[Feature: Edit posts on social networking site
+
+  Scenario Outline: Edit posts on social networking site using different test data                                            &amp#27;[90m# EditPosts.feature:3&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mEdit Posts API is up and Running on the server&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser perform a put api call to edit social post on networking site using different <title>, <body>,<UserId> data set&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mValidate api response code <ResponseCode> and ResponseData different attributes&amp#27;[0m
+
+    Examples: 
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is title",
+    "body": "this is body",
+    "userId": "1"
+}
+Request method:	PUT
+Request URI:	https://jsonplaceholder.typicode.com/posts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is world war",
+    "body": "This is text body",
+    "userId": "1",
+    "id": "101"
+}
+
+  Scenario Outline: Edit posts on social networking site using different test data                                                                &amp#27;[90m# EditPosts.feature:9&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mEdit Posts API is up and Running on the server&amp#27;[0m                                                                                          &amp#27;[90m# EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a put api call to edit social post on networking site using different "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is world war&amp#27;[0m&amp#27;[32m", "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is text body&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m" data set&amp#27;[0m &amp#27;[90m# EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate api response code &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m and ResponseData different attributes&amp#27;[0m                                                                     &amp#27;[90m# EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)&amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is title",
+    "body": "this is body",
+    "userId": "1"
+}
+Request method:	PUT
+Request URI:	https://jsonplaceholder.typicode.com/posts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "",
+    "body": "This is text body",
+    "userId": "1",
+    "id": "101"
+}
+
+  Scenario Outline: Edit posts on social networking site using different test data                                               &amp#27;[90m# EditPosts.feature:10&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mEdit Posts API is up and Running on the server&amp#27;[0m                                                                         &amp#27;[90m# EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a put api call to edit social post on networking site using different "&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m", "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is text body&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m" data set&amp#27;[0m &amp#27;[90m# EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate api response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and ResponseData different attributes&amp#27;[0m                                                    &amp#27;[90m# EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)
+      	at ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)
+      &amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is title",
+    "body": "this is body",
+    "userId": "1"
+}
+Request method:	PUT
+Request URI:	https://jsonplaceholder.typicode.com/posts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is world war",
+    "body": "",
+    "userId": "1",
+    "id": "101"
+}
+
+  Scenario Outline: Edit posts on social networking site using different test data                                               &amp#27;[90m# EditPosts.feature:11&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mEdit Posts API is up and Running on the server&amp#27;[0m                                                                         &amp#27;[90m# EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a put api call to edit social post on networking site using different "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is world war&amp#27;[0m&amp#27;[32m", "&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m" data set&amp#27;[0m &amp#27;[90m# EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate api response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and ResponseData different attributes&amp#27;[0m                                                    &amp#27;[90m# EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)
+      	at ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)
+      &amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is title",
+    "body": "this is body",
+    "userId": "1"
+}
+Request method:	PUT
+Request URI:	https://jsonplaceholder.typicode.com/posts/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is world war",
+    "body": "This is text body",
+    "userId": "",
+    "id": "101"
+}
+
+  Scenario Outline: Edit posts on social networking site using different test data                                                               &amp#27;[90m# EditPosts.feature:12&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mEdit Posts API is up and Running on the server&amp#27;[0m                                                                                         &amp#27;[90m# EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a put api call to edit social post on networking site using different "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is world war&amp#27;[0m&amp#27;[32m", "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is text body&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m" data set&amp#27;[0m &amp#27;[90m# EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate api response code &amp#27;[0m&amp#27;[32m&amp#27;[1m404&amp#27;[0m&amp#27;[32m and ResponseData different attributes&amp#27;[0m                                                                    &amp#27;[90m# EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)&amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is title",
+    "body": "this is body",
+    "userId": "1"
+}
+Request method:	PUT
+Request URI:	https://jsonplaceholder.typicode.com/posts/23456756
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is world war",
+    "body": "This is text body",
+    "userId": "23456756",
+    "id": "101"
+}
+
+  Scenario Outline: Edit posts on social networking site using different test data                                                                       &amp#27;[90m# EditPosts.feature:13&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mEdit Posts API is up and Running on the server&amp#27;[0m                                                                                                 &amp#27;[90m# EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a put api call to edit social post on networking site using different "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is world war&amp#27;[0m&amp#27;[32m", "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is text body&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m23456756&amp#27;[0m&amp#27;[32m" data set&amp#27;[0m &amp#27;[90m# EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate api response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and ResponseData different attributes&amp#27;[0m                                                                            &amp#27;[90m# EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [500]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)
+      	at ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)
+      &amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is title",
+    "body": "this is body",
+    "userId": "1"
+}
+Request method:	PUT
+Request URI:	https://jsonplaceholder.typicode.com/posts/abc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is world war",
+    "body": "This is text body",
+    "userId": "abc",
+    "id": "101"
+}
+
+  Scenario Outline: Edit posts on social networking site using different test data                                                                  &amp#27;[90m# EditPosts.feature:14&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mEdit Posts API is up and Running on the server&amp#27;[0m                                                                                            &amp#27;[90m# EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a put api call to edit social post on networking site using different "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is world war&amp#27;[0m&amp#27;[32m", "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is text body&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1mabc&amp#27;[0m&amp#27;[32m" data set&amp#27;[0m &amp#27;[90m# EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate api response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and ResponseData different attributes&amp#27;[0m                                                                       &amp#27;[90m# EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [500]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)
+      	at ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)
+      &amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is title",
+    "body": "this is body",
+    "userId": "1"
+}
+Request method:	PUT
+Request URI:	https://jsonplaceholder.typicode.com/posts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "wqertyuiouytrewrtyuiouytrewrtyuiouytrertyuiouytrewrtyuiouytrertyuiopiuytrewrtyuiopiuytrertyuiopiuytrewrtyuiouytrewrtyuiouytrertyuiouytsdfghjkgfdsdfghjklhgfdsdfghjkljhgfdsre",
+    "body": "This is text body",
+    "userId": "1",
+    "id": "101"
+}
+
+  Scenario Outline: Edit posts on social networking site using different test data                                                                                                                                                                                                                           &amp#27;[90m# EditPosts.feature:15&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mEdit Posts API is up and Running on the server&amp#27;[0m                                                                                                                                                                                                                                                     &amp#27;[90m# EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a put api call to edit social post on networking site using different "&amp#27;[0m&amp#27;[32m&amp#27;[1mwqertyuiouytrewrtyuiouytrewrtyuiouytrertyuiouytrewrtyuiouytrertyuiopiuytrewrtyuiopiuytrertyuiopiuytrewrtyuiouytrewrtyuiouytrertyuiouytsdfghjkgfdsdfghjklhgfdsdfghjkljhgfdsre&amp#27;[0m&amp#27;[32m", "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is text body&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m" data set&amp#27;[0m &amp#27;[90m# EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate api response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and ResponseData different attributes&amp#27;[0m                                                                                                                                                                                                                                &amp#27;[90m# EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)
+      	at ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)
+      &amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature[Get List of comments based on userId on social networking site with different test data](4)" classname="com.jpmc.digital.automation.myRunner.TestRunner" time="0.256">
+    <failure message="java.lang.AssertionError: expected [400] but found [200]" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.AssertionError: expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)
+	at ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedonUserId.feature:5)
+]]></failure>
+    <system-out><![CDATA[Feature: Get List of comments based on userId on social networking site with different test data
+
+  Scenario Outline: Get List of comments based on userId on social networking site with different test data &amp#27;[90m# GetCommentsBasedonUserId.feature:2&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mGet Comment API is up and Running on the server&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mhit web services endpoint /posts/<userId>/comments basedon <UserId>&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mValidate response code <ResponseCode> and response body of comments api.&amp#27;[0m
+
+    Examples: 
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts/1/comments
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get List of comments based on userId on social networking site with different test data &amp#27;[90m# GetCommentsBasedonUserId.feature:8&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet Comment API is up and Running on the server&amp#27;[0m                                                   &amp#27;[90m# GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit web services endpoint /posts/<userId>/comments basedon "&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                     &amp#27;[90m# GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate response code &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m and response body of comments api.&amp#27;[0m                                      &amp#27;[90m# GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)&amp#27;[0m
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts/xxxxxxxxxxxx/comments
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get List of comments based on userId on social networking site with different test data &amp#27;[90m# GetCommentsBasedonUserId.feature:9&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet Comment API is up and Running on the server&amp#27;[0m                                                   &amp#27;[90m# GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit web services endpoint /posts/<userId>/comments basedon "&amp#27;[0m&amp#27;[32m&amp#27;[1mxxxxxxxxxxxx&amp#27;[0m&amp#27;[32m"&amp#27;[0m                          &amp#27;[90m# GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and response body of comments api.&amp#27;[0m                                      &amp#27;[90m# GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)
+      	at ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedonUserId.feature:5)
+      &amp#27;[0m
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts/1234567890987654398765/comments
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get List of comments based on userId on social networking site with different test data &amp#27;[90m# GetCommentsBasedonUserId.feature:10&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet Comment API is up and Running on the server&amp#27;[0m                                                   &amp#27;[90m# GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit web services endpoint /posts/<userId>/comments basedon "&amp#27;[0m&amp#27;[32m&amp#27;[1m1234567890987654398765&amp#27;[0m&amp#27;[32m"&amp#27;[0m                &amp#27;[90m# GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate response code &amp#27;[0m&amp#27;[31m&amp#27;[1m404&amp#27;[0m&amp#27;[31m and response body of comments api.&amp#27;[0m                                      &amp#27;[90m# GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [404] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)
+      	at ✽.Then Validate response code 404 and response body of comments api.(GetCommentsBasedonUserId.feature:5)
+      &amp#27;[0m
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts/0/comments
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get List of comments based on userId on social networking site with different test data &amp#27;[90m# GetCommentsBasedonUserId.feature:11&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet Comment API is up and Running on the server&amp#27;[0m                                                   &amp#27;[90m# GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit web services endpoint /posts/<userId>/comments basedon "&amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                     &amp#27;[90m# GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate response code &amp#27;[0m&amp#27;[31m&amp#27;[1m404&amp#27;[0m&amp#27;[31m and response body of comments api.&amp#27;[0m                                      &amp#27;[90m# GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [404] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)
+      	at ✽.Then Validate response code 404 and response body of comments api.(GetCommentsBasedonUserId.feature:5)
+      &amp#27;[0m
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts/-1/comments
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get List of comments based on userId on social networking site with different test data &amp#27;[90m# GetCommentsBasedonUserId.feature:12&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet Comment API is up and Running on the server&amp#27;[0m                                                   &amp#27;[90m# GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit web services endpoint /posts/<userId>/comments basedon "&amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                    &amp#27;[90m# GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and response body of comments api.&amp#27;[0m                                      &amp#27;[90m# GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)
+      	at ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedonUserId.feature:5)
+      &amp#27;[0m
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts%2F%2Fcomments
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get List of comments based on userId on social networking site with different test data &amp#27;[90m# GetCommentsBasedonUserId.feature:13&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet Comment API is up and Running on the server&amp#27;[0m                                                   &amp#27;[90m# GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit web services endpoint /posts/<userId>/comments basedon "&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                      &amp#27;[90m# GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and response body of comments api.&amp#27;[0m                                      &amp#27;[90m# GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [404]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)
+      	at ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedonUserId.feature:5)
+      &amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature[Get List of comments based on postsId on social networking site](5)" classname="com.jpmc.digital.automation.myRunner.TestRunner" time="0.201">
+    <failure message="java.lang.AssertionError: expected [400] but found [200]" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.AssertionError: expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)
+	at ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsbasedonPostId.feature:5)
+]]></failure>
+    <system-out><![CDATA[Feature: Get List of comments based on postsId on social networking site
+
+  Scenario Outline: Get List of comments based on posts id on social networking site with different test data &amp#27;[90m# GetCommentsbasedonPostId.feature:2&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mGet Comments API is up and Running on the server&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mhit the web services endpoint comments basedon postId <postId>&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mValidate responseCode <ResponseCode> and response body of comments api&amp#27;[0m
+
+    Examples: 
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=1
+Proxy:			<none>
+Request params:	<none>
+Query params:	postId=1
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get List of comments based on posts id on social networking site with different test data &amp#27;[90m# GetCommentsbasedonPostId.feature:8&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet Comments API is up and Running on the server&amp#27;[0m                                                    &amp#27;[90m# GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the web services endpoint comments basedon postId "&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                            &amp#27;[90m# GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate responseCode &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m and response body of comments api&amp#27;[0m                                          &amp#27;[90m# GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)&amp#27;[0m
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=xxxxxxxxxxxx
+Proxy:			<none>
+Request params:	<none>
+Query params:	postId=xxxxxxxxxxxx
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get List of comments based on posts id on social networking site with different test data &amp#27;[90m# GetCommentsbasedonPostId.feature:9&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet Comments API is up and Running on the server&amp#27;[0m                                                    &amp#27;[90m# GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the web services endpoint comments basedon postId "&amp#27;[0m&amp#27;[32m&amp#27;[1mxxxxxxxxxxxx&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                 &amp#27;[90m# GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate responseCode &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and response body of comments api&amp#27;[0m                                          &amp#27;[90m# GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)
+      	at ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsbasedonPostId.feature:5)
+      &amp#27;[0m
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=1234567890987654398765
+Proxy:			<none>
+Request params:	<none>
+Query params:	postId=1234567890987654398765
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get List of comments based on posts id on social networking site with different test data &amp#27;[90m# GetCommentsbasedonPostId.feature:10&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet Comments API is up and Running on the server&amp#27;[0m                                                    &amp#27;[90m# GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the web services endpoint comments basedon postId "&amp#27;[0m&amp#27;[32m&amp#27;[1m1234567890987654398765&amp#27;[0m&amp#27;[32m"&amp#27;[0m                       &amp#27;[90m# GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate responseCode &amp#27;[0m&amp#27;[31m&amp#27;[1m404&amp#27;[0m&amp#27;[31m and response body of comments api&amp#27;[0m                                          &amp#27;[90m# GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [404] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)
+      	at ✽.Then Validate responseCode 404 and response body of comments api(GetCommentsbasedonPostId.feature:5)
+      &amp#27;[0m
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=0
+Proxy:			<none>
+Request params:	<none>
+Query params:	postId=0
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get List of comments based on posts id on social networking site with different test data &amp#27;[90m# GetCommentsbasedonPostId.feature:11&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet Comments API is up and Running on the server&amp#27;[0m                                                    &amp#27;[90m# GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the web services endpoint comments basedon postId "&amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                            &amp#27;[90m# GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate responseCode &amp#27;[0m&amp#27;[31m&amp#27;[1m404&amp#27;[0m&amp#27;[31m and response body of comments api&amp#27;[0m                                          &amp#27;[90m# GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [404] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)
+      	at ✽.Then Validate responseCode 404 and response body of comments api(GetCommentsbasedonPostId.feature:5)
+      &amp#27;[0m
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=-1
+Proxy:			<none>
+Request params:	<none>
+Query params:	postId=-1
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get List of comments based on posts id on social networking site with different test data &amp#27;[90m# GetCommentsbasedonPostId.feature:12&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet Comments API is up and Running on the server&amp#27;[0m                                                    &amp#27;[90m# GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the web services endpoint comments basedon postId "&amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                           &amp#27;[90m# GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate responseCode &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and response body of comments api&amp#27;[0m                                          &amp#27;[90m# GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)
+      	at ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsbasedonPostId.feature:5)
+      &amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature[Get all posts on social network site](6)" classname="com.jpmc.digital.automation.myRunner.TestRunner" time="0.271">
+    <failure message="java.lang.AssertionError: expected [406] but found [200]" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [406] but found [200]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.AssertionError: expected [406] but found [200]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.jpmc.digital.automation.stepDefinitions.GetAllPosts.validate_the_response_code(GetAllPosts.java:75)
+	at ✽.Then Validate the response code 406(GetPosts.feature:12)
+]]></failure>
+    <system-out><![CDATA[Feature: Get all posts on social network site
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario: Get all posts on social networking site with different test data              &amp#27;[90m# GetPosts.feature:2&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet Posts API is up and Running on the server&amp#27;[0m                                   &amp#27;[90m# GetAllPosts.get_Posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a Get api call to list down all the posts on social networking site&amp#27;[0m &amp#27;[90m# GetAllPosts.user_perform_a_Get_api_call_to_list_down_all_the_posts_on_social_networking_site()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate response code&amp#27;[0m                                                           &amp#27;[90m# GetAllPosts.validate_response_code()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mValidate response data for each enttity&amp#27;[0m                                           &amp#27;[90m# GetAllPosts.validate_response_data_for_each_enttity()&amp#27;[0m
+
+  Scenario Outline: Get all the Posts when different contentType passed in accept &amp#27;[90m# GetPosts.feature:9&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mSet request specification <ContentType> for get posts call&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mhit the api through "posts" endpoint&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mValidate the response code <ResponseCode>&amp#27;[0m
+
+    Examples: 
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json;charset=UTF-8
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get all the Posts when different contentType passed in accept       &amp#27;[90m# GetPosts.feature:15&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mSet request specification "&amp#27;[0m&amp#27;[32m&amp#27;[1mapplication/json;charset=UTF-8&amp#27;[0m&amp#27;[32m" for get posts call&amp#27;[0m &amp#27;[90m# GetAllPosts.set_request_specification_for_get_posts_call(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the api through "&amp#27;[0m&amp#27;[32m&amp#27;[1mposts&amp#27;[0m&amp#27;[32m" endpoint&amp#27;[0m                                           &amp#27;[90m# GetAllPosts.hit_the_api_through_endpoint(String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate the response code &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                                 &amp#27;[90m# GetAllPosts.validate_the_response_code(int)&amp#27;[0m
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=xxxxxxxxxxxx
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get all the Posts when different contentType passed in accept &amp#27;[90m# GetPosts.feature:16&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mSet request specification "&amp#27;[0m&amp#27;[32m&amp#27;[1mxxxxxxxxxxxx&amp#27;[0m&amp#27;[32m" for get posts call&amp#27;[0m             &amp#27;[90m# GetAllPosts.set_request_specification_for_get_posts_call(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the api through "&amp#27;[0m&amp#27;[32m&amp#27;[1mposts&amp#27;[0m&amp#27;[32m" endpoint&amp#27;[0m                                     &amp#27;[90m# GetAllPosts.hit_the_api_through_endpoint(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate the response code &amp#27;[0m&amp#27;[31m&amp#27;[1m406&amp#27;[0m                                           &amp#27;[90m# GetAllPosts.validate_the_response_code(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [406] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.GetAllPosts.validate_the_response_code(GetAllPosts.java:75)
+      	at ✽.Then Validate the response code 406(GetPosts.feature:12)
+      &amp#27;[0m
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get all the Posts when different contentType passed in accept &amp#27;[90m# GetPosts.feature:17&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mSet request specification "&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m" for get posts call&amp#27;[0m                         &amp#27;[90m# GetAllPosts.set_request_specification_for_get_posts_call(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the api through "&amp#27;[0m&amp#27;[32m&amp#27;[1mposts&amp#27;[0m&amp#27;[32m" endpoint&amp#27;[0m                                     &amp#27;[90m# GetAllPosts.hit_the_api_through_endpoint(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate the response code &amp#27;[0m&amp#27;[31m&amp#27;[1m406&amp#27;[0m                                           &amp#27;[90m# GetAllPosts.validate_the_response_code(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [406] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.GetAllPosts.validate_the_response_code(GetAllPosts.java:75)
+      	at ✽.Then Validate the response code 406(GetPosts.feature:12)
+      &amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature[Get Post details based on UserId](7)" classname="com.jpmc.digital.automation.myRunner.TestRunner" time="0.268">
+    <failure message="java.lang.AssertionError: expected [404] but found [200]" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [404] but found [200]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.AssertionError: expected [404] but found [200]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_code_and_response_data(GetPostsBasedonUserId.java:37)
+	at ✽.Then Validate the response code 404 and response data(GetPostsBasedonUserId.feature:5)
+]]></failure>
+    <system-out><![CDATA[Feature: Get Post details based on UserId
+
+  Scenario Outline: Get details of posts from social networking site based on userId. &amp#27;[90m# GetPostsBasedonUserId.feature:2&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mGet posts API is up and Running on the server&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mhit the api through "posts" endpoint with variable <UserId>&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mValidate the response code <ResponseCode> and response data&amp#27;[0m
+
+    Examples: 
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts?userId=1
+Proxy:			<none>
+Request params:	<none>
+Query params:	userId=1
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get details of posts from social networking site based on userId. &amp#27;[90m# GetPostsBasedonUserId.feature:8&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet posts API is up and Running on the server&amp#27;[0m                               &amp#27;[90m# GetPostsBasedonUserId.get_posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the api through "&amp#27;[0m&amp#27;[32m&amp#27;[1mposts&amp#27;[0m&amp#27;[32m" endpoint with variable "&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m"&amp#27;[0m                       &amp#27;[90m# GetPostsBasedonUserId.hit_the_api_through_endpoint_with_variable(String,String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate the response code &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m and response data&amp#27;[0m                             &amp#27;[90m# GetPostsBasedonUserId.validate_the_response_code_and_response_data(int)&amp#27;[0m
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts?userId=xxxxxxxxxxxx
+Proxy:			<none>
+Request params:	<none>
+Query params:	userId=xxxxxxxxxxxx
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get details of posts from social networking site based on userId. &amp#27;[90m# GetPostsBasedonUserId.feature:9&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet posts API is up and Running on the server&amp#27;[0m                               &amp#27;[90m# GetPostsBasedonUserId.get_posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the api through "&amp#27;[0m&amp#27;[32m&amp#27;[1mposts&amp#27;[0m&amp#27;[32m" endpoint with variable "&amp#27;[0m&amp#27;[32m&amp#27;[1mxxxxxxxxxxxx&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# GetPostsBasedonUserId.hit_the_api_through_endpoint_with_variable(String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate the response code &amp#27;[0m&amp#27;[31m&amp#27;[1m404&amp#27;[0m&amp#27;[31m and response data&amp#27;[0m                             &amp#27;[90m# GetPostsBasedonUserId.validate_the_response_code_and_response_data(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [404] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_code_and_response_data(GetPostsBasedonUserId.java:37)
+      	at ✽.Then Validate the response code 404 and response data(GetPostsBasedonUserId.feature:5)
+      &amp#27;[0m
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts?userId=1234567890987654398765
+Proxy:			<none>
+Request params:	<none>
+Query params:	userId=1234567890987654398765
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get details of posts from social networking site based on userId. &amp#27;[90m# GetPostsBasedonUserId.feature:10&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet posts API is up and Running on the server&amp#27;[0m                               &amp#27;[90m# GetPostsBasedonUserId.get_posts_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the api through "&amp#27;[0m&amp#27;[32m&amp#27;[1mposts&amp#27;[0m&amp#27;[32m" endpoint with variable "&amp#27;[0m&amp#27;[32m&amp#27;[1m1234567890987654398765&amp#27;[0m&amp#27;[32m"&amp#27;[0m  &amp#27;[90m# GetPostsBasedonUserId.hit_the_api_through_endpoint_with_variable(String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate the response code &amp#27;[0m&amp#27;[31m&amp#27;[1m404&amp#27;[0m&amp#27;[31m and response data&amp#27;[0m                             &amp#27;[90m# GetPostsBasedonUserId.validate_the_response_code_and_response_data(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [404] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_code_and_response_data(GetPostsBasedonUserId.java:37)
+      	at ✽.Then Validate the response code 404 and response data(GetPostsBasedonUserId.feature:5)
+      &amp#27;[0m
+
+  Scenario Outline: Get details of posts from social networking site based on userId and accept contenttype with different test data set &amp#27;[90m# GetPostsBasedonUserId.feature:13&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mSet request specification <AcceptContentType> for get methods call&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mhit the api through "posts" endpoints&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mValidate the response codes <ResponseCode>&amp#27;[0m
+
+    Examples: 
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts?userId=1
+Proxy:			<none>
+Request params:	<none>
+Query params:	userId=1
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get details of posts from social networking site based on userId and accept contenttype with different test data set &amp#27;[90m# GetPostsBasedonUserId.feature:19&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mSet request specification "&amp#27;[0m&amp#27;[32m&amp#27;[1mapplication/json&amp#27;[0m&amp#27;[32m" for get methods call&amp#27;[0m                                                              &amp#27;[90m# GetPostsBasedonUserId.set_request_specification_for_get_methods_call(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the api through "&amp#27;[0m&amp#27;[32m&amp#27;[1mposts&amp#27;[0m&amp#27;[32m" endpoints&amp#27;[0m                                                                                           &amp#27;[90m# GetPostsBasedonUserId.hit_the_api_through_endpoints(String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate the response codes &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                                                                                 &amp#27;[90m# GetPostsBasedonUserId.validate_the_response_codes(int)&amp#27;[0m
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts?userId=1
+Proxy:			<none>
+Request params:	<none>
+Query params:	userId=1
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/xml
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get details of posts from social networking site based on userId and accept contenttype with different test data set &amp#27;[90m# GetPostsBasedonUserId.feature:20&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mSet request specification "&amp#27;[0m&amp#27;[32m&amp#27;[1mapplication/xml&amp#27;[0m&amp#27;[32m" for get methods call&amp#27;[0m                                                               &amp#27;[90m# GetPostsBasedonUserId.set_request_specification_for_get_methods_call(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the api through "&amp#27;[0m&amp#27;[32m&amp#27;[1mposts&amp#27;[0m&amp#27;[32m" endpoints&amp#27;[0m                                                                                           &amp#27;[90m# GetPostsBasedonUserId.hit_the_api_through_endpoints(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate the response codes &amp#27;[0m&amp#27;[31m&amp#27;[1m406&amp#27;[0m                                                                                                 &amp#27;[90m# GetPostsBasedonUserId.validate_the_response_codes(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [406] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_codes(GetPostsBasedonUserId.java:75)
+      	at ✽.Then Validate the response codes 406(GetPostsBasedonUserId.feature:16)
+      &amp#27;[0m
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts?userId=1
+Proxy:			<none>
+Request params:	<none>
+Query params:	userId=1
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=xxxxxxxxxxxx
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get details of posts from social networking site based on userId and accept contenttype with different test data set &amp#27;[90m# GetPostsBasedonUserId.feature:21&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mSet request specification "&amp#27;[0m&amp#27;[32m&amp#27;[1mxxxxxxxxxxxx&amp#27;[0m&amp#27;[32m" for get methods call&amp#27;[0m                                                                  &amp#27;[90m# GetPostsBasedonUserId.set_request_specification_for_get_methods_call(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the api through "&amp#27;[0m&amp#27;[32m&amp#27;[1mposts&amp#27;[0m&amp#27;[32m" endpoints&amp#27;[0m                                                                                           &amp#27;[90m# GetPostsBasedonUserId.hit_the_api_through_endpoints(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate the response codes &amp#27;[0m&amp#27;[31m&amp#27;[1m406&amp#27;[0m                                                                                                 &amp#27;[90m# GetPostsBasedonUserId.validate_the_response_codes(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [406] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_codes(GetPostsBasedonUserId.java:75)
+      	at ✽.Then Validate the response codes 406(GetPostsBasedonUserId.feature:16)
+      &amp#27;[0m
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts?userId=1
+Proxy:			<none>
+Request params:	<none>
+Query params:	userId=1
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get details of posts from social networking site based on userId and accept contenttype with different test data set &amp#27;[90m# GetPostsBasedonUserId.feature:22&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mSet request specification "&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m" for get methods call&amp#27;[0m                                                                              &amp#27;[90m# GetPostsBasedonUserId.set_request_specification_for_get_methods_call(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhit the api through "&amp#27;[0m&amp#27;[32m&amp#27;[1mposts&amp#27;[0m&amp#27;[32m" endpoints&amp#27;[0m                                                                                           &amp#27;[90m# GetPostsBasedonUserId.hit_the_api_through_endpoints(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate the response codes &amp#27;[0m&amp#27;[31m&amp#27;[1m406&amp#27;[0m                                                                                                 &amp#27;[90m# GetPostsBasedonUserId.validate_the_response_codes(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [406] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_codes(GetPostsBasedonUserId.java:75)
+      	at ✽.Then Validate the response codes 406(GetPostsBasedonUserId.feature:16)
+      &amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature[Get Users based on Id](8)" classname="com.jpmc.digital.automation.myRunner.TestRunner" time="0.125">
+    <system-out><![CDATA[Feature: Get Users based on Id
+
+  Scenario Outline: Get details of user based on userId active on social networking site &amp#27;[90m# GetUserbasedonId.feature:2&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mGet users API is up and Running on the server.&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mperform get users api call on social networking site based on <UserId>&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mValidate response code <ResponseCode> and response data each attribute.&amp#27;[0m
+
+    Examples: 
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get details of user based on userId active on social networking site &amp#27;[90m# GetUserbasedonId.feature:8&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet users API is up and Running on the server.&amp#27;[0m                                 &amp#27;[90m# GetUserDetailsBasedonId.get_users_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mperform get users api call on social networking site based on "&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m"&amp#27;[0m               &amp#27;[90m# GetUserDetailsBasedonId.perform_get_users_api_call_on_social_networking_site_based_on(String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate response code &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m and response data each attribute.&amp#27;[0m                    &amp#27;[90m# GetUserDetailsBasedonId.validate_response_code_and_response_data_each_attribute(int)&amp#27;[0m
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users/xxxxxxxxxxxx
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get details of user based on userId active on social networking site &amp#27;[90m# GetUserbasedonId.feature:9&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet users API is up and Running on the server.&amp#27;[0m                                 &amp#27;[90m# GetUserDetailsBasedonId.get_users_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mperform get users api call on social networking site based on "&amp#27;[0m&amp#27;[32m&amp#27;[1mxxxxxxxxxxxx&amp#27;[0m&amp#27;[32m"&amp#27;[0m    &amp#27;[90m# GetUserDetailsBasedonId.perform_get_users_api_call_on_social_networking_site_based_on(String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate response code &amp#27;[0m&amp#27;[32m&amp#27;[1m404&amp#27;[0m&amp#27;[32m and response data each attribute.&amp#27;[0m                    &amp#27;[90m# GetUserDetailsBasedonId.validate_response_code_and_response_data_each_attribute(int)&amp#27;[0m
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users/1234567890987654398765
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario Outline: Get details of user based on userId active on social networking site        &amp#27;[90m# GetUserbasedonId.feature:10&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet users API is up and Running on the server.&amp#27;[0m                                        &amp#27;[90m# GetUserDetailsBasedonId.get_users_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mperform get users api call on social networking site based on "&amp#27;[0m&amp#27;[32m&amp#27;[1m1234567890987654398765&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# GetUserDetailsBasedonId.perform_get_users_api_call_on_social_networking_site_based_on(String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate response code &amp#27;[0m&amp#27;[32m&amp#27;[1m404&amp#27;[0m&amp#27;[32m and response data each attribute.&amp#27;[0m                           &amp#27;[90m# GetUserDetailsBasedonId.validate_response_code_and_response_data_each_attribute(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature[Get Users](9)" classname="com.jpmc.digital.automation.myRunner.TestRunner" time="0.044">
+    <system-out><![CDATA[Feature: Get Users
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Scenario: Get Lists of users active on social networking site with different test data &amp#27;[90m# GetUsers.feature:2&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet users API is up and Running on the server&amp#27;[0m                                  &amp#27;[90m# GetUsers.get_users_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mperform get users api call on social network site&amp#27;[0m                               &amp#27;[90m# GetUsers.perform_get_users_api_call_on_social_network_site()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate the response code and response data for all users&amp#27;[0m                      &amp#27;[90m# GetUsers.validate_the_response_code_and_response_data_for_all_users()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature[Perform Patch operation on social networking site](10)" classname="com.jpmc.digital.automation.myRunner.TestRunner" time="4.279">
+    <failure message="java.lang.AssertionError: expected [400] but found [200]" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.AssertionError: expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)
+	at ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)
+]]></failure>
+    <system-out><![CDATA[Feature: Perform Patch operation on social networking site
+
+  Scenario Outline: Perform Patch operation on social networking site with different test data                 &amp#27;[90m# PatchPosts.feature:3&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mPatch API is up and Running on the server&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser perform a Patch api call on the social networking site using different test data <title><UserId>&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mValidate response code <ResponseCode> and Response Data for each attribute&amp#27;[0m
+
+    Examples: 
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is title",
+    "body": "this is body",
+    "userId": "1"
+}
+Request method:	PATCH
+Request URI:	https://jsonplaceholder.typicode.com/posts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is patch title"
+}
+
+  Scenario Outline: Perform Patch operation on social networking site with different test data                          &amp#27;[90m# PatchPosts.feature:9&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mPatch API is up and Running on the server&amp#27;[0m                                                                     &amp#27;[90m# PatchPosts.patch_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a Patch api call on the social networking site using different test data "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is patch title&amp#27;[0m&amp#27;[32m""&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# PatchPosts.user_perform_a_Patch_api_call_on_the_social_networking_site_using_different_test_data(String,String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate response code &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m and Response Data for each attribute&amp#27;[0m                                                &amp#27;[90m# PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(int)&amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is title",
+    "body": "this is body",
+    "userId": "1"
+}
+Request method:	PATCH
+Request URI:	https://jsonplaceholder.typicode.com/posts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": ""
+}
+
+  Scenario Outline: Perform Patch operation on social networking site with different test data       &amp#27;[90m# PatchPosts.feature:10&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mPatch API is up and Running on the server&amp#27;[0m                                                  &amp#27;[90m# PatchPosts.patch_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a Patch api call on the social networking site using different test data "&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m""&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# PatchPosts.user_perform_a_Patch_api_call_on_the_social_networking_site_using_different_test_data(String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and Response Data for each attribute&amp#27;[0m                             &amp#27;[90m# PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)
+      	at ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)
+      &amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is title",
+    "body": "this is body",
+    "userId": "1"
+}
+Request method:	PATCH
+Request URI:	https://jsonplaceholder.typicode.com/posts/123456789
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is patch title"
+}
+
+  Scenario Outline: Perform Patch operation on social networking site with different test data                                  &amp#27;[90m# PatchPosts.feature:11&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mPatch API is up and Running on the server&amp#27;[0m                                                                             &amp#27;[90m# PatchPosts.patch_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a Patch api call on the social networking site using different test data "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is patch title&amp#27;[0m&amp#27;[32m""&amp#27;[0m&amp#27;[32m&amp#27;[1m123456789&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# PatchPosts.user_perform_a_Patch_api_call_on_the_social_networking_site_using_different_test_data(String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and Response Data for each attribute&amp#27;[0m                                                        &amp#27;[90m# PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)
+      	at ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)
+      &amp#27;[0m
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is title",
+    "body": "this is body",
+    "userId": "1"
+}
+Request method:	PATCH
+Request URI:	https://jsonplaceholder.typicode.com/posts/xxxxxxxx
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "This is patch title"
+}
+
+  Scenario Outline: Perform Patch operation on social networking site with different test data                                 &amp#27;[90m# PatchPosts.feature:12&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mPatch API is up and Running on the server&amp#27;[0m                                                                            &amp#27;[90m# PatchPosts.patch_API_is_up_and_Running_on_the_server()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser perform a Patch api call on the social networking site using different test data "&amp#27;[0m&amp#27;[32m&amp#27;[1mThis is patch title&amp#27;[0m&amp#27;[32m""&amp#27;[0m&amp#27;[32m&amp#27;[1mxxxxxxxx&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# PatchPosts.user_perform_a_Patch_api_call_on_the_social_networking_site_using_different_test_data(String,String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mValidate response code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m and Response Data for each attribute&amp#27;[0m                                                       &amp#27;[90m# PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [400] but found [200]
+      	at org.testng.Assert.fail(Assert.java:110)
+      	at org.testng.Assert.failNotEquals(Assert.java:1413)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+      	at org.testng.Assert.assertEquals(Assert.java:131)
+      	at org.testng.Assert.assertEquals(Assert.java:1240)
+      	at org.testng.Assert.assertEquals(Assert.java:1274)
+      	at com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)
+      	at ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)
+      &amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

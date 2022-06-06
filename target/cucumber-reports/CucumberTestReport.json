@@ -1,0 +1,4044 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Create posts on social network site with different test data",
+        "description": "",
+        "id": "create-posts-with-different-type-of-combination;create-posts-on-social-network-site-with-different-test-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 588474101,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Create Posts API is up and Running on the server",
+            "match": {
+              "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1462471292,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a post api call to create a new post on the social network site using \"This is world war\", \"quo et expedita modi cum officia vel magni\ndoloribus qui\",\"1\" data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is world war",
+                  "offset": 84
+                },
+                {
+                  "val": "quo et expedita modi cum officia vel magni\ndoloribus qui",
+                  "offset": 105
+                },
+                {
+                  "val": "1",
+                  "offset": 164
+                }
+              ],
+              "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51407261,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate return api response code 201 and ResponseData for each attribute",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 34
+                }
+              ],
+              "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Create posts on social network site with different test data",
+        "description": "",
+        "id": "create-posts-with-different-type-of-combination;create-posts-on-social-network-site-with-different-test-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1420361,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Create Posts API is up and Running on the server",
+            "match": {
+              "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 510436283,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a post api call to create a new post on the social network site using \"This is world war\", \"quo et expedita modi cum officia vel magni\ndoloribus qui\",\"0\" data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is world war",
+                  "offset": 84
+                },
+                {
+                  "val": "quo et expedita modi cum officia vel magni\ndoloribus qui",
+                  "offset": 105
+                },
+                {
+                  "val": "0",
+                  "offset": 164
+                }
+              ],
+              "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10593926,
+              "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate return api response code 400 and ResponseData for each attribute",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 34
+                }
+              ],
+              "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Create posts on social network site with different test data",
+        "description": "",
+        "id": "create-posts-with-different-type-of-combination;create-posts-on-social-network-site-with-different-test-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1321965,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Create Posts API is up and Running on the server",
+            "match": {
+              "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 518766276,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a post api call to create a new post on the social network site using \"This is world war\", \"quo et expedita modi cum officia vel magni\ndoloribus qui\",\"123456876545678\" data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is world war",
+                  "offset": 84
+                },
+                {
+                  "val": "quo et expedita modi cum officia vel magni\ndoloribus qui",
+                  "offset": 105
+                },
+                {
+                  "val": "123456876545678",
+                  "offset": 164
+                }
+              ],
+              "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 233993,
+              "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate return api response code 400 and ResponseData for each attribute",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 34
+                }
+              ],
+              "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Create posts on social network site with different test data",
+        "description": "",
+        "id": "create-posts-with-different-type-of-combination;create-posts-on-social-network-site-with-different-test-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1222793,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Create Posts API is up and Running on the server",
+            "match": {
+              "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 607963498,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a post api call to create a new post on the social network site using \"\", \"quo et expedita modi cum officia vel magni\ndoloribus qui\",\"1\" data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 84
+                },
+                {
+                  "val": "quo et expedita modi cum officia vel magni\ndoloribus qui",
+                  "offset": 88
+                },
+                {
+                  "val": "1",
+                  "offset": 147
+                }
+              ],
+              "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 273987,
+              "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate return api response code 400 and ResponseData for each attribute",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 34
+                }
+              ],
+              "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Create posts on social network site with different test data",
+        "description": "",
+        "id": "create-posts-with-different-type-of-combination;create-posts-on-social-network-site-with-different-test-data;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 716678,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Create Posts API is up and Running on the server",
+            "match": {
+              "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 514760401,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a post api call to create a new post on the social network site using \"This is world war\", \"\",\"1\" data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is world war",
+                  "offset": 84
+                },
+                {
+                  "val": "",
+                  "offset": 105
+                },
+                {
+                  "val": "1",
+                  "offset": 108
+                }
+              ],
+              "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 280220,
+              "error_message": "java.lang.AssertionError: expected [200] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 200 and ResponseData for each attribute(CreatePosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate return api response code 200 and ResponseData for each attribute",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 34
+                }
+              ],
+              "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Create posts on social network site with different test data",
+        "description": "",
+        "id": "create-posts-with-different-type-of-combination;create-posts-on-social-network-site-with-different-test-data;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2294883,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Create Posts API is up and Running on the server",
+            "match": {
+              "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 591083243,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a post api call to create a new post on the social network site using \"This is world war\", \"quo et expedita modi cum officia vel magni\ndoloribus qui\",\"\" data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is world war",
+                  "offset": 84
+                },
+                {
+                  "val": "quo et expedita modi cum officia vel magni\ndoloribus qui",
+                  "offset": 105
+                },
+                {
+                  "val": "",
+                  "offset": 164
+                }
+              ],
+              "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 225278,
+              "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate return api response code 400 and ResponseData for each attribute",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 34
+                }
+              ],
+              "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Create posts on social network site with different test data",
+        "description": "",
+        "id": "create-posts-with-different-type-of-combination;create-posts-on-social-network-site-with-different-test-data;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 674606,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Create Posts API is up and Running on the server",
+            "match": {
+              "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 510400132,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a post api call to create a new post on the social network site using \"\", \"quo et expedita modi cum officia vel magni\ndoloribus qui\",\"\" data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 84
+                },
+                {
+                  "val": "quo et expedita modi cum officia vel magni\ndoloribus qui",
+                  "offset": 88
+                },
+                {
+                  "val": "",
+                  "offset": 147
+                }
+              ],
+              "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 265178,
+              "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate return api response code 400 and ResponseData for each attribute",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 34
+                }
+              ],
+              "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Create posts on social network site with different test data",
+        "description": "",
+        "id": "create-posts-with-different-type-of-combination;create-posts-on-social-network-site-with-different-test-data;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 730000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Create Posts API is up and Running on the server",
+            "match": {
+              "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 506442137,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a post api call to create a new post on the social network site using \"\", \"\",\"\" data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 84
+                },
+                {
+                  "val": "",
+                  "offset": 88
+                },
+                {
+                  "val": "",
+                  "offset": 91
+                }
+              ],
+              "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 261854,
+              "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate return api response code 400 and ResponseData for each attribute",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 34
+                }
+              ],
+              "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Create posts on social network site with different test data",
+        "description": "",
+        "id": "create-posts-with-different-type-of-combination;create-posts-on-social-network-site-with-different-test-data;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 764201,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Create Posts API is up and Running on the server",
+            "match": {
+              "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 525327409,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a post api call to create a new post on the social network site using \"This is world war\", \"quo et expedita modi cum officia vel magni\ndoloribus qui\",\"1123456789876543287652345678\" data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is world war",
+                  "offset": 84
+                },
+                {
+                  "val": "quo et expedita modi cum officia vel magni\ndoloribus qui",
+                  "offset": 105
+                },
+                {
+                  "val": "1123456789876543287652345678",
+                  "offset": 164
+                }
+              ],
+              "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 282369,
+              "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate return api response code 400 and ResponseData for each attribute",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 34
+                }
+              ],
+              "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Create posts on social network site with different test data",
+        "description": "",
+        "id": "create-posts-with-different-type-of-combination;create-posts-on-social-network-site-with-different-test-data;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 790806,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Create Posts API is up and Running on the server",
+            "match": {
+              "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 520361124,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a post api call to create a new post on the social network site using \"AAAAAAAAAAAAAAAAAAA\", \"quo et expedita modi cum officia vel magni\ndoloribus qui\",\"1\" data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AAAAAAAAAAAAAAAAAAA",
+                  "offset": 84
+                },
+                {
+                  "val": "quo et expedita modi cum officia vel magni\ndoloribus qui",
+                  "offset": 107
+                },
+                {
+                  "val": "1",
+                  "offset": 166
+                }
+              ],
+              "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 335390,
+              "error_message": "java.lang.AssertionError: expected [400] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)\n\tat ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate return api response code 400 and ResponseData for each attribute",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 34
+                }
+              ],
+              "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Create posts on social network site with different test data",
+        "description": "",
+        "id": "create-posts-with-different-type-of-combination;create-posts-on-social-network-site-with-different-test-data;;12",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 753363,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Create Posts API is up and Running on the server",
+            "match": {
+              "location": "CreatePosts.create_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 577662015,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a post api call to create a new post on the social network site using \"This is world war\", \"AAAAAAAAAAAAAAAAAAAAAAAAWQERTYUIOUYTRERTYUIOUYTREWRTYUIOUYTREWRTYUIOIUYTRERTYUIOPIUYTRERTYUIOIUYTRERTYUIOIUYTRERTYUIOUYTRESDFGHJKHGFDSADFGHJKHGFDSADFGHJKHGFDSADFGHJKHGFDSADFGHJKHGFDSADFGHJKHGFDS\",\"1\" data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is world war",
+                  "offset": 84
+                },
+                {
+                  "val": "AAAAAAAAAAAAAAAAAAAAAAAAWQERTYUIOUYTRERTYUIOUYTREWRTYUIOUYTREWRTYUIOIUYTRERTYUIOPIUYTRERTYUIOIUYTRERTYUIOIUYTRERTYUIOUYTRESDFGHJKHGFDSADFGHJKHGFDSADFGHJKHGFDSADFGHJKHGFDSADFGHJKHGFDSADFGHJKHGFDS",
+                  "offset": 105
+                },
+                {
+                  "val": "1",
+                  "offset": 302
+                }
+              ],
+              "location": "CreatePosts.user_perform_a_post_api_call_to_create_a_new_post_on_the_social_network_site_using_data(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4404629,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate return api response code 201 and ResponseData for each attribute",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 34
+                }
+              ],
+              "location": "CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Create posts on social network site with different acceptType",
+        "description": "",
+        "id": "create-posts-with-different-type-of-combination;create-posts-on-social-network-site-with-different-accepttype;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 766740,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Set request specification \"application/json\" for create posts on social Network site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "application/json",
+                  "offset": 27
+                }
+              ],
+              "location": "CreatePosts.set_request_specification_for_create_posts_on_social_Network_site(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 501135951,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "hit the web services endpoint \"posts\" for Posts",
+            "match": {
+              "arguments": [
+                {
+                  "val": "posts",
+                  "offset": 31
+                }
+              ],
+              "location": "CreatePosts.hit_the_web_services_endpoint_for_Posts(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76663,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Validate response codes 201 and response data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 24
+                }
+              ],
+              "location": "CreatePosts.validate_response_codes_and_response_data(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Create posts on social network site with different acceptType",
+        "description": "",
+        "id": "create-posts-with-different-type-of-combination;create-posts-on-social-network-site-with-different-accepttype;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 644091,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Set request specification \"application/xml\" for create posts on social Network site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "application/xml",
+                  "offset": 27
+                }
+              ],
+              "location": "CreatePosts.set_request_specification_for_create_posts_on_social_Network_site(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 510701752,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "hit the web services endpoint \"posts\" for Posts",
+            "match": {
+              "arguments": [
+                {
+                  "val": "posts",
+                  "offset": 31
+                }
+              ],
+              "location": "CreatePosts.hit_the_web_services_endpoint_for_Posts(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 322856,
+              "error_message": "java.lang.AssertionError: expected [406] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_response_codes_and_response_data(CreatePosts.java:76)\n\tat ✽.Then Validate response codes 406 and response data(CreatePosts.feature:26)\n",
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "Validate response codes 406 and response data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "406",
+                  "offset": 24
+                }
+              ],
+              "location": "CreatePosts.validate_response_codes_and_response_data(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Create posts on social network site with different acceptType",
+        "description": "",
+        "id": "create-posts-with-different-type-of-combination;create-posts-on-social-network-site-with-different-accepttype;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1035098,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Set request specification \"xxxxxxxxxxxx\" for create posts on social Network site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xxxxxxxxxxxx",
+                  "offset": 27
+                }
+              ],
+              "location": "CreatePosts.set_request_specification_for_create_posts_on_social_Network_site(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 503811543,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "hit the web services endpoint \"posts\" for Posts",
+            "match": {
+              "arguments": [
+                {
+                  "val": "posts",
+                  "offset": 31
+                }
+              ],
+              "location": "CreatePosts.hit_the_web_services_endpoint_for_Posts(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 286740,
+              "error_message": "java.lang.AssertionError: expected [406] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_response_codes_and_response_data(CreatePosts.java:76)\n\tat ✽.Then Validate response codes 406 and response data(CreatePosts.feature:26)\n",
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "Validate response codes 406 and response data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "406",
+                  "offset": 24
+                }
+              ],
+              "location": "CreatePosts.validate_response_codes_and_response_data(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Create posts on social network site with different acceptType",
+        "description": "",
+        "id": "create-posts-with-different-type-of-combination;create-posts-on-social-network-site-with-different-accepttype;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 809126,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Set request specification \"\" for create posts on social Network site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 27
+                }
+              ],
+              "location": "CreatePosts.set_request_specification_for_create_posts_on_social_Network_site(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 491508242,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "hit the web services endpoint \"posts\" for Posts",
+            "match": {
+              "arguments": [
+                {
+                  "val": "posts",
+                  "offset": 31
+                }
+              ],
+              "location": "CreatePosts.hit_the_web_services_endpoint_for_Posts(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 326324,
+              "error_message": "java.lang.AssertionError: expected [406] but found [201]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_response_codes_and_response_data(CreatePosts.java:76)\n\tat ✽.Then Validate response codes 406 and response data(CreatePosts.feature:26)\n",
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "Validate response codes 406 and response data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "406",
+                  "offset": 24
+                }
+              ],
+              "location": "CreatePosts.validate_response_codes_and_response_data(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create posts with different type of combination",
+    "description": "",
+    "id": "create-posts-with-different-type-of-combination",
+    "keyword": "Feature",
+    "uri": "CreatePosts.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Delete post from social network site using different test data",
+        "description": "",
+        "id": "delete-post-from-social-network-site;delete-post-from-social-network-site-using-different-test-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3566968,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Delete Posts API is up and Running on the server",
+            "match": {
+              "location": "DeletePosts.delete_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 612771245,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a delete api call to delete post from social network site with different test data \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 97
+                }
+              ],
+              "location": "DeletePosts.user_perform_a_delete_api_call_to_delete_post_from_social_network_site_with_different_test_data(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97777,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate ResponseCode 200 and response data for Delete posts",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Delete post from social network site using different test data",
+        "description": "",
+        "id": "delete-post-from-social-network-site;delete-post-from-social-network-site-using-different-test-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 818737,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Delete Posts API is up and Running on the server",
+            "match": {
+              "location": "DeletePosts.delete_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 500992524,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a delete api call to delete post from social network site with different test data \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 97
+                }
+              ],
+              "location": "DeletePosts.user_perform_a_delete_api_call_to_delete_post_from_social_network_site_with_different_test_data(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226060,
+              "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)\n\tat ✽.Then Validate ResponseCode 404 and response data for Delete posts(DeletePosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate ResponseCode 404 and response data for Delete posts",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 22
+                }
+              ],
+              "location": "DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Delete post from social network site using different test data",
+        "description": "",
+        "id": "delete-post-from-social-network-site;delete-post-from-social-network-site-using-different-test-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 688795,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Delete Posts API is up and Running on the server",
+            "match": {
+              "location": "DeletePosts.delete_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 487637793,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a delete api call to delete post from social network site with different test data \"100000000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100000000000",
+                  "offset": 97
+                }
+              ],
+              "location": "DeletePosts.user_perform_a_delete_api_call_to_delete_post_from_social_network_site_with_different_test_data(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 189031,
+              "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)\n\tat ✽.Then Validate ResponseCode 404 and response data for Delete posts(DeletePosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate ResponseCode 404 and response data for Delete posts",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 22
+                }
+              ],
+              "location": "DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Delete post from social network site using different test data",
+        "description": "",
+        "id": "delete-post-from-social-network-site;delete-post-from-social-network-site-using-different-test-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 488096,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Delete Posts API is up and Running on the server",
+            "match": {
+              "location": "DeletePosts.delete_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 486276786,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a delete api call to delete post from social network site with different test data \"xxxxxxx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xxxxxxx",
+                  "offset": 97
+                }
+              ],
+              "location": "DeletePosts.user_perform_a_delete_api_call_to_delete_post_from_social_network_site_with_different_test_data(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 317606,
+              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)\n\tat ✽.Then Validate ResponseCode 400 and response data for Delete posts(DeletePosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate ResponseCode 400 and response data for Delete posts",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 22
+                }
+              ],
+              "location": "DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Delete post from social network site using different test data",
+        "description": "",
+        "id": "delete-post-from-social-network-site;delete-post-from-social-network-site-using-different-test-data;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 703972,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Delete Posts API is up and Running on the server",
+            "match": {
+              "location": "DeletePosts.delete_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 548185758,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a delete api call to delete post from social network site with different test data \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 97
+                }
+              ],
+              "location": "DeletePosts.user_perform_a_delete_api_call_to_delete_post_from_social_network_site_with_different_test_data(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 288644,
+              "error_message": "java.lang.AssertionError: expected [400] but found [404]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)\n\tat ✽.Then Validate ResponseCode 400 and response data for Delete posts(DeletePosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate ResponseCode 400 and response data for Delete posts",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 22
+                }
+              ],
+              "location": "DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Delete post from social network site",
+    "description": "",
+    "id": "delete-post-from-social-network-site",
+    "keyword": "Feature",
+    "uri": "DeletePosts.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Edit posts on social networking site using different test data",
+        "description": "",
+        "id": "edit-posts-on-social-networking-site;edit-posts-on-social-networking-site-using-different-test-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1287641,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Edit Posts API is up and Running on the server",
+            "match": {
+              "location": "EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1222857796,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a put api call to edit social post on networking site using different \"This is world war\", \"This is text body\",\"1\" data set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is world war",
+                  "offset": 84
+                },
+                {
+                  "val": "This is text body",
+                  "offset": 105
+                },
+                {
+                  "val": "1",
+                  "offset": 125
+                }
+              ],
+              "location": "EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4102135,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate api response code 200 and ResponseData different attributes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 27
+                }
+              ],
+              "location": "EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Edit posts on social networking site using different test data",
+        "description": "",
+        "id": "edit-posts-on-social-networking-site;edit-posts-on-social-networking-site-using-different-test-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 605653,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Edit Posts API is up and Running on the server",
+            "match": {
+              "location": "EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1219540853,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a put api call to edit social post on networking site using different \"\", \"This is text body\",\"1\" data set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 84
+                },
+                {
+                  "val": "This is text body",
+                  "offset": 88
+                },
+                {
+                  "val": "1",
+                  "offset": 108
+                }
+              ],
+              "location": "EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 178043,
+              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)\n\tat ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate api response code 400 and ResponseData different attributes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 27
+                }
+              ],
+              "location": "EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Edit posts on social networking site using different test data",
+        "description": "",
+        "id": "edit-posts-on-social-networking-site;edit-posts-on-social-networking-site-using-different-test-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 366445,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Edit Posts API is up and Running on the server",
+            "match": {
+              "location": "EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1431952638,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a put api call to edit social post on networking site using different \"This is world war\", \"\",\"1\" data set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is world war",
+                  "offset": 84
+                },
+                {
+                  "val": "",
+                  "offset": 105
+                },
+                {
+                  "val": "1",
+                  "offset": 108
+                }
+              ],
+              "location": "EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222348,
+              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)\n\tat ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate api response code 400 and ResponseData different attributes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 27
+                }
+              ],
+              "location": "EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Edit posts on social networking site using different test data",
+        "description": "",
+        "id": "edit-posts-on-social-networking-site;edit-posts-on-social-networking-site-using-different-test-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 545353,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Edit Posts API is up and Running on the server",
+            "match": {
+              "location": "EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1021073391,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a put api call to edit social post on networking site using different \"This is world war\", \"This is text body\",\"\" data set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is world war",
+                  "offset": 84
+                },
+                {
+                  "val": "This is text body",
+                  "offset": 105
+                },
+                {
+                  "val": "",
+                  "offset": 125
+                }
+              ],
+              "location": "EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2628891,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate api response code 404 and ResponseData different attributes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 27
+                }
+              ],
+              "location": "EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Edit posts on social networking site using different test data",
+        "description": "",
+        "id": "edit-posts-on-social-networking-site;edit-posts-on-social-networking-site-using-different-test-data;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 463095,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Edit Posts API is up and Running on the server",
+            "match": {
+              "location": "EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1023835332,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a put api call to edit social post on networking site using different \"This is world war\", \"This is text body\",\"23456756\" data set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is world war",
+                  "offset": 84
+                },
+                {
+                  "val": "This is text body",
+                  "offset": 105
+                },
+                {
+                  "val": "23456756",
+                  "offset": 125
+                }
+              ],
+              "location": "EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 200284,
+              "error_message": "java.lang.AssertionError: expected [400] but found [500]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)\n\tat ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate api response code 400 and ResponseData different attributes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 27
+                }
+              ],
+              "location": "EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Edit posts on social networking site using different test data",
+        "description": "",
+        "id": "edit-posts-on-social-networking-site;edit-posts-on-social-networking-site-using-different-test-data;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 458009,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Edit Posts API is up and Running on the server",
+            "match": {
+              "location": "EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1020141347,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a put api call to edit social post on networking site using different \"This is world war\", \"This is text body\",\"abc\" data set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is world war",
+                  "offset": 84
+                },
+                {
+                  "val": "This is text body",
+                  "offset": 105
+                },
+                {
+                  "val": "abc",
+                  "offset": 125
+                }
+              ],
+              "location": "EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 198587,
+              "error_message": "java.lang.AssertionError: expected [400] but found [500]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)\n\tat ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate api response code 400 and ResponseData different attributes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 27
+                }
+              ],
+              "location": "EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Edit posts on social networking site using different test data",
+        "description": "",
+        "id": "edit-posts-on-social-networking-site;edit-posts-on-social-networking-site-using-different-test-data;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 576410,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Edit Posts API is up and Running on the server",
+            "match": {
+              "location": "EditPosts.edit_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998433529,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a put api call to edit social post on networking site using different \"wqertyuiouytrewrtyuiouytrewrtyuiouytrertyuiouytrewrtyuiouytrertyuiopiuytrewrtyuiopiuytrertyuiopiuytrewrtyuiouytrewrtyuiouytrertyuiouytsdfghjkgfdsdfghjklhgfdsdfghjkljhgfdsre\", \"This is text body\",\"1\" data set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wqertyuiouytrewrtyuiouytrewrtyuiouytrertyuiouytrewrtyuiouytrertyuiopiuytrewrtyuiopiuytrertyuiopiuytrewrtyuiouytrewrtyuiouytrertyuiouytsdfghjkgfdsdfghjklhgfdsdfghjkljhgfdsre",
+                  "offset": 84
+                },
+                {
+                  "val": "This is text body",
+                  "offset": 260
+                },
+                {
+                  "val": "1",
+                  "offset": 280
+                }
+              ],
+              "location": "EditPosts.user_perform_a_put_api_call_to_edit_social_post_on_networking_site_using_different_data_set(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 260617,
+              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)\n\tat ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate api response code 400 and ResponseData different attributes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 27
+                }
+              ],
+              "location": "EditPosts.validate_api_response_code_and_ResponseData_different_attributes(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Edit posts on social networking site",
+    "description": "",
+    "id": "edit-posts-on-social-networking-site",
+    "keyword": "Feature",
+    "uri": "EditPosts.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Get List of comments based on userId on social networking site with different test data",
+        "description": "",
+        "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 560885,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get Comment API is up and Running on the server",
+            "match": {
+              "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38797789,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit web services endpoint /posts/\u003cuserId\u003e/comments basedon \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 60
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6085623,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate response code 200 and response body of comments api.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 23
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Get List of comments based on userId on social networking site with different test data",
+        "description": "",
+        "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 657422,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get Comment API is up and Running on the server",
+            "match": {
+              "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38487399,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit web services endpoint /posts/\u003cuserId\u003e/comments basedon \"xxxxxxxxxxxx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xxxxxxxxxxxx",
+                  "offset": 60
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 183370,
+              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedonUserId.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Validate response code 400 and response body of comments api.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 23
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Get List of comments based on userId on social networking site with different test data",
+        "description": "",
+        "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 511016,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get Comment API is up and Running on the server",
+            "match": {
+              "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44856926,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit web services endpoint /posts/\u003cuserId\u003e/comments basedon \"1234567890987654398765\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567890987654398765",
+                  "offset": 60
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 270857,
+              "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 404 and response body of comments api.(GetCommentsBasedonUserId.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Validate response code 404 and response body of comments api.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 23
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Get List of comments based on userId on social networking site with different test data",
+        "description": "",
+        "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 557658,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get Comment API is up and Running on the server",
+            "match": {
+              "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35073274,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit web services endpoint /posts/\u003cuserId\u003e/comments basedon \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 60
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 179853,
+              "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 404 and response body of comments api.(GetCommentsBasedonUserId.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Validate response code 404 and response body of comments api.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 23
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Get List of comments based on userId on social networking site with different test data",
+        "description": "",
+        "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 428187,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get Comment API is up and Running on the server",
+            "match": {
+              "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34279624,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit web services endpoint /posts/\u003cuserId\u003e/comments basedon \"-1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-1",
+                  "offset": 60
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188583,
+              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedonUserId.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Validate response code 400 and response body of comments api.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 23
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Get List of comments based on userId on social networking site with different test data",
+        "description": "",
+        "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 537492,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get Comment API is up and Running on the server",
+            "match": {
+              "location": "GetCommentsBasedonUserId.get_Comment_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35245138,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit web services endpoint /posts/\u003cuserId\u003e/comments basedon \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 60
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.hit_web_services_endpoint_posts_userId_comments_basedon(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 182399,
+              "error_message": "java.lang.AssertionError: expected [400] but found [404]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)\n\tat ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedonUserId.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Validate response code 400 and response body of comments api.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 23
+                }
+              ],
+              "location": "GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Get List of comments based on userId on social networking site with different test data",
+    "description": "",
+    "id": "get-list-of-comments-based-on-userid-on-social-networking-site-with-different-test-data",
+    "keyword": "Feature",
+    "uri": "GetCommentsBasedonUserId.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Get List of comments based on posts id on social networking site with different test data",
+        "description": "",
+        "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 532136,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get Comments API is up and Running on the server",
+            "match": {
+              "location": "GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39667739,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit the web services endpoint comments basedon postId \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 55
+                }
+              ],
+              "location": "GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2967656,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate responseCode 200 and response body of comments api",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Get List of comments based on posts id on social networking site with different test data",
+        "description": "",
+        "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 645041,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get Comments API is up and Running on the server",
+            "match": {
+              "location": "GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39078489,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit the web services endpoint comments basedon postId \"xxxxxxxxxxxx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xxxxxxxxxxxx",
+                  "offset": 55
+                }
+              ],
+              "location": "GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191571,
+              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsbasedonPostId.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Validate responseCode 400 and response body of comments api",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 22
+                }
+              ],
+              "location": "GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Get List of comments based on posts id on social networking site with different test data",
+        "description": "",
+        "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 420322,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get Comments API is up and Running on the server",
+            "match": {
+              "location": "GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33579813,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit the web services endpoint comments basedon postId \"1234567890987654398765\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567890987654398765",
+                  "offset": 55
+                }
+              ],
+              "location": "GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 189287,
+              "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 404 and response body of comments api(GetCommentsbasedonPostId.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Validate responseCode 404 and response body of comments api",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 22
+                }
+              ],
+              "location": "GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Get List of comments based on posts id on social networking site with different test data",
+        "description": "",
+        "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 414181,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get Comments API is up and Running on the server",
+            "match": {
+              "location": "GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32547956,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit the web services endpoint comments basedon postId \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 55
+                }
+              ],
+              "location": "GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 195313,
+              "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 404 and response body of comments api(GetCommentsbasedonPostId.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Validate responseCode 404 and response body of comments api",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 22
+                }
+              ],
+              "location": "GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Get List of comments based on posts id on social networking site with different test data",
+        "description": "",
+        "id": "get-list-of-comments-based-on-postsid-on-social-networking-site;get-list-of-comments-based-on-posts-id-on-social-networking-site-with-different-test-data;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 485094,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get Comments API is up and Running on the server",
+            "match": {
+              "location": "GetCommentsBasedonPostId.get_Comments_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40012363,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit the web services endpoint comments basedon postId \"-1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-1",
+                  "offset": 55
+                }
+              ],
+              "location": "GetCommentsBasedonPostId.hit_the_web_services_endpoint_comments_basedon_postId(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 192388,
+              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)\n\tat ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsbasedonPostId.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Validate responseCode 400 and response body of comments api",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 22
+                }
+              ],
+              "location": "GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Get List of comments based on postsId on social networking site",
+    "description": "",
+    "id": "get-list-of-comments-based-on-postsid-on-social-networking-site",
+    "keyword": "Feature",
+    "uri": "GetCommentsbasedonPostId.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Get all posts on social networking site with different test data",
+        "description": "",
+        "id": "get-all-posts-on-social-network-site;get-all-posts-on-social-networking-site-with-different-test-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 531490,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get Posts API is up and Running on the server",
+            "match": {
+              "location": "GetAllPosts.get_Posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44172718,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User perform a Get api call to list down all the posts on social networking site",
+            "match": {
+              "location": "GetAllPosts.user_perform_a_Get_api_call_to_list_down_all_the_posts_on_social_networking_site()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41338,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate response code",
+            "match": {
+              "location": "GetAllPosts.validate_response_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11275375,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate response data for each enttity",
+            "match": {
+              "location": "GetAllPosts.validate_response_data_for_each_enttity()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Get all the Posts when different contentType passed in accept",
+        "description": "",
+        "id": "get-all-posts-on-social-network-site;get-all-the-posts-when-different-contenttype-passed-in-accept;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 587962,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Set request specification \"application/json;charset\u003dUTF-8\" for get posts call",
+            "match": {
+              "arguments": [
+                {
+                  "val": "application/json;charset\u003dUTF-8",
+                  "offset": 27
+                }
+              ],
+              "location": "GetAllPosts.set_request_specification_for_get_posts_call(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41189264,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "hit the api through \"posts\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "posts",
+                  "offset": 21
+                }
+              ],
+              "location": "GetAllPosts.hit_the_api_through_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70680,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Validate the response code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 27
+                }
+              ],
+              "location": "GetAllPosts.validate_the_response_code(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Get all the Posts when different contentType passed in accept",
+        "description": "",
+        "id": "get-all-posts-on-social-network-site;get-all-the-posts-when-different-contenttype-passed-in-accept;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 466923,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Set request specification \"xxxxxxxxxxxx\" for get posts call",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xxxxxxxxxxxx",
+                  "offset": 27
+                }
+              ],
+              "location": "GetAllPosts.set_request_specification_for_get_posts_call(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38621169,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "hit the api through \"posts\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "posts",
+                  "offset": 21
+                }
+              ],
+              "location": "GetAllPosts.hit_the_api_through_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 172616,
+              "error_message": "java.lang.AssertionError: expected [406] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetAllPosts.validate_the_response_code(GetAllPosts.java:75)\n\tat ✽.Then Validate the response code 406(GetPosts.feature:12)\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "Validate the response code 406",
+            "match": {
+              "arguments": [
+                {
+                  "val": "406",
+                  "offset": 27
+                }
+              ],
+              "location": "GetAllPosts.validate_the_response_code(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Get all the Posts when different contentType passed in accept",
+        "description": "",
+        "id": "get-all-posts-on-social-network-site;get-all-the-posts-when-different-contenttype-passed-in-accept;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 591691,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Set request specification \"\" for get posts call",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 27
+                }
+              ],
+              "location": "GetAllPosts.set_request_specification_for_get_posts_call(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130125349,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "hit the api through \"posts\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "posts",
+                  "offset": 21
+                }
+              ],
+              "location": "GetAllPosts.hit_the_api_through_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164394,
+              "error_message": "java.lang.AssertionError: expected [406] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetAllPosts.validate_the_response_code(GetAllPosts.java:75)\n\tat ✽.Then Validate the response code 406(GetPosts.feature:12)\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "Validate the response code 406",
+            "match": {
+              "arguments": [
+                {
+                  "val": "406",
+                  "offset": 27
+                }
+              ],
+              "location": "GetAllPosts.validate_the_response_code(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Get all posts on social network site",
+    "description": "",
+    "id": "get-all-posts-on-social-network-site",
+    "keyword": "Feature",
+    "uri": "GetPosts.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Get details of posts from social networking site based on userId.",
+        "description": "",
+        "id": "get-post-details-based-on-userid;get-details-of-posts-from-social-networking-site-based-on-userid.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 446595,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get posts API is up and Running on the server",
+            "match": {
+              "location": "GetPostsBasedonUserId.get_posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35451730,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit the api through \"posts\" endpoint with variable \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "posts",
+                  "offset": 21
+                },
+                {
+                  "val": "1",
+                  "offset": 52
+                }
+              ],
+              "location": "GetPostsBasedonUserId.hit_the_api_through_endpoint_with_variable(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4104168,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate the response code 200 and response data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 27
+                }
+              ],
+              "location": "GetPostsBasedonUserId.validate_the_response_code_and_response_data(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Get details of posts from social networking site based on userId.",
+        "description": "",
+        "id": "get-post-details-based-on-userid;get-details-of-posts-from-social-networking-site-based-on-userid.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 399220,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get posts API is up and Running on the server",
+            "match": {
+              "location": "GetPostsBasedonUserId.get_posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36975563,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit the api through \"posts\" endpoint with variable \"xxxxxxxxxxxx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "posts",
+                  "offset": 21
+                },
+                {
+                  "val": "xxxxxxxxxxxx",
+                  "offset": 52
+                }
+              ],
+              "location": "GetPostsBasedonUserId.hit_the_api_through_endpoint_with_variable(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 207980,
+              "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_code_and_response_data(GetPostsBasedonUserId.java:37)\n\tat ✽.Then Validate the response code 404 and response data(GetPostsBasedonUserId.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Validate the response code 404 and response data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 27
+                }
+              ],
+              "location": "GetPostsBasedonUserId.validate_the_response_code_and_response_data(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Get details of posts from social networking site based on userId.",
+        "description": "",
+        "id": "get-post-details-based-on-userid;get-details-of-posts-from-social-networking-site-based-on-userid.;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 416358,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get posts API is up and Running on the server",
+            "match": {
+              "location": "GetPostsBasedonUserId.get_posts_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37071750,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit the api through \"posts\" endpoint with variable \"1234567890987654398765\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "posts",
+                  "offset": 21
+                },
+                {
+                  "val": "1234567890987654398765",
+                  "offset": 52
+                }
+              ],
+              "location": "GetPostsBasedonUserId.hit_the_api_through_endpoint_with_variable(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 161386,
+              "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_code_and_response_data(GetPostsBasedonUserId.java:37)\n\tat ✽.Then Validate the response code 404 and response data(GetPostsBasedonUserId.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Validate the response code 404 and response data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 27
+                }
+              ],
+              "location": "GetPostsBasedonUserId.validate_the_response_code_and_response_data(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Get details of posts from social networking site based on userId and accept contenttype with different test data set",
+        "description": "",
+        "id": "get-post-details-based-on-userid;get-details-of-posts-from-social-networking-site-based-on-userid-and-accept-contenttype-with-different-test-data-set;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 392528,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Set request specification \"application/json\" for get methods call",
+            "match": {
+              "arguments": [
+                {
+                  "val": "application/json",
+                  "offset": 27
+                }
+              ],
+              "location": "GetPostsBasedonUserId.set_request_specification_for_get_methods_call(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34934609,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "hit the api through \"posts\" endpoints",
+            "match": {
+              "arguments": [
+                {
+                  "val": "posts",
+                  "offset": 21
+                }
+              ],
+              "location": "GetPostsBasedonUserId.hit_the_api_through_endpoints(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88015,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Validate the response codes 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "GetPostsBasedonUserId.validate_the_response_codes(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Get details of posts from social networking site based on userId and accept contenttype with different test data set",
+        "description": "",
+        "id": "get-post-details-based-on-userid;get-details-of-posts-from-social-networking-site-based-on-userid-and-accept-contenttype-with-different-test-data-set;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 451850,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Set request specification \"application/xml\" for get methods call",
+            "match": {
+              "arguments": [
+                {
+                  "val": "application/xml",
+                  "offset": 27
+                }
+              ],
+              "location": "GetPostsBasedonUserId.set_request_specification_for_get_methods_call(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36214114,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "hit the api through \"posts\" endpoints",
+            "match": {
+              "arguments": [
+                {
+                  "val": "posts",
+                  "offset": 21
+                }
+              ],
+              "location": "GetPostsBasedonUserId.hit_the_api_through_endpoints(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 182523,
+              "error_message": "java.lang.AssertionError: expected [406] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_codes(GetPostsBasedonUserId.java:75)\n\tat ✽.Then Validate the response codes 406(GetPostsBasedonUserId.feature:16)\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "Validate the response codes 406",
+            "match": {
+              "arguments": [
+                {
+                  "val": "406",
+                  "offset": 28
+                }
+              ],
+              "location": "GetPostsBasedonUserId.validate_the_response_codes(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Get details of posts from social networking site based on userId and accept contenttype with different test data set",
+        "description": "",
+        "id": "get-post-details-based-on-userid;get-details-of-posts-from-social-networking-site-based-on-userid-and-accept-contenttype-with-different-test-data-set;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 412839,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Set request specification \"xxxxxxxxxxxx\" for get methods call",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xxxxxxxxxxxx",
+                  "offset": 27
+                }
+              ],
+              "location": "GetPostsBasedonUserId.set_request_specification_for_get_methods_call(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35701661,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "hit the api through \"posts\" endpoints",
+            "match": {
+              "arguments": [
+                {
+                  "val": "posts",
+                  "offset": 21
+                }
+              ],
+              "location": "GetPostsBasedonUserId.hit_the_api_through_endpoints(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 163653,
+              "error_message": "java.lang.AssertionError: expected [406] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_codes(GetPostsBasedonUserId.java:75)\n\tat ✽.Then Validate the response codes 406(GetPostsBasedonUserId.feature:16)\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "Validate the response codes 406",
+            "match": {
+              "arguments": [
+                {
+                  "val": "406",
+                  "offset": 28
+                }
+              ],
+              "location": "GetPostsBasedonUserId.validate_the_response_codes(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Get details of posts from social networking site based on userId and accept contenttype with different test data set",
+        "description": "",
+        "id": "get-post-details-based-on-userid;get-details-of-posts-from-social-networking-site-based-on-userid-and-accept-contenttype-with-different-test-data-set;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 601808,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Set request specification \"\" for get methods call",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 27
+                }
+              ],
+              "location": "GetPostsBasedonUserId.set_request_specification_for_get_methods_call(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31981348,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "hit the api through \"posts\" endpoints",
+            "match": {
+              "arguments": [
+                {
+                  "val": "posts",
+                  "offset": 21
+                }
+              ],
+              "location": "GetPostsBasedonUserId.hit_the_api_through_endpoints(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170208,
+              "error_message": "java.lang.AssertionError: expected [406] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_codes(GetPostsBasedonUserId.java:75)\n\tat ✽.Then Validate the response codes 406(GetPostsBasedonUserId.feature:16)\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "Validate the response codes 406",
+            "match": {
+              "arguments": [
+                {
+                  "val": "406",
+                  "offset": 28
+                }
+              ],
+              "location": "GetPostsBasedonUserId.validate_the_response_codes(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Get Post details based on UserId",
+    "description": "",
+    "id": "get-post-details-based-on-userid",
+    "keyword": "Feature",
+    "uri": "GetPostsBasedonUserId.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Get details of user based on userId active on social networking site",
+        "description": "",
+        "id": "get-users-based-on-id;get-details-of-user-based-on-userid-active-on-social-networking-site;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 440119,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get users API is up and Running on the server.",
+            "match": {
+              "location": "GetUserDetailsBasedonId.get_users_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35447442,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "perform get users api call on social networking site based on \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 63
+                }
+              ],
+              "location": "GetUserDetailsBasedonId.perform_get_users_api_call_on_social_networking_site_based_on(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7877875,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate response code 200 and response data each attribute.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 23
+                }
+              ],
+              "location": "GetUserDetailsBasedonId.validate_response_code_and_response_data_each_attribute(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Get details of user based on userId active on social networking site",
+        "description": "",
+        "id": "get-users-based-on-id;get-details-of-user-based-on-userid-active-on-social-networking-site;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 464507,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get users API is up and Running on the server.",
+            "match": {
+              "location": "GetUserDetailsBasedonId.get_users_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33594036,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "perform get users api call on social networking site based on \"xxxxxxxxxxxx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xxxxxxxxxxxx",
+                  "offset": 63
+                }
+              ],
+              "location": "GetUserDetailsBasedonId.perform_get_users_api_call_on_social_networking_site_based_on(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3732524,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate response code 404 and response data each attribute.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 23
+                }
+              ],
+              "location": "GetUserDetailsBasedonId.validate_response_code_and_response_data_each_attribute(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Get details of user based on userId active on social networking site",
+        "description": "",
+        "id": "get-users-based-on-id;get-details-of-user-based-on-userid-active-on-social-networking-site;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 505619,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get users API is up and Running on the server.",
+            "match": {
+              "location": "GetUserDetailsBasedonId.get_users_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33835148,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "perform get users api call on social networking site based on \"1234567890987654398765\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567890987654398765",
+                  "offset": 63
+                }
+              ],
+              "location": "GetUserDetailsBasedonId.perform_get_users_api_call_on_social_networking_site_based_on(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3561230,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate response code 404 and response data each attribute.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 23
+                }
+              ],
+              "location": "GetUserDetailsBasedonId.validate_response_code_and_response_data_each_attribute(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Get Users based on Id",
+    "description": "",
+    "id": "get-users-based-on-id",
+    "keyword": "Feature",
+    "uri": "GetUserbasedonId.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Get Lists of users active on social networking site with different test data",
+        "description": "",
+        "id": "get-users;get-lists-of-users-active-on-social-networking-site-with-different-test-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 415504,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Get users API is up and Running on the server",
+            "match": {
+              "location": "GetUsers.get_users_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34858751,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "perform get users api call on social network site",
+            "match": {
+              "location": "GetUsers.perform_get_users_api_call_on_social_network_site()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5985893,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate the response code and response data for all users",
+            "match": {
+              "location": "GetUsers.validate_the_response_code_and_response_data_for_all_users()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Get Users",
+    "description": "",
+    "id": "get-users",
+    "keyword": "Feature",
+    "uri": "GetUsers.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Perform Patch operation on social networking site with different test data",
+        "description": "",
+        "id": "perform-patch-operation-on-social-networking-site;perform-patch-operation-on-social-networking-site-with-different-test-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 473639,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Patch API is up and Running on the server",
+            "match": {
+              "location": "PatchPosts.patch_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 984928189,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a Patch api call on the social networking site using different test data \"This is patch title\"\"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is patch title",
+                  "offset": 87
+                },
+                {
+                  "val": "1",
+                  "offset": 108
+                }
+              ],
+              "location": "PatchPosts.user_perform_a_Patch_api_call_on_the_social_networking_site_using_different_test_data(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3408109,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate response code 200 and Response Data for each attribute",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 23
+                }
+              ],
+              "location": "PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Perform Patch operation on social networking site with different test data",
+        "description": "",
+        "id": "perform-patch-operation-on-social-networking-site;perform-patch-operation-on-social-networking-site-with-different-test-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 463029,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Patch API is up and Running on the server",
+            "match": {
+              "location": "PatchPosts.patch_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1021962262,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a Patch api call on the social networking site using different test data \"\"\"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 87
+                },
+                {
+                  "val": "1",
+                  "offset": 89
+                }
+              ],
+              "location": "PatchPosts.user_perform_a_Patch_api_call_on_the_social_networking_site_using_different_test_data(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 296357,
+              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)\n\tat ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate response code 400 and Response Data for each attribute",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 23
+                }
+              ],
+              "location": "PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Perform Patch operation on social networking site with different test data",
+        "description": "",
+        "id": "perform-patch-operation-on-social-networking-site;perform-patch-operation-on-social-networking-site-with-different-test-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 434101,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Patch API is up and Running on the server",
+            "match": {
+              "location": "PatchPosts.patch_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1134974724,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a Patch api call on the social networking site using different test data \"This is patch title\"\"123456789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is patch title",
+                  "offset": 87
+                },
+                {
+                  "val": "123456789",
+                  "offset": 108
+                }
+              ],
+              "location": "PatchPosts.user_perform_a_Patch_api_call_on_the_social_networking_site_using_different_test_data(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 269000,
+              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)\n\tat ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate response code 400 and Response Data for each attribute",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 23
+                }
+              ],
+              "location": "PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Perform Patch operation on social networking site with different test data",
+        "description": "",
+        "id": "perform-patch-operation-on-social-networking-site;perform-patch-operation-on-social-networking-site-with-different-test-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 457786,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Patch API is up and Running on the server",
+            "match": {
+              "location": "PatchPosts.patch_API_is_up_and_Running_on_the_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1119230165,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User perform a Patch api call on the social networking site using different test data \"This is patch title\"\"xxxxxxxx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is patch title",
+                  "offset": 87
+                },
+                {
+                  "val": "xxxxxxxx",
+                  "offset": 108
+                }
+              ],
+              "location": "PatchPosts.user_perform_a_Patch_api_call_on_the_social_networking_site_using_different_test_data(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 234842,
+              "error_message": "java.lang.AssertionError: expected [400] but found [200]\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\n\tat org.testng.Assert.assertEquals(Assert.java:131)\n\tat org.testng.Assert.assertEquals(Assert.java:1240)\n\tat org.testng.Assert.assertEquals(Assert.java:1274)\n\tat com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)\n\tat ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate response code 400 and Response Data for each attribute",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 23
+                }
+              ],
+              "location": "PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Perform Patch operation on social networking site",
+    "description": "",
+    "id": "perform-patch-operation-on-social-networking-site",
+    "keyword": "Feature",
+    "uri": "PatchPosts.feature"
+  }
+]
