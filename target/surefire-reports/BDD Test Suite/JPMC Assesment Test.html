@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/8/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jun 06 16:51:41 IST 2022</td>
+<td>Started on:</td><td>Tue Jun 07 10:26:45 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>25 seconds (25165 ms)</td>
+<tr><td>Total time:</td><td>35 seconds (35093 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,109 +76,7 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.jpmc.digital.automation.myRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.jpmc.digital.automation.myRunner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Get Post details based on UserId</td>
-<td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [404] but found [200]
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-Caused by: java.lang.AssertionError: expected [404] but found [200]
-	at com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_code_and_response_data(GetPostsBasedonUserId.java:37)
-	at ✽.Then Validate the response code 404 and response data(GetPostsBasedonUserId.feature:5)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1284313181", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1284313181'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [404] but found [200]
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-Caused by: java.lang.AssertionError: expected [404] but found [200]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:1240)
-	at org.testng.Assert.assertEquals(Assert.java:1274)
-	at com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_code_and_response_data(GetPostsBasedonUserId.java:37)
-	at ✽.Then Validate the response code 404 and response data(GetPostsBasedonUserId.feature:5)
-</pre></div></td>
-<td>0</td>
-<td>com.jpmc.digital.automation.myRunner.TestRunner@47987356</td></tr>
-<tr>
-<td title='com.jpmc.digital.automation.myRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.jpmc.digital.automation.myRunner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Create posts with different type of combination</td>
-<td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [201]
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-Caused by: java.lang.AssertionError: expected [400] but found [201]
-	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)
-	at ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace967455369", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace967455369'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [201]
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-Caused by: java.lang.AssertionError: expected [400] but found [201]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:1240)
-	at org.testng.Assert.assertEquals(Assert.java:1274)
-	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)
-	at ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)
-</pre></div></td>
-<td>9</td>
-<td>com.jpmc.digital.automation.myRunner.TestRunner@47987356</td></tr>
-<tr>
-<td title='com.jpmc.digital.automation.myRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.jpmc.digital.automation.myRunner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Get List of comments based on userId on social networking site with different test data</td>
+<td title='com.jpmc.digital.automation.myRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.jpmc.digital.automation.myRunner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Get List of comments based on postsId on social networking site</td>
 <td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
@@ -188,10 +86,10 @@ Caused by: java.lang.AssertionError: expected [400] but found [201]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 Caused by: java.lang.AssertionError: expected [400] but found [200]
-	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)
-	at ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedOnUserId.feature:5)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1287109716", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1287109716'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
+	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)
+	at ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsBasedOnPostId.feature:5)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace322666459", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace322666459'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -223,62 +121,11 @@ Caused by: java.lang.AssertionError: expected [400] but found [200]
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:1240)
 	at org.testng.Assert.assertEquals(Assert.java:1274)
-	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)
-	at ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedOnUserId.feature:5)
+	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)
+	at ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsBasedOnPostId.feature:5)
 </pre></div></td>
-<td>0</td>
-<td>com.jpmc.digital.automation.myRunner.TestRunner@47987356</td></tr>
-<tr>
-<td title='com.jpmc.digital.automation.myRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.jpmc.digital.automation.myRunner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Perform Patch operation on social networking site</td>
-<td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-Caused by: java.lang.AssertionError: expected [400] but found [200]
-	at com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)
-	at ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1680302691", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1680302691'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-Caused by: java.lang.AssertionError: expected [400] but found [200]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:1240)
-	at org.testng.Assert.assertEquals(Assert.java:1274)
-	at com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)
-	at ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)
-</pre></div></td>
-<td>4</td>
-<td>com.jpmc.digital.automation.myRunner.TestRunner@47987356</td></tr>
+<td>2</td>
+<td>com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8</td></tr>
 <tr>
 <td title='com.jpmc.digital.automation.myRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.jpmc.digital.automation.myRunner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Delete post from social network site</td>
 <td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [404] but found [200]
@@ -292,8 +139,8 @@ Caused by: java.lang.AssertionError: expected [400] but found [200]
 Caused by: java.lang.AssertionError: expected [404] but found [200]
 	at com.jpmc.digital.automation.stepDefinitions.DeletePosts.validate_ResponseCode_and_response_data_for_Delete_posts(DeletePosts.java:30)
 	at ✽.Then Validate ResponseCode 404 and response data for Delete posts(DeletePosts.feature:6)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1016755805", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1016755805'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [404] but found [200]
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1080083217", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1080083217'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [404] but found [200]
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -329,7 +176,58 @@ Caused by: java.lang.AssertionError: expected [404] but found [200]
 	at ✽.Then Validate ResponseCode 404 and response data for Delete posts(DeletePosts.feature:6)
 </pre></div></td>
 <td>2</td>
-<td>com.jpmc.digital.automation.myRunner.TestRunner@47987356</td></tr>
+<td>com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8</td></tr>
+<tr>
+<td title='com.jpmc.digital.automation.myRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.jpmc.digital.automation.myRunner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Create posts with different type of combination</td>
+<td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [201]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.AssertionError: expected [400] but found [201]
+	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)
+	at ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace786048931", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace786048931'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [201]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.AssertionError: expected [400] but found [201]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.jpmc.digital.automation.stepDefinitions.CreatePosts.validate_return_api_response_code_and_ResponseData_for_each_attribute(CreatePosts.java:44)
+	at ✽.Then Validate return api response code 400 and ResponseData for each attribute(CreatePosts.feature:6)
+</pre></div></td>
+<td>10</td>
+<td>com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8</td></tr>
 <tr>
 <td title='com.jpmc.digital.automation.myRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.jpmc.digital.automation.myRunner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Get all posts on social network site</td>
 <td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [406] but found [200]
@@ -343,8 +241,8 @@ Caused by: java.lang.AssertionError: expected [404] but found [200]
 Caused by: java.lang.AssertionError: expected [406] but found [200]
 	at com.jpmc.digital.automation.stepDefinitions.GetAllPosts.validate_the_response_code(GetAllPosts.java:75)
 	at ✽.Then Validate the response code 406(GetPosts.feature:12)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1275956730", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1275956730'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [406] but found [200]
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1201061565", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1201061565'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [406] but found [200]
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -380,9 +278,60 @@ Caused by: java.lang.AssertionError: expected [406] but found [200]
 	at ✽.Then Validate the response code 406(GetPosts.feature:12)
 </pre></div></td>
 <td>0</td>
-<td>com.jpmc.digital.automation.myRunner.TestRunner@47987356</td></tr>
+<td>com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8</td></tr>
 <tr>
-<td title='com.jpmc.digital.automation.myRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.jpmc.digital.automation.myRunner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Get List of comments based on postsId on social networking site</td>
+<td title='com.jpmc.digital.automation.myRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.jpmc.digital.automation.myRunner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Get Post details based on UserId</td>
+<td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [404] but found [200]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.AssertionError: expected [404] but found [200]
+	at com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_code_and_response_data(GetPostsBasedonUserId.java:37)
+	at ✽.Then Validate the response code 404 and response data(GetPostsBasedonUserId.feature:5)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1495619454", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1495619454'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [404] but found [200]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.AssertionError: expected [404] but found [200]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.jpmc.digital.automation.stepDefinitions.GetPostsBasedonUserId.validate_the_response_code_and_response_data(GetPostsBasedonUserId.java:37)
+	at ✽.Then Validate the response code 404 and response data(GetPostsBasedonUserId.feature:5)
+</pre></div></td>
+<td>1</td>
+<td>com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8</td></tr>
+<tr>
+<td title='com.jpmc.digital.automation.myRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.jpmc.digital.automation.myRunner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Perform Patch operation on social networking site</td>
 <td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
@@ -392,10 +341,10 @@ Caused by: java.lang.AssertionError: expected [406] but found [200]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 Caused by: java.lang.AssertionError: expected [400] but found [200]
-	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)
-	at ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsBasedOnPostId.feature:5)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1242893821", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1242893821'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
+	at com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)
+	at ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace716850022", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace716850022'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -427,11 +376,11 @@ Caused by: java.lang.AssertionError: expected [400] but found [200]
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:1240)
 	at org.testng.Assert.assertEquals(Assert.java:1274)
-	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonPostId.validate_responseCode_and_response_body_of_comments_api(GetCommentsBasedonPostId.java:38)
-	at ✽.Then Validate responseCode 400 and response body of comments api(GetCommentsBasedOnPostId.feature:5)
+	at com.jpmc.digital.automation.stepDefinitions.PatchPosts.validate_response_code_and_Response_Data_for_each_attribute(PatchPosts.java:42)
+	at ✽.Then Validate response code 400 and Response Data for each attribute(PatchPosts.feature:6)
 </pre></div></td>
-<td>0</td>
-<td>com.jpmc.digital.automation.myRunner.TestRunner@47987356</td></tr>
+<td>4</td>
+<td>com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8</td></tr>
 <tr>
 <td title='com.jpmc.digital.automation.myRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.jpmc.digital.automation.myRunner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Edit posts on social networking site</td>
 <td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
@@ -445,8 +394,8 @@ Caused by: java.lang.AssertionError: expected [400] but found [200]
 Caused by: java.lang.AssertionError: expected [400] but found [200]
 	at com.jpmc.digital.automation.stepDefinitions.EditPosts.validate_api_response_code_and_ResponseData_different_attributes(EditPosts.java:46)
 	at ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace77112115", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace77112115'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace852178390", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace852178390'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -482,7 +431,58 @@ Caused by: java.lang.AssertionError: expected [400] but found [200]
 	at ✽.Then Validate api response code 400 and ResponseData different attributes(EditPosts.feature:6)
 </pre></div></td>
 <td>7</td>
-<td>com.jpmc.digital.automation.myRunner.TestRunner@47987356</td></tr>
+<td>com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8</td></tr>
+<tr>
+<td title='com.jpmc.digital.automation.myRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.jpmc.digital.automation.myRunner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Get List of comments based on userId on social networking site with different test data</td>
+<td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.AssertionError: expected [400] but found [200]
+	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)
+	at ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedOnUserId.feature:5)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace525990500", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace525990500'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.jpmc.digital.automation.myRunner.TestRunner.feature(TestRunner.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.AssertionError: expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.jpmc.digital.automation.stepDefinitions.GetCommentsBasedonUserId.validate_response_code_and_response_body_of_comments_api(GetCommentsBasedonUserId.java:35)
+	at ✽.Then Validate response code 400 and response body of comments api.(GetCommentsBasedOnUserId.feature:5)
+</pre></div></td>
+<td>3</td>
+<td>com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -496,12 +496,12 @@ Caused by: java.lang.AssertionError: expected [400] but found [200]
 <td title='com.jpmc.digital.automation.myRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.jpmc.digital.automation.myRunner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Get Users</td>
 <td></td>
 <td>0</td>
-<td>com.jpmc.digital.automation.myRunner.TestRunner@47987356</td></tr>
+<td>com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8</td></tr>
 <tr>
 <td title='com.jpmc.digital.automation.myRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.jpmc.digital.automation.myRunner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Get Users based on Id</td>
 <td></td>
-<td>0</td>
-<td>com.jpmc.digital.automation.myRunner.TestRunner@47987356</td></tr>
+<td>1</td>
+<td>com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8</td></tr>
 </table><p>
 </body>
 </html>

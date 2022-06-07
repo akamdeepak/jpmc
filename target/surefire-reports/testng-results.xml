@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="10" passed="2" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-06T16:51:41 IST" name="BDD Test Suite" finished-at="2022-06-06T16:52:07 IST" duration-ms="25165">
+  <suite started-at="2022-06-07T10:26:45 IST" name="BDD Test Suite" finished-at="2022-06-07T10:27:21 IST" duration-ms="35093">
     <groups>
       <group name="cucumber">
-        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" name="feature" class="com.jpmc.digital.automation.myRunner.TestRunner"/>
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8]" name="feature" class="com.jpmc.digital.automation.myRunner.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-06-06T16:51:41 IST" name="JPMC Assesment Test" finished-at="2022-06-06T16:52:07 IST" duration-ms="25165">
+    <test started-at="2022-06-07T10:26:45 IST" name="JPMC Assesment Test" finished-at="2022-06-07T10:27:21 IST" duration-ms="35093">
       <class name="com.jpmc.digital.automation.myRunner.TestRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:51:41 IST" name="setUpClass" finished-at="2022-06-06T16:51:42 IST" duration-ms="131" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8]" started-at="2022-06-07T10:26:46 IST" name="setUpClass" finished-at="2022-06-07T10:26:46 IST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:51:42 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:51:51 IST" duration-ms="9247" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8]" started-at="2022-06-07T10:26:46 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-07T10:26:57 IST" duration-ms="10760" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@ at ✽.Then Validate return api response code 400 and ResponseData for each attr
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:51:51 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:51:54 IST" duration-ms="2861" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8]" started-at="2022-06-07T10:26:57 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-07T10:26:59 IST" duration-ms="2546" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@ at ✽.Then Validate ResponseCode 404 and response data for Delete posts(DeleteP
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:51:54 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:52:01 IST" duration-ms="7372" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8]" started-at="2022-06-07T10:26:59 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-07T10:27:07 IST" duration-ms="7796" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -173,7 +173,7 @@ at ✽.Then Validate api response code 400 and ResponseData different attributes
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:52:01 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:52:01 IST" duration-ms="229" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8]" started-at="2022-06-07T10:27:07 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-07T10:27:10 IST" duration-ms="2615" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -226,7 +226,7 @@ at ✽.Then Validate responseCode 400 and response body of comments api(GetComme
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:52:01 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:52:02 IST" duration-ms="255" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8]" started-at="2022-06-07T10:27:10 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-07T10:27:13 IST" duration-ms="3166" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -279,7 +279,7 @@ at ✽.Then Validate response code 400 and response body of comments api.(GetCom
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:52:02 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:52:02 IST" duration-ms="175" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8]" started-at="2022-06-07T10:27:13 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-07T10:27:13 IST" duration-ms="196" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -332,7 +332,7 @@ at ✽.Then Validate the response code 406(GetPosts.feature:12)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:52:02 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:52:02 IST" duration-ms="306" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8]" started-at="2022-06-07T10:27:13 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-07T10:27:15 IST" duration-ms="1725" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -385,7 +385,7 @@ at ✽.Then Validate the response code 404 and response data(GetPostsBasedonUser
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:52:02 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:52:02 IST" duration-ms="160" status="PASS">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8]" started-at="2022-06-07T10:27:15 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-07T10:27:16 IST" duration-ms="1780" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -396,7 +396,7 @@ at ✽.Then Validate the response code 404 and response data(GetPostsBasedonUser
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:52:02 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:52:02 IST" duration-ms="56" status="PASS">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8]" started-at="2022-06-07T10:27:16 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-07T10:27:16 IST" duration-ms="57" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -407,7 +407,7 @@ at ✽.Then Validate the response code 404 and response data(GetPostsBasedonUser
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:52:02 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-06T16:52:07 IST" duration-ms="4242" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8]" started-at="2022-06-07T10:27:16 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-07T10:27:21 IST" duration-ms="4077" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -460,7 +460,7 @@ at ✽.Then Validate response code 400 and Response Data for each attribute(Patc
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@47987356]" started-at="2022-06-06T16:52:07 IST" name="tearDownClass" finished-at="2022-06-06T16:52:07 IST" duration-ms="29" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.jpmc.digital.automation.myRunner.TestRunner@6283d8b8]" started-at="2022-06-07T10:27:21 IST" name="tearDownClass" finished-at="2022-06-07T10:27:21 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
